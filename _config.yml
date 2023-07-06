@@ -5,8 +5,10 @@ author:
 
 description: >
   Caitlyn Sampica's art and design portfolio
-  
+
 theme: minima
 
 minima:
   skin: auto
+  header_pages:
+    - about.md
