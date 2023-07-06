@@ -6,6 +6,10 @@ author:
 description: >
   Caitlyn Sampica's art and design portfolio
 
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
 theme: minima
 
 minima:
