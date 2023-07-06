@@ -3,13 +3,13 @@ email: test@test.com
 author: Caitlyn Sampica
 description: Caitlyn Sampica's art and design portfolio
 
-remote_theme: jekyll/minima@3cdd14d
+remote_theme: jekyll/minima
 
 plugins:
   - jekyll-remote-theme
 
 minima:
-  skin: auto
+  skin: dark
 
 header_pages:
   - about.md
