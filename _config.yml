@@ -2,15 +2,12 @@ title: Caitlyn Sampica
 email: test@test.com
 author:
   name: Caitlyn Sampica
+description: Caitlyn Sampica's art and design portfolio
 
-description: >
-  Caitlyn Sampica's art and design portfolio
+remote_theme: jekyll/minima@3cdd14d
 
 plugins:
-  - jekyll-feed
   - jekyll-remote-theme
-
-theme: minima
 
 minima:
   skin: auto
