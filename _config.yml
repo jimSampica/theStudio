@@ -11,5 +11,6 @@ plugins:
 
 minima:
   skin: auto
-  header_pages:
-    - about.md
+
+header_pages:
+  - about.md
