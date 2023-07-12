@@ -9,7 +9,7 @@ plugins:
   - jekyll-remote-theme
 
 minima:
-  skin: classic
+  skin: auto
 
 header_pages:
   - about.md
