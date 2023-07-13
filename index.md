@@ -3,8 +3,6 @@ layout: home
 title: Home
 ---
 
-Some content here
-
-![flower](./media/flower.gif)
+This is a personal site for myself, Caitlyn Sampica
 
 ![blue-horse](./media/blue-horse.png)
