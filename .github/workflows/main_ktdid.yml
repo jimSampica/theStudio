@@ -12,8 +12,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    env:
-      projectPath: .\src\Ktdid.csproj
+
     steps:
       - uses: actions/checkout@v2
 
@@ -24,10 +23,10 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build ${{env.projectPath}} -c Release
+        run: dotnet build --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ${{env.projectPath}} -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -54,5 +53,5 @@ jobs:
         with:
           app-name: 'ktdid'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AEE8E9C65C9E4DF2B92BE629E35D4D2A }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1EFA5F4BC7D746308F7EC105BA5D9477 }}
           package: .
