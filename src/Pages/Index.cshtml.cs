@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace ktCraft.Pages;
+namespace KtCraft.Pages;
 
 public class IndexModel : PageModel
 {

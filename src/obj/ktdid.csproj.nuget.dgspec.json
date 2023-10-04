@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\ktCraft.csproj": {}
+    "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\ktCraft.csproj": {
+    "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\ktCraft.csproj",
-        "projectName": "ktCraft",
-        "projectPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\ktCraft.csproj",
+        "projectUniqueName": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj",
+        "projectName": "KtCraft",
+        "projectPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj",
         "packagesPath": "C:\\Users\\jamesSampica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\obj\\",
+        "outputPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jamesSampica\\AppData\\Roaming\\NuGet\\NuGet.Config",
