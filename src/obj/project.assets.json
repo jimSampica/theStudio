@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj",
+      "projectUniqueName": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\src\\KtCraft.csproj",
       "projectName": "KtCraft",
-      "projectPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\KtCraft.csproj",
+      "projectPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\src\\KtCraft.csproj",
       "packagesPath": "C:\\Users\\jamesSampica\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\KtCraft\\obj\\",
+      "outputPath": "C:\\Users\\jamesSampica\\Desktop\\dev\\ktCraft\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jamesSampica\\AppData\\Roaming\\NuGet\\NuGet.Config",
