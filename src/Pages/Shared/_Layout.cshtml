@@ -18,6 +18,8 @@
     <environment include="Production">
         <script src="~/lib/htmx/htmx.min.js"></script>
     </environment>
+
+    @await RenderSectionAsync("Scripts", required: false)
 </head>
 <body hx-boost="true">
     <header>
@@ -49,7 +51,5 @@
             &copy; 2023 - KtCraft
         </div>
     </footer>
-
-    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
