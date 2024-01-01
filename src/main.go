@@ -3,11 +3,8 @@ package main
 import (
 	"net/http"
 	"os"
+	"text/template"
 )
-
-func indexHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Hello World!</h1>"))
-}
 
 func main() {
 	port := os.Getenv("PORT")
@@ -17,6 +14,11 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	mux.HandleFunc("/", indexHandler)
+	mux.HandleFunc("/", homeHandler)
 	http.ListenAndServe(":"+port, mux)
+}
+
+func homeHandler(w http.ResponseWriter, r *http.Request) {
+	tmpl := template.Must(template.ParseFiles("pages/home.html"))
+	tmpl.Execute(w, nil)
 }
