@@ -19,6 +19,10 @@ func main() {
 }
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-	tmpl := template.Must(template.ParseFiles("pages/home.html"))
-	tmpl.Execute(w, nil)
+	tmpl := template.Must(template.ParseFiles("pages/layout.html"))
+	tmpl.Execute(w, page{PageTitle: "Hello World"})
+}
+
+type page struct {
+	PageTitle string
 }
