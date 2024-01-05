@@ -9,14 +9,16 @@ func main() {
 
 	mux := http.NewServeMux()
 
+	homeTemplate = template.Must(template.ParseFiles("pages/layout.html"))
 	mux.HandleFunc("/", homeHandler)
 
 	http.ListenAndServe(":80", mux)
 }
 
+var homeTemplate *template.Template
+
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-	tmpl := template.Must(template.ParseFiles("pages/layout.html"))
-	tmpl.Execute(w, page{PageTitle: "Hello World"})
+	homeTemplate.Execute(w, page{PageTitle: "Hello World"})
 }
 
 type page struct {
