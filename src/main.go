@@ -17,7 +17,7 @@ func main() {
 	templates = template.Must(template.ParseFiles(pagePaths...))
 	mux.HandleFunc("/", homeHandler)
 
-	http.ListenAndServe(":80", mux)
+	http.ListenAndServe(":8080", mux)
 }
 
 var templates *template.Template
