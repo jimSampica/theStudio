@@ -4,7 +4,7 @@ FROM golang:1.21
 WORKDIR /app
 
 # Download Go modules
-COPY go.mod ./
+COPY go.mod go.sum ./
 RUN go mod download
 
 COPY *.go ./
