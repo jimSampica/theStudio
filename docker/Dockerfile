@@ -4,15 +4,15 @@ FROM golang:1.21.5
 WORKDIR /app
 
 # Download Go modules
-# COPY go.mod go.sum ./
-# RUN go mod download
+COPY ../src/go.mod ./
+RUN go mod download
 
-#COPY ../src/main.go ./
+COPY *.go ./
 
 # Build
-# RUN CGO_ENABLED=0 GOOS=linux go build -o /ktCraft
+RUN CGO_ENABLED=0 GOOS=linux go build -o /ktCraft
 
 EXPOSE 8080
 
 # Run
-# CMD ["/ktCraft"]
+CMD ["/ktCraft"]
