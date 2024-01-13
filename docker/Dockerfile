@@ -1,4 +1,4 @@
-FROM golang:1.21
+FROM golang:1.21.5
 
 # Set destination for COPY
 WORKDIR /app
@@ -7,12 +7,12 @@ WORKDIR /app
 # COPY go.mod go.sum ./
 # RUN go mod download
 
-COPY *.go ./
+#COPY ../src/main.go ./
 
 # Build
-RUN CGO_ENABLED=0 GOOS=linux go build -o /ktCraft
+# RUN CGO_ENABLED=0 GOOS=linux go build -o /ktCraft
 
 EXPOSE 8080
 
 # Run
-CMD ["/kt-craft"]
+# CMD ["/ktCraft"]
