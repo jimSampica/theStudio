@@ -7,6 +7,7 @@ WORKDIR /app
 COPY src/go.mod ./
 RUN go mod download
 
+# Copy app files
 COPY src ./
 
 # Build
