@@ -4,10 +4,10 @@ FROM golang:1.21.5
 WORKDIR /app
 
 # Download Go modules
-COPY ./src/go.mod ./
+COPY src/go.mod ./
 RUN go mod download
 
-COPY ./src/*.go ./
+COPY src ./
 
 # Build
 RUN CGO_ENABLED=0 GOOS=linux go build -o /ktCraft
