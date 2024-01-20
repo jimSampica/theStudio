@@ -26,6 +26,6 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	templates.ExecuteTemplate(w, "layout", nil)
 }
 
-type page struct {
-	PageTitle string
+func aboutHandler(w http.ResponseWriter, r *http.Request) {
+	templates.ExecuteTemplate(w, "layout", nil)
 }
