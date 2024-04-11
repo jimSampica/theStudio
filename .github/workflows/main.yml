@@ -25,4 +25,4 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         push: true
-        tags: jamesSampica/ktCraft:latest
+        tags: jamessampica/ktcraft:latest
