@@ -11,9 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
-      if: false
-      run: docker build . --file ./docker/Dockerfile --tag kt-craft:$(date +%s)
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
@@ -26,15 +23,19 @@ jobs:
         file: ./docker/Dockerfile
         push: true
         tags: jamessampica/ktcraft:latest
-    - name: Log into Azure
-      uses: azure/login@v1
+    - name: Az CLI login
+      uses: azure/login@v2
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
-    - name: Deploy Bicep file
-      uses: azure/arm-deploy@v1
+        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+    - name: Create stack 1
+      uses: azure/CLI@v2
+      if: true
       with:
-        subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
-        resourceGroupName: ${{ secrets.AZURE_RG }}
-        template: ./main.bicep
-        parameters: ''
-        failOnStdErr: false
+        inlineScript: |
+          az stack group create \
+            --name stack1 \
+            --resource-group test1 \
+            --template-file main.bicep \
+            --deny-settings-mode 'none'
