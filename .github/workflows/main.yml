@@ -36,7 +36,6 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
     - name: Deploy app
       uses: azure/CLI@v2
-      if: true
       with:
         inlineScript: |
           az stack group create \
