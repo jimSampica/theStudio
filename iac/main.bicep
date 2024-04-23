@@ -11,26 +11,27 @@ resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
 }
 
 resource webApp 'Microsoft.Web/sites@2022-09-01' = {
-  name: webAppName
+  name: 'kt-craft-app'
   location: location
   properties: {
   httpsOnly: true
-  serverFarmId: aspResource.id
-  siteConfig: {
-    alwaysOn: false
-    appSettings: [
-      {
-        name: 'DOTNET_ENVIRONMENT'
-        value: 'Production'
-      }
-      {
-        name: 'WEBSITE_ADD_SITENAME_BINDINGS_IN_APPHOST_CONFIG'
-        value: '1'
-      }
-      {
-        name: 'WEBSITE_RUN_FROM_PACKAGE'
-        value: '1'
-      }
-    ]
+    serverFarmId: aspResource.id
+    siteConfig: {
+      alwaysOn: false
+      appSettings: [
+        {
+          name: 'DOTNET_ENVIRONMENT'
+          value: 'Production'
+        }
+        {
+          name: 'WEBSITE_ADD_SITENAME_BINDINGS_IN_APPHOST_CONFIG'
+          value: '1'
+        }
+        {
+          name: 'WEBSITE_RUN_FROM_PACKAGE'
+          value: '1'
+        }
+      ]
+    }
   }
 }
