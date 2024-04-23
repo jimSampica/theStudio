@@ -31,10 +31,6 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
         name: 'WEBSITE_RUN_FROM_PACKAGE'
         value: '1'
       }
-      {
-        name: 'ApplicationInsightsAgent_EXTENSION_VERSION'
-        value: '~2' // This means Windows.
-      }
     ]
   }
 }
