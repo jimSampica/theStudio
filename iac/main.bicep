@@ -1,9 +1,11 @@
-
 param location string = resourceGroup().location
 
 resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
   name: 'kt-craft-asp'
   location: location
+  properties: {
+    reserved: true
+  }
   sku: {
     name: 'F1'
   }
@@ -15,7 +17,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
   location: location
   kind: 'app,linux,container'
   properties: {
-  httpsOnly: true
+    httpsOnly: true
     serverFarmId: aspResource.id
     siteConfig: {
       alwaysOn: false
