@@ -13,7 +13,7 @@ resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
 resource webApp 'Microsoft.Web/sites@2022-09-01' = {
   name: 'kt-craft-app'
   location: location
-  kind: 'app,linux'
+  kind: 'app,linux,container'
   properties: {
   httpsOnly: true
     serverFarmId: aspResource.id
