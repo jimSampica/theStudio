@@ -42,4 +42,5 @@ jobs:
             --name kt-craft \
             --resource-group kt-craft-rg \
             --template-file iac/main.bicep \
-            --deny-settings-mode 'none'
+            --deny-settings-mode 'none' \
+            --parameters dockerHubUsername=${{ secrets.DOCKERHUB_USERNAME }}
