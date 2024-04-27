@@ -33,12 +33,8 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
           value: 'Production'
         }
         {
-          name: 'WEBSITE_ADD_SITENAME_BINDINGS_IN_APPHOST_CONFIG'
-          value: '1'
-        }
-        {
-          name: 'WEBSITE_RUN_FROM_PACKAGE'
-          value: '1'
+          name: 'DOCKER_ENABLE_CI'
+          value: 'true'
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_URL'
