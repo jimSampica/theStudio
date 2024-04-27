@@ -43,4 +43,8 @@ jobs:
             --resource-group kt-craft-rg \
             --template-file iac/main.bicep \
             --deny-settings-mode 'none' \
-            --parameters dockerHubUsername=${{ secrets.DOCKERHUB_USERNAME }}
+            --parameters \
+                dockerHubUsername=${{ secrets.DOCKERHUB_USERNAME }} \
+                dockerHubToken=${{ secrets.DOCKERHUB_TOKEN }} \
+                dockerHubRegistryUrl=${{ secrets.DOCKER_REGISTRY_SERVER_URL }}
+

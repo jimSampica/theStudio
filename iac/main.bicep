@@ -1,3 +1,9 @@
+param dockerHubUsername string
+
+param dockerHubToken string
+
+param dockerHubRegistryUrl string
+
 param location string = resourceGroup().location
 
 resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
@@ -36,15 +42,15 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_URL'
-          value: ''
+          value: dockerHubRegistryUrl
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_USERNAME'
-          value: ''
+          value: dockerHubUsername
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_PASSWORD'
-          value: ''
+          value: dockerHubToken
         }
       ]
     }
