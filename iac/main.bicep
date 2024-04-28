@@ -26,6 +26,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
     httpsOnly: true
     serverFarmId: aspResource.id
     siteConfig: {
+      linuxFxVersion: 'Docker|jamessampica/ktcraft:latest'
       alwaysOn: false
       appSettings: [
         {
