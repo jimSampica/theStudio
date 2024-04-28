@@ -49,6 +49,10 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
           name: 'DOCKER_REGISTRY_SERVER_PASSWORD'
           value: dockerHubToken
         }
+        {
+          name: 'WEBSITES_PORT'
+          value: '8080'
+        }
       ]
     }
   }
