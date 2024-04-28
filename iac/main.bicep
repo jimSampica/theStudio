@@ -26,7 +26,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
     httpsOnly: true
     serverFarmId: aspResource.id
     siteConfig: {
-      linuxFxVersion: 'Docker|index.docker.io/v1/jamessampica/ktcraft:latest'
+      linuxFxVersion: 'Docker|index.docker.io/jamessampica/ktcraft:latest'
       alwaysOn: false
       appSettings: [
         {
@@ -39,7 +39,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_URL'
-          value: dockerHubRegistryUrl
+          value: 'https://index.docker.io'
         }
         {
           name: 'DOCKER_REGISTRY_SERVER_USERNAME'
