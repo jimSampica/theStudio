@@ -12,6 +12,7 @@ func main() {
 	pagePaths := []string{
 		"pages/layout.go.html",
 		"pages/home.go.html",
+		"pages/about.go.html",
 	}
 
 	templates = template.Must(template.ParseFiles(pagePaths...))
