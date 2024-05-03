@@ -2,8 +2,6 @@ param dockerHubUsername string
 
 param dockerHubToken string
 
-param dockerHubRegistryUrl string
-
 param location string = resourceGroup().location
 
 resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
