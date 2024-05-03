@@ -45,6 +45,5 @@ jobs:
             --deny-settings-mode 'none' \
             --parameters \
                 dockerHubUsername=${{ secrets.DOCKERHUB_USERNAME }} \
-                dockerHubToken=${{ secrets.DOCKERHUB_TOKEN }} \
-                dockerHubRegistryUrl=${{ secrets.DOCKER_REGISTRY_SERVER_URL }}
+                dockerHubToken=${{ secrets.DOCKERHUB_TOKEN }}
 
