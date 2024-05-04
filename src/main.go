@@ -9,13 +9,8 @@ func main() {
 
 	mux := http.NewServeMux()
 
-	pagePaths := []string{
-		"pages/layout.go.html",
-		"pages/home.go.html",
-		"pages/about.go.html",
-	}
 
-	templates = template.Must(template.ParseFiles(pagePaths...))
+	templates = template.Must(template.ParseGlob("pages/*"))
 
 	mux.HandleFunc("/", homeHandler)
 	mux.HandleFunc("/healthz", healthzHandler)
