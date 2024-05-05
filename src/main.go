@@ -9,10 +9,10 @@ func main() {
 
 	mux := http.NewServeMux()
 
-
 	templates = template.Must(template.ParseGlob("pages/*"))
 
 	mux.HandleFunc("/", homeHandler)
+	mux.HandleFunc("/about", aboutHandler)
 
 	http.ListenAndServe(":8080", mux)
 }
