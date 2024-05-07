@@ -5,6 +5,9 @@ WORKDIR /app
 
 # Download Go modules
 COPY src/go.mod ./
+
+RUN go mod tidy
+
 RUN go mod download
 
 # Copy app files
