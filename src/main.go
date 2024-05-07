@@ -2,27 +2,17 @@ package main
 
 import (
 	"net/http"
-	"text/template"
+	"github.com/a-h/templ"
 )
 
 func main() {
 
-	mux := http.NewServeMux()
+	component := hello("John")
 
-	templates = template.Must(template.ParseGlob("pages/*"))
+	mux := http.NewServeMux()
 
 	mux.HandleFunc("/", homeHandler)
 	mux.HandleFunc("/about", aboutHandler)
 
 	http.ListenAndServe(":8080", mux)
-}
-
-var templates *template.Template
-
-func homeHandler(w http.ResponseWriter, r *http.Request) {
-	templates.ExecuteTemplate(w, "layout", nil)
-}
-
-func aboutHandler(w http.ResponseWriter, r *http.Request) {
-	templates.ExecuteTemplate(w, "layout", nil)
 }
