@@ -6,7 +6,7 @@ WORKDIR /app
 # Download Go modules
 COPY src/go.mod ./
 
-RUN go mod tidy
+RUN go get ktCraft
 
 RUN go mod download
 
