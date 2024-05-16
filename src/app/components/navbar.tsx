@@ -2,8 +2,8 @@ import styles from "./navbar.module.css";
 
 export default function Navbar() {
     return (
-      <div className={styles.navbar}>
-          The Studio
-      </div>
+      <nav className={styles.navbar}>
+          <div className={styles.container}>The Studio</div>
+      </nav>
     );
   }
