@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import "./globals.css";
 import Navbar from './components/navbar'
+import 'bootstrap/dist/css/bootstrap.css';
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 
