@@ -1,7 +1,7 @@
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="navbar navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">TheStudio</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navControls">
