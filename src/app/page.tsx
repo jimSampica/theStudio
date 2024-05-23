@@ -4,8 +4,14 @@ export default function Home() {
   return (
     <main>
         <h2>Featured Student Work</h2>
-        <div className={styles.wavePink}></div>
-        <div className={styles.wave}></div>
+        
+        <div className={styles.topwave}>
+        </div>
+        <div className={styles.bottomwave}>
+          <div className="container d-flex">
+            testtestest
+          </div>
+        </div>
     </main>
   );
 }
