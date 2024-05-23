@@ -8,8 +8,8 @@ export default function Home() {
         <div className={styles.topwave}>
         </div>
         <div className={styles.bottomwave}>
-          <div className="container d-flex">
-            testtestest
+          <div className="d-flex align-items-center justify-content-center">
+            <p>testtestest</p>
           </div>
         </div>
     </main>
