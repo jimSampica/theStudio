@@ -33,6 +33,9 @@ export default function Home() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+          <div className="d-flex justify-content-end">
+            <a href="#" className="btn btn-outline-dark">View More...</a>
+          </div>
         </div>
       </div>
     </div>
