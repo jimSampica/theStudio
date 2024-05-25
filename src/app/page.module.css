@@ -23,7 +23,7 @@
     --p: calc(var(--m)*var(--size));
     --R: calc(var(--size)*sqrt(var(--m)*var(--m) + 1));
 
-    height: 500px;
+    height: fit-content;
     margin: -100px 0;
 
     mask:

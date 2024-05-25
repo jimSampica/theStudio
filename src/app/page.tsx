@@ -10,27 +10,29 @@ export default function Home() {
       <div className={styles.topwave}>
       </div>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
-      <h2>Featured Student Work</h2>
-        <div id="homeCarousel" className="carousel slide">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <Image src={slide1Pic} alt="..." />
+        <div className="py-5">
+          <h2>Featured Student Work</h2>
+          <div id="homeCarousel" className="carousel slide">
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <Image src={slide1Pic} alt="..." />
+              </div>
+              <div className="carousel-item">
+                <Image src={slide2Pic} alt="..." />
+              </div>
+              <div className="carousel-item">
+                <Image src={slide3Pic} alt="..." />
+              </div>
             </div>
-            <div className="carousel-item">
-              <Image src={slide2Pic} alt="..." />
-            </div>
-            <div className="carousel-item">
-              <Image src={slide3Pic} alt="..." />
-            </div>
+            <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+              <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button className="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+              <span className="carousel-control-next-icon" aria-hidden="true"></span>
+              <span className="visually-hidden">Next</span>
+            </button>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
     </div>
