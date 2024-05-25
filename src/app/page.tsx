@@ -20,13 +20,13 @@ export default function Home() {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <Image src={slide1Pic} height={300} alt="..." />
+              <Image src={slide1Pic} alt="..." />
             </div>
             <div className="carousel-item">
-              <Image src={slide2Pic} height={300} alt="..." />
+              <Image src={slide2Pic} alt="..." />
             </div>
             <div className="carousel-item">
-              <Image src={slide3Pic} height={300} alt="..." />
+              <Image src={slide3Pic} alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
