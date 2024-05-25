@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.topwave}>
       </div>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
-        <div className="py-5">
+        <div className="my-5">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
             <div className="carousel-inner">
@@ -33,7 +33,7 @@ export default function Home() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-          <div className="d-flex justify-content-end">
+          <div className="d-flex justify-content-end mt-3">
             <a href="#" className="btn btn-outline-dark">View More...</a>
           </div>
         </div>
