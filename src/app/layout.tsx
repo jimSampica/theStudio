@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={comfortaa.className}>
         <Navbar />
-        {children}
+        <main>{children}</main>
         <BootstrapClient />
       </body>
     </html>

@@ -6,12 +6,11 @@ import slide3Pic from './media/3.jpg'
 
 export default function Home() {
   return (
-    <main>
-      <h2>Featured Student Work</h2>
-
+    <div>
       <div className={styles.topwave}>
       </div>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
+      <h2>Featured Student Work</h2>
         <div id="homeCarousel" className="carousel slide">
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -34,6 +33,6 @@ export default function Home() {
           </button>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
