@@ -6,7 +6,21 @@ import slide3Pic from './media/3.jpg'
 
 export default function Home() {
   return (
-    <div>
+    <main>
+      <div className="container d-flex justify-content-evenly">
+        <div className={styles.pillar}>
+          Test
+        </div>        
+        <div className={styles.pillar}>
+          Test
+        </div>        
+        <div className={styles.pillar}>
+          Test
+        </div>        
+        <div className={styles.pillar}>
+          Test
+        </div>
+      </div>
       <div className={styles.topwave}>
       </div>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
@@ -38,6 +52,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }

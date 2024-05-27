@@ -1,5 +1,12 @@
 /* https://css-tricks.com/how-to-create-wavy-shapes-patterns-in-css/ */
 
+.pillar {
+    border-radius: 10px 10px 0 0;
+    background-color: red;
+    height: 100px;
+    margin-bottom: -75px;
+}
+
 .topwave {
     --size: 50px;
     --m: 1.25;
