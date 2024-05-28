@@ -7,18 +7,18 @@ import slide3Pic from './media/3.jpg'
 export default function Home() {
   return (
     <main>
-      <div className="container d-flex justify-content-evenly">
+      <div className={styles.homenav + " container d-flex justify-content-evenly"}>
         <div className={styles.pillar}>
-          Test
+          2D Art
         </div>        
         <div className={styles.pillar}>
-          Test
+          3D Art
         </div>        
         <div className={styles.pillar}>
-          Test
+          Graphic Design
         </div>        
         <div className={styles.pillar}>
-          Test
+          Ceramics
         </div>
       </div>
       <div className={styles.topwave}>
