@@ -6,10 +6,17 @@
 .pillar {
     border-radius: 75px 75px 0 0;
     background-color: red;
-    height: 200px;
+    height: 250px;
     width: 150px;
     margin-bottom: -70px;
     text-align: center;
+    text-decoration: none;
+}
+
+.pillar > p {
+    margin-top: 20px;
+    font-size: 1.75em;
+    font-weight: bold;
 }
 
 .topwave {

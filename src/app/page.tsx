@@ -9,16 +9,16 @@ export default function Home() {
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly"}>
         <div className={styles.pillar}>
-          2D Art
-        </div>        
+          <p>2D Art</p>
+        </div>
         <div className={styles.pillar}>
-          3D Art
-        </div>        
+          <p>3D Art</p>
+        </div>
         <div className={styles.pillar}>
-          Graphic Design
-        </div>        
+          <p> Graphic Design</p>
+        </div>
         <div className={styles.pillar}>
-          Ceramics
+          <p>Ceramics</p>
         </div>
       </div>
       <div className={styles.topwave}>
