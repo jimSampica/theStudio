@@ -3,6 +3,7 @@ import Image from 'next/image'
 import slide1Pic from './media/1.jpg'
 import slide2Pic from './media/2.jpg'
 import slide3Pic from './media/3.jpg'
+import Wavey from "./components/wavey/wavey";
 
 export default function Home() {
   return (
@@ -21,8 +22,7 @@ export default function Home() {
           <p>Ceramics</p>
         </div>
       </div>
-      <div className={styles.topwave}>
-      </div>
+      <Wavey></Wavey>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
         <div className="my-5">
           <h2>Featured Student Work</h2>
