@@ -22,10 +22,10 @@ export default function Home() {
           <p>Ceramics</p>
         </div>
       </div>
-      <Wavey offsetPercent={"25%"}>
+      <Wavey>
         <p>testing</p>
       </Wavey>
-      <Wavey offsetPercent={"75%"}>
+      <Wavey offsetPercent={"75%"} topMargin={-100}>
         <div className="my-5">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
