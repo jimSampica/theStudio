@@ -22,7 +22,9 @@ export default function Home() {
           <p>Ceramics</p>
         </div>
       </div>
-      <Wavey></Wavey>
+      <Wavey>
+        <p>testing</p>
+      </Wavey>
       <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
         <div className="my-5">
           <h2>Featured Student Work</h2>
