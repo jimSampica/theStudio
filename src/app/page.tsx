@@ -1,8 +1,8 @@
 import styles from "./page.module.css";
 import Image from 'next/image'
-import slide1Pic from './media/1.jpg'
-import slide2Pic from './media/2.jpg'
-import slide3Pic from './media/3.jpg'
+import slide1Pic from './public/media/1.jpg'
+import slide2Pic from './public/media/2.jpg'
+import slide3Pic from './public/media/3.jpg'
 import Wavey from "./components/wavey/wavey";
 import Pillar from "./components/pillar/pillar";
 
