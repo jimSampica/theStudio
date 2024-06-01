@@ -4,23 +4,24 @@ import slide1Pic from './media/1.jpg'
 import slide2Pic from './media/2.jpg'
 import slide3Pic from './media/3.jpg'
 import Wavey from "./components/wavey/wavey";
+import Pillar from "./components/pillar/pillar";
 
 export default function Home() {
   return (
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly"}>
-        <div className={styles.pillar}>
+        <Pillar>
           <p>2D Art</p>
-        </div>
-        <div className={styles.pillar}>
+        </Pillar>
+        <Pillar>
           <p>3D Art</p>
-        </div>
-        <div className={styles.pillar}>
+        </Pillar>
+        <Pillar>
           <p> Graphic Design</p>
-        </div>
-        <div className={styles.pillar}>
+        </Pillar>
+        <Pillar>
           <p>Ceramics</p>
-        </div>
+        </Pillar>
       </div>
       <Wavey>
         <p>testing</p>
