@@ -22,10 +22,10 @@ export default function Home() {
           <p>Ceramics</p>
         </div>
       </div>
-      <Wavey>
+      <Wavey offsetPercent={"25%"}>
         <p>testing</p>
       </Wavey>
-      <Wavey>
+      <Wavey offsetPercent={"75%"}>
         <div className="my-5">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
@@ -54,9 +54,6 @@ export default function Home() {
           </div>
         </div>
       </Wavey>
-      <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
-
-      </div>
     </main>
   );
 }
