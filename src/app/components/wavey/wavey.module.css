@@ -5,8 +5,8 @@
     --m: 1.25;
     --p: calc(var(--m)*var(--size));
     --R: calc(var(--size)*sqrt(var(--m)*var(--m) + 1));
-    
-    margin: -100px 0;
+
+    margin: var(--topMargin, 0) 0;
     height: 500px;
 
     mask:
