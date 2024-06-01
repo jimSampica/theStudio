@@ -25,7 +25,7 @@ export default function Home() {
       <Wavey>
         <p>testing</p>
       </Wavey>
-      <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
+      <Wavey>
         <div className="my-5">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
@@ -53,6 +53,9 @@ export default function Home() {
             <a href="#" className="btn btn-outline-dark">View More...</a>
           </div>
         </div>
+      </Wavey>
+      <div className={styles.bottomwave + " d-flex align-items-center justify-content-center"}>
+
       </div>
     </main>
   );

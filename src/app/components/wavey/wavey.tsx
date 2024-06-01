@@ -6,7 +6,8 @@ export default function Wavey({
     children: React.ReactNode;
   }>)  {
     return (
-        <div className={styles.wavey} style={{ 'height': '500px' }}>
+        <div className={styles.wavey + " d-flex align-items-center justify-content-center"}
+             style={{ ["--testVar" as string]: '25%' }}>
             {children}
         </div>
     );
