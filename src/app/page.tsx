@@ -10,16 +10,16 @@ export default function Home() {
   return (
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly"}>
-        <Pillar>
+        <Pillar hexColor="#ff84f1">
           <p>2D Art</p>
         </Pillar>
-        <Pillar>
+        <Pillar hexColor="#edff65">
           <p>3D Art</p>
         </Pillar>
-        <Pillar>
+        <Pillar hexColor="#96e6ff">
           <p>Graphic Design</p>
         </Pillar>
-        <Pillar>
+        <Pillar hexColor="#ffaf80">
           <p>Ceramics</p>
         </Pillar>
       </div>
