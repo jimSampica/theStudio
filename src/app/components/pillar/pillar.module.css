@@ -8,3 +8,9 @@
     text-align: center;
     text-decoration: none;
 }
+
+.pillar > p {
+    margin-top: 20px;
+    font-size: 1.50em;
+    font-weight: bold;
+}

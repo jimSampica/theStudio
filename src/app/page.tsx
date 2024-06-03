@@ -17,7 +17,7 @@ export default function Home() {
           <p>3D Art</p>
         </Pillar>
         <Pillar>
-          <p> Graphic Design</p>
+          <p>Graphic Design</p>
         </Pillar>
         <Pillar>
           <p>Ceramics</p>
