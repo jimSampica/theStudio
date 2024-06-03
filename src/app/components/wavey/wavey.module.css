@@ -14,6 +14,6 @@
         radial-gradient(var(--R) at left var(--leftOffset, 25%) bottom calc(-1*var(--p)), #0000 99%, #000 101%) left 50% bottom var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x,
         radial-gradient(var(--R) at left var(--leftOffset, 25%) top calc(var(--size) + var(--p)), #000 99%, #0000 101%) left calc(50% - 2*var(--size)) top 0/calc(4*var(--size)) 51% repeat-x,
         radial-gradient(var(--R) at left var(--leftOffset, 25%) top calc(-1*var(--p)), #0000 99%, #000 101%) left 50% top var(--size)/calc(4*var(--size)) calc(51% - var(--size)) repeat-x;
-    background: pink;
+    background-color: #d7d0ff;
     border: none;
 }
