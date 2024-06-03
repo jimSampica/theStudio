@@ -1,18 +1,18 @@
 import styles from "./pillar.module.css";
 
-type HexColor = `#${string}`;
+type HexColorCode = `#${string}`;
 
 interface PillarProps {
     children: React.ReactNode,
-    hexColor: HexColor
+    color: HexColorCode
 }
 
 export default function Pillar({
     children,
-    hexColor
+    color
 }: Readonly<PillarProps>) {
     return (
-        <div className={styles.pillar} style={{ ["--hexColor" as string]: hexColor }}>
+        <div className={styles.pillar} style={{ ["--pillar-color" as string]: color }}>
             {children}
         </div>
     );
