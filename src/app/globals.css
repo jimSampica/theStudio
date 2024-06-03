@@ -1,5 +1,9 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 
+:root{
+    --bs-body-color: #180065;
+}
+
 main {
     margin-top: 56px;
 }
