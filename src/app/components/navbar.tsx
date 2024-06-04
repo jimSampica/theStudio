@@ -1,13 +1,14 @@
 import Image from "next/image";
 import slide1Pic from "../public/static/images/logo.png"
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark fixed-top">
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link href="/" className="navbar-brand">
           <Image src={slide1Pic} alt="TheStudio" width="256" height="47" />
-        </a>
+        </Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navControls">
           <span className="navbar-toggler-icon"></span>
