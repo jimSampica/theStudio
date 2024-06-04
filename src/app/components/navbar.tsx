@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="navbar navbar-dark bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
-          <Image src={slide1Pic}  alt="TheStudio" width="256" height="47" />
+          <Image src={slide1Pic} alt="TheStudio" width="256" height="47" />
         </a>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navControls">
