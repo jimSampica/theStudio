@@ -43,7 +43,7 @@ export default function Home() {
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
               <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span className="visually-hidden">Previous</span>
+              <span className="visually-hidden">Prevc:\Users\jamesSampica\Downloads\Small_Icon.pngious</span>
             </button>
             <button className="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
