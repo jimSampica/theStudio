@@ -8,7 +8,7 @@ export default function SplashButton({
     children
 }: Readonly<SplashButtonProps>) {
     return (
-        <a className={styles.splashButton + " d-flex align-items-center justify-content-center p-3 btn btn-warning"}>
+        <a className={styles.splashButton + " d-flex align-items-center justify-content-evenly p-3 btn btn-warning"}>
             {children}
         </a>
     );
