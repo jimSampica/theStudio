@@ -15,7 +15,7 @@ export default function Wavey({
         <div className={styles.wavey + " d-flex align-items-center justify-content-center"}
             style={{
                 ["--leftOffset" as string]: offsetPercent,
-                ["--topMargin" as string]: topMargin
+                ["--topMargin" as string]: `${topMargin}px`
             }}>
             {children}
         </div>
