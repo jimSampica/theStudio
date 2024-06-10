@@ -25,7 +25,6 @@ export default function Home() {
         </YellowPillar>
       </div>
       <Wavey>
-        <p>testing</p>
         <SplashButton>
           2D Art
         </SplashButton>
