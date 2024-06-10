@@ -5,6 +5,7 @@ import slide2Pic from "./public/static/images/2.jpg"
 import slide3Pic from "./public/static/images/3.jpg"
 import Wavey from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
+import SplashButton from "./components/splashButton/splashButton"; 
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
       </div>
       <Wavey>
         <p>testing</p>
+        <SplashButton>
+          2D Art
+        </SplashButton>
       </Wavey>
       <Wavey offsetPercent={"75%"} topMargin={-100}>
         <div className="my-5">
