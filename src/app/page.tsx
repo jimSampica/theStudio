@@ -4,24 +4,24 @@ import slide1Pic from "./public/static/images/1.jpg"
 import slide2Pic from "./public/static/images/2.jpg"
 import slide3Pic from "./public/static/images/3.jpg"
 import Wavey from "./components/wavey/wavey";
-import { Pillar, BluePillar } from "./components/pillar/pillar";
+import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
 
 export default function Home() {
   return (
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly"}>
-        <BluePillar color="#ff84f1">
+        <BluePillar>
           <p>2D Art</p>
         </BluePillar>
-        <Pillar color="#edff65">
+        <PinkPillar>
           <p>3D Art</p>
-        </Pillar>
-        <Pillar color="#96e6ff">
+        </PinkPillar>
+        <OrangePillar>
           <p>Graphic Design</p>
-        </Pillar>
-        <Pillar color="#ffaf80">
+        </OrangePillar>
+        <YellowPillar>
           <p>Ceramics</p>
-        </Pillar>
+        </YellowPillar>
       </div>
       <Wavey>
         <p>testing</p>
