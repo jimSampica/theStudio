@@ -39,8 +39,8 @@ jobs:
       with:
         inlineScript: |
           az stack group create \
-            --name kt-craft \
-            --resource-group kt-craft-rg \
+            --name the-studio \
+            --resource-group the-studio-rg \
             --template-file iac/main.bicep \
             --deny-settings-mode 'none' \
             --parameters \

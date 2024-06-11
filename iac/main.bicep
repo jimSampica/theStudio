@@ -5,7 +5,7 @@ param dockerHubToken string
 param location string = resourceGroup().location
 
 resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
-  name: 'kt-craft-asp'
+  name: 'the-studio-asp'
   location: location
   properties: {
     reserved: true
@@ -17,14 +17,14 @@ resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
 }
 
 resource webApp 'Microsoft.Web/sites@2022-09-01' = {
-  name: 'kt-craft-app'
+  name: 'the-studio-app'
   location: location
   kind: 'linux'
   properties: {
     httpsOnly: true
     serverFarmId: aspResource.id
     siteConfig: {
-      linuxFxVersion: 'DOCKER|index.docker.io/jamessampica/ktcraft:latest'
+      linuxFxVersion: 'DOCKER|index.docker.io/jamessampica/thestudio:latest'
       alwaysOn: false
       appSettings: [
         {
@@ -49,7 +49,7 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
         }
         {
           name: 'WEBSITES_PORT'
-          value: '8080'
+          value: '3000'
         }
       ]
     }
