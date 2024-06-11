@@ -4,12 +4,9 @@ FROM base AS builder
 
 WORKDIR /app
 
-# Install dependencies based on the preferred package manager
-COPY src/package.json src/package-lock.json ./
+COPY ./src .
 
 RUN npm ci
-
-COPY src ./src
 
 # Disable Next.js telemetry at build time
 ENV NEXT_TELEMETRY_DISABLED 1
