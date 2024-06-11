@@ -4,7 +4,7 @@ FROM base AS builder
 
 WORKDIR /app
 
-COPY ./src .
+COPY src .
 
 RUN npm ci
 
