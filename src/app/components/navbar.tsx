@@ -1,5 +1,5 @@
 import Image from "next/image";
-import slide1Pic from "../public/static/images/logo.png"
+import slide1Pic from "/public/static/images/logo.png"
 import Link from "next/link";
 
 export default function Navbar() {
