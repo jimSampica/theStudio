@@ -6,7 +6,7 @@ COPY src .
 
 RUN npm ci
 
-# Uncomment the following line to disable telemetry at run time
+# Disable telemetry at run time
 ENV NEXT_TELEMETRY_DISABLED 1
 
 # Build Next.js
