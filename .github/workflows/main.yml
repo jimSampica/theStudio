@@ -39,6 +39,7 @@ jobs:
       with:
         inlineScript: |
           az stack group create \
+            --action-on-unmanage deleteAll \
             --name the-studio \
             --resource-group the-studio-rg \
             --template-file iac/main.bicep \
