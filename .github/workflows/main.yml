@@ -27,7 +27,7 @@ jobs:
         context: .
         file: ./docker/Dockerfile
         push: true
-        tags: jamessampica/ktcraft:latest
+        tags: jamessampica/thestudio:latest
     - name: Az CLI login
       uses: azure/login@v2
       with:
