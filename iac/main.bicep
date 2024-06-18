@@ -16,6 +16,7 @@ resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
   kind: 'linux'
 }
 
+/*
 resource webApp 'Microsoft.Web/sites@2022-09-01' = {
   name: 'the-studio-app'
   location: location
@@ -54,4 +55,4 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
       ]
     }
   }
-}
+}*/
