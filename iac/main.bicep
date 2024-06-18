@@ -28,10 +28,6 @@ resource webApp 'Microsoft.Web/sites@2022-09-01' = {
       alwaysOn: false
       appSettings: [
         {
-          name: 'DOTNET_ENVIRONMENT'
-          value: 'Production'
-        }
-        {
           name: 'DOCKER_ENABLE_CI'
           value: 'true'
         }
