@@ -5,7 +5,7 @@ import slide2Pic from "/public/static/images/2.jpg"
 import slide3Pic from "/public/static/images/3.jpg"
 import Wavey from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
-import SplashButton from "./components/splashButton/splashButton";
+import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton } from "./components/splashButton/splashButton";
 
 export default function Home() {
   return (
@@ -27,24 +27,24 @@ export default function Home() {
       <Wavey>
         <div className="row container">
           <div className="col-md-3">
-            <SplashButton>
+            <BlueSplashButton>
               2D Art
-            </SplashButton>
+            </BlueSplashButton>
           </div>
           <div className="col-md-3">
-            <SplashButton>
+            <PinkSplashButton>
               3D Art
-            </SplashButton>
+            </PinkSplashButton>
           </div>
           <div className="col-md-3">
-            <SplashButton>
+            <OrangeSplashButton>
               Graphic Design
-            </SplashButton>
+            </OrangeSplashButton>
           </div>
           <div className="col-md-3">
-            <SplashButton>
+            <YellowSplashButton>
               Ceramics
-            </SplashButton>
+            </YellowSplashButton>
           </div>
         </div>
       </Wavey>
