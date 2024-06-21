@@ -6,25 +6,25 @@ interface PillarProps {
 
 export function PinkPillar({
     children
-}: Readonly<PillarProps>) { return ColorPillar(children, "#ff84f1") } 
+}: Readonly<PillarProps>) { return ColorPillar(children, "pink") } 
 
 export function YellowPillar({
     children
-}: Readonly<PillarProps>) { return ColorPillar(children, "#edff65") } 
+}: Readonly<PillarProps>) { return ColorPillar(children, "yellow") } 
 
 export function BluePillar({
     children
-}: Readonly<PillarProps>) { return ColorPillar(children, "#96e6ff") } 
+}: Readonly<PillarProps>) { return ColorPillar(children, "blue") } 
 
 export function OrangePillar({
     children
-}: Readonly<PillarProps>) { return ColorPillar(children, "#ffaf80") }
+}: Readonly<PillarProps>) { return ColorPillar(children, "orange") }
 
-type HexColorCode = `#${string}`;
+type StudioColor = "blue" | "pink" | "orange" | "yellow";
 
-function ColorPillar(children: React.ReactNode, color: HexColorCode){
+function ColorPillar(children: React.ReactNode, color: StudioColor){
     return (
-        <div className={styles.pillar} style={{ ["--pillar-color" as string]: color }}>
+        <div className={styles.pillar} style={{ "backgroundColor": `var(--studio-${color})` }}>
             {children}
         </div>
     );
