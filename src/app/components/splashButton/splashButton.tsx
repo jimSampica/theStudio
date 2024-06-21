@@ -23,8 +23,7 @@ export function OrangeSplashButton({
 
 function SplashButton(children: React.ReactNode, color: StudioColor) {
     return (
-        <a className={styles.splashButton + " d-flex align-items-center justify-content-evenly p-3 btn btn-warning"}
-            style={{ "backgroundColor": `var(--studio-${color})` }}>
+        <a className={styles["btn-splash"] + " d-flex align-items-center justify-content-evenly p-3 btn " + styles[`splash-${color}`]}>
             {children}
         </a>
     );

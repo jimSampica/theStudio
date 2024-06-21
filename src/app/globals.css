@@ -1,12 +1,14 @@
 @import 'bootstrap/dist/css/bootstrap.css';
 
-:root{
-    --bs-body-color: #180065;
-    --bs-dark-rgb: 24,0,101;
+:root {
+    --studio-navy: #180065;
     --studio-blue: #96e6ff;
     --studio-pink: #ff84f1;
     --studio-orange: #ffaf80;
     --studio-yellow: #edff65;
+
+    --bs-body-color: var(--studio-navy);
+    --bs-dark-rgb: 24, 0, 101;
 }
 
 main {
