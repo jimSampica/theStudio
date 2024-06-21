@@ -25,28 +25,18 @@ export default function Home() {
         </YellowPillar>
       </div>
       <Wavey>
-        <div className="row container">
-          <div className="col-md-3">
-            <BlueSplashButton>
-              2D Art
-            </BlueSplashButton>
-          </div>
-          <div className="col-md-3">
-            <PinkSplashButton>
-              3D Art
-            </PinkSplashButton>
-          </div>
-          <div className="col-md-3">
-            <OrangeSplashButton>
-              Graphic Design
-            </OrangeSplashButton>
-          </div>
-          <div className="col-md-3">
-            <YellowSplashButton>
-              Ceramics
-            </YellowSplashButton>
-          </div>
-        </div>
+        <BlueSplashButton>
+          2D Art
+        </BlueSplashButton>
+        <PinkSplashButton>
+          3D Art
+        </PinkSplashButton>
+        <OrangeSplashButton>
+          Graphic Design
+        </OrangeSplashButton>
+        <YellowSplashButton>
+          Ceramics
+        </YellowSplashButton>
       </Wavey>
       <Wavey offsetPercent={"75%"} topMargin={-100}>
         <div className="my-5">
