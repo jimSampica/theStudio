@@ -1,4 +1,5 @@
 import styles from "./pillar.module.css";
+import { StudioColor } from "@/app/types/StudioColor";
 
 interface PillarProps {
     children: React.ReactNode
@@ -19,8 +20,6 @@ export function BluePillar({
 export function OrangePillar({
     children
 }: Readonly<PillarProps>) { return ColorPillar(children, "orange") }
-
-type StudioColor = "blue" | "pink" | "orange" | "yellow";
 
 function ColorPillar(children: React.ReactNode, color: StudioColor){
     return (
