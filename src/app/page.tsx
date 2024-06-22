@@ -3,7 +3,7 @@ import Image from "next/image"
 import slide1Pic from "/public/static/images/1.jpg"
 import slide2Pic from "/public/static/images/2.jpg"
 import slide3Pic from "/public/static/images/3.jpg"
-import Wavey from "./components/wavey/wavey";
+import { Wavey, WaveyMirror } from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
 import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton } from "./components/splashButton/splashButton";
 
@@ -24,7 +24,7 @@ export default function Home() {
           <p>Ceramics</p>
         </YellowPillar>
       </div>
-      <Wavey className="d-flex align-items-center">
+      <Wavey className="d-flex align-items-center" style={{ ["--wave-color" as string]: "#d7d0ff" }}>
         <div className="container">
           <div className="d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
             <BlueSplashButton>
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </Wavey>
-      <Wavey offsetPercent={"75%"} topMargin={-100} className="d-flex align-items-center ">
+      <WaveyMirror className="d-flex align-items-center" style={{ ["margin-top" as string]: "-7rem", ["--wave-color" as string]: "red" }}>
         <div className="container">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
@@ -70,7 +70,7 @@ export default function Home() {
             <a href="#" className="btn btn-outline-dark">View More...</a>
           </div>
         </div>
-      </Wavey>
+      </WaveyMirror>
     </main>
   );
 }
