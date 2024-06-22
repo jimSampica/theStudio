@@ -24,21 +24,25 @@ export default function Home() {
           <p>Ceramics</p>
         </YellowPillar>
       </div>
-      <Wavey>
-        <BlueSplashButton>
-          2D Art
-        </BlueSplashButton>
-        <PinkSplashButton>
-          3D Art
-        </PinkSplashButton>
-        <OrangeSplashButton>
-          Graphic Design
-        </OrangeSplashButton>
-        <YellowSplashButton>
-          Ceramics
-        </YellowSplashButton>
+      <Wavey className="d-flex align-items-center">
+        <div className="container">
+          <div className="d-flex justify-content-evenly">
+            <BlueSplashButton>
+              2D Art
+            </BlueSplashButton>
+            <PinkSplashButton>
+              3D Art
+            </PinkSplashButton>
+            <OrangeSplashButton>
+              Graphic Design
+            </OrangeSplashButton>
+            <YellowSplashButton>
+              Ceramics
+            </YellowSplashButton>
+          </div>
+        </div>
       </Wavey>
-      <Wavey offsetPercent={"75%"} topMargin={-100}>
+      <Wavey offsetPercent={"75%"} topMargin={-100} className="d-flex align-items-center justify-content-center">
         <div className="my-5">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
