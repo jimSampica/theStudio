@@ -10,7 +10,7 @@ import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashBut
 export default function Home() {
   return (
     <main>
-      <div className={styles.homenav + " container d-flex justify-content-evenly"}>
+      <div className={styles.homenav + " container d-flex justify-content-evenly gap-1"}>
         <BluePillar>
           <p>2D Art</p>
         </BluePillar>
