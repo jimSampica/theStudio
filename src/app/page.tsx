@@ -44,7 +44,7 @@ export default function Home() {
       </Wavey>
       <WaveyMirror className="d-flex align-items-center" style={{ ["margin-top" as string]: "-7rem", ["--wave-color" as string]: "red" }}>
         <div className="container">
-          <h2>Featured Student Work</h2>
+          <h2 className="text-center">Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
             <div className="carousel-inner">
               <div className="carousel-item active">
