@@ -17,7 +17,7 @@ export default function Home() {
         </BluePillar>
         <PinkPillar>
           <h2 className="h4">3D Art</h2>
-          <p></p>
+          <p>Project 2 due December 17th</p>
         </PinkPillar>
         <OrangePillar>
           <h2 className="h4">Graphic Design</h2>
