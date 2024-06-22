@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <Wavey className="d-flex align-items-center">
         <div className="container">
-          <div className="d-flex justify-content-evenly flex-column flex-md-row">
+          <div className="d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
             <BlueSplashButton>
               2D Art
             </BlueSplashButton>
