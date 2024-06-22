@@ -26,7 +26,7 @@ export default function Home() {
       </div>
       <Wavey className="d-flex align-items-center">
         <div className="container">
-          <div className="d-flex justify-content-evenly">
+          <div className="d-flex justify-content-evenly flex-column flex-md-row">
             <BlueSplashButton>
               2D Art
             </BlueSplashButton>
@@ -42,8 +42,8 @@ export default function Home() {
           </div>
         </div>
       </Wavey>
-      <Wavey offsetPercent={"75%"} topMargin={-100} className="d-flex align-items-center justify-content-center">
-        <div className="my-5">
+      <Wavey offsetPercent={"75%"} topMargin={-100} className="d-flex align-items-center ">
+        <div className="container">
           <h2>Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
             <div className="carousel-inner">

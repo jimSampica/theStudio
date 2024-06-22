@@ -3,6 +3,8 @@
     width: 10em;
     height: 10em;
 
+    font-size: 1.25em;
+
     --bs-btn-color: var(--studio-navy);
     --bs-btn-border-color: var(--studio-navy);
     --bs-btn-hover-color: var(--studio-navy);

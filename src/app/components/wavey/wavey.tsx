@@ -13,14 +13,12 @@ export default function Wavey({
     children,
     offsetPercent = "25%",
     topMargin = 0,
-    className
+    className,
+    style
 }: Readonly<WaveyProps>) {
     return (
         <div className={styles.wavey + " " + className}
-            style={{
-                ["--leftOffset" as string]: offsetPercent,
-                ["--topMargin" as string]: `${topMargin}px`
-            }}>
+            style={style}>
             {children}
         </div>
     );
