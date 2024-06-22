@@ -24,7 +24,7 @@ export default function Home() {
           <p>Ceramics</p>
         </YellowPillar>
       </div>
-      <Wavey className="d-flex align-items-center" style={{ ["--wave-color" as string]: "#d7d0ff" }}>
+      <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
         <div className="container">
           <div className="d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
             <BlueSplashButton>
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         </div>
       </Wavey>
-      <WaveyMirror className="d-flex align-items-center" style={{ ["margin-top" as string]: "-7rem", ["--wave-color" as string]: "red" }}>
+      <WaveyMirror className="d-flex align-items-center" waveColor="#d7F0ff" style={{ ["margin-top" as string]: "-7rem" }}>
         <div className="container">
           <h2 className="text-center">Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
