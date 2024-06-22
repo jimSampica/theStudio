@@ -6,6 +6,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-dark bg-dark fixed-top">
       <div className="container">
+        <h1 className="visually-hidden">TheStudio - By Caitlyn Sampica</h1>
         <Link href="/" className="navbar-brand">
           <Image src={slide1Pic} alt="TheStudio" width="256" height="47" />
         </Link>

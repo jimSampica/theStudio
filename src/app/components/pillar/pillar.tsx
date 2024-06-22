@@ -23,7 +23,7 @@ export function OrangePillar({
 
 function ColorPillar(children: React.ReactNode, color: StudioColor){
     return (
-        <div className={styles.pillar} style={{ "backgroundColor": `var(--studio-${color})` }}>
+        <div className={styles.pillar + " pt-4"} style={{ "backgroundColor": `var(--studio-${color})` }}>
             {children}
         </div>
     );

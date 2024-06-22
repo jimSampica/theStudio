@@ -12,16 +12,20 @@ export default function Home() {
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly gap-1"}>
         <BluePillar>
-          <p>2D Art</p>
+          <h2 className="h4">2D Art</h2>
+          <p>Project 1 due October 5th</p>
         </BluePillar>
         <PinkPillar>
-          <p>3D Art</p>
+          <h2 className="h4">3D Art</h2>
+          <p></p>
         </PinkPillar>
         <OrangePillar>
-          <p>Graphic Design</p>
+          <h2 className="h4">Graphic Design</h2>
+          <p></p>
         </OrangePillar>
         <YellowPillar>
-          <p>Ceramics</p>
+          <h2 className="h4">Ceramics</h2>
+          <p></p>
         </YellowPillar>
       </div>
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
@@ -42,7 +46,7 @@ export default function Home() {
           </div>
         </div>
       </Wavey>
-      <WaveyMirror className="d-flex align-items-center" waveColor="#d7F0ff" style={{ ["margin-top" as string]: "-7rem" }}>
+      <WaveyMirror className="d-flex align-items-center" waveColor="#ffdfcc" style={{ ["margin-top" as string]: "-7rem" }}>
         <div className="container">
           <h2 className="text-center">Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
@@ -66,8 +70,8 @@ export default function Home() {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
-          <div className="d-flex justify-content-end mt-3">
-            <a href="#" className="btn btn-outline-dark">View More...</a>
+          <div className="text-center mt-3">
+            <a href="#" className="btn btn-outline-primary">View More...</a>
           </div>
         </div>
       </WaveyMirror>
