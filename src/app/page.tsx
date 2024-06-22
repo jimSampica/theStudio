@@ -46,15 +46,15 @@ export default function Home() {
         <div className="container">
           <h2 className="text-center">Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
-            <div className="carousel-inner">
+            <div className="carousel-inner text-center">
               <div className="carousel-item active">
-                <Image src={slide1Pic} alt="..." />
+                <Image src={slide1Pic} alt="..." className="img-fluid" />
               </div>
               <div className="carousel-item">
-                <Image src={slide2Pic} alt="..." />
+                <Image src={slide2Pic} alt="..." className="img-fluid" />
               </div>
               <div className="carousel-item">
-                <Image src={slide3Pic} alt="..." />
+                <Image src={slide3Pic} alt="..." className="img-fluid" />
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
