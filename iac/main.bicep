@@ -1,5 +1,7 @@
+@secure()
 param dockerHubUsername string
 
+@secure()
 param dockerHubToken string
 
 param location string = resourceGroup().location
