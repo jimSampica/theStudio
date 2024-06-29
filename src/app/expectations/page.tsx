@@ -10,7 +10,7 @@ export default function Page() {
         </div>
 
         <h4 className="mt-3">Sketchbook (b and c are on the back of page 1)</h4>
-        <ul style={{["list-style-type" as string]: "lower-alpha"}}>
+        <ul style={{["listStyleType?" as string]: "lower-alpha"}}>
           <li>
             Please list the 3 main classroom rules from the video.
           </li>
