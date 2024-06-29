@@ -61,25 +61,25 @@ export default function Page() {
             </div>
             <div className="carousel-inner text-center">
               <div className="carousel-item active">
-                <Image src={slide1Pic} alt="..." className="img-fluid d-block " />
+                <Image src={slide1Pic} alt="..." sizes="(max-width: 30px) 100vw, 33vw" className="img-fluid d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>MJ Tenney</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide2Pic} alt="..." className="img-fluid d-block " />
+                <Image src={slide2Pic} alt="..." className="img-fluid d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Lydia Stamp</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide3Pic} alt="..." className="img-fluid d-block " />
+                <Image src={slide3Pic} alt="..." className="img-fluid d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Kenzi Wallroff</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide4Pic} alt="..." className="img-fluid d-block " />
+                <Image src={slide4Pic} alt="..." className="img-fluid d-block w-100" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Brooklyn Richmann</h5>
                 </div>
