@@ -48,25 +48,47 @@ export default function Page() {
           </div>
         </div>
       </Wavey>
-      <WaveyMirror className="d-flex align-items-center" waveColor="#ffdfcc" style={{ ["margin-top" as string]: "-7rem" }}>
+      <WaveyMirror className="d-flex align-items-center" waveColor="#ffdfcc" style={{ ["marginTop" as string]: "-7rem" }}>
         <div className="container">
           <h2 className="text-center">Featured Student Work</h2>
           <div id="homeCarousel" className="carousel slide">
+            <div className="carousel-indicators">
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
             <div className="carousel-inner text-center">
               <div className="carousel-item active">
-                <Image src={slide1Pic} alt="..." className="img-fluid" />
+                <Image src={slide1Pic} alt="..." className="img-fluid d-block " />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>MJ Tenney</h5>
+                </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide2Pic} alt="..." className="img-fluid" />
+                <Image src={slide2Pic} alt="..." className="img-fluid d-block " />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>Lydia Stamp</h5>
+                </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide3Pic} alt="..." className="img-fluid" />
-              </div>              
-              <div className="carousel-item">
-                <Image src={slide4Pic} alt="..." className="img-fluid" />
+                <Image src={slide3Pic} alt="..." className="img-fluid d-block " />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>Kenzi Wallroff</h5>
+                </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide5Pic} alt="..." className="img-fluid" />
+                <Image src={slide4Pic} alt="..." className="img-fluid d-block " />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>Brooklyn Richmann</h5>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <Image src={slide5Pic} alt="..." className="img-fluid d-block " />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5>McKenna Ricklefs</h5>
+                </div>
               </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
@@ -77,9 +99,6 @@ export default function Page() {
               <span className="carousel-control-next-icon" aria-hidden="true"></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </div>
-          <div className="text-center mt-3">
-            <a href="#" className="btn btn-outline-primary">View More...</a>
           </div>
         </div>
       </WaveyMirror>
