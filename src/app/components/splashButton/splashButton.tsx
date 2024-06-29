@@ -1,6 +1,7 @@
 import styles from "./splashButton.module.css";
 import { StudioColor } from "@/app/types/StudioColor";
 import { Url } from "@/app/types/Url"
+import Link from "next/link";
 
 interface SplashButtonProps {
     children: React.ReactNode,
@@ -8,25 +9,29 @@ interface SplashButtonProps {
 }
 
 export function PinkSplashButton({
-    children
-}: Readonly<SplashButtonProps>) { return SplashButton(children, "pink") } 
+    children,
+    href
+}: Readonly<SplashButtonProps>) { return SplashButton(children, href, "pink") } 
 
 export function YellowSplashButton({
-    children
-}: Readonly<SplashButtonProps>) { return SplashButton(children, "yellow") } 
+    children,
+    href
+}: Readonly<SplashButtonProps>) { return SplashButton(children, href, "yellow") } 
 
 export function BlueSplashButton({
-    children
-}: Readonly<SplashButtonProps>) { return SplashButton(children, "blue") } 
+    children,
+    href
+}: Readonly<SplashButtonProps>) { return SplashButton(children, href, "blue") } 
 
 export function OrangeSplashButton({
-    children
-}: Readonly<SplashButtonProps>) { return SplashButton(children, "orange") }
+    children,
+    href
+}: Readonly<SplashButtonProps>) { return SplashButton(children, href, "orange") }
 
-function SplashButton(children: React.ReactNode, color: StudioColor) {
+function SplashButton(children: React.ReactNode, href: Url, color: StudioColor) {
     return (
-        <a className={styles["btn-splash"] + " d-flex align-items-center justify-content-evenly p-3 btn " + styles[`splash-${color}`]}>
+        <Link href={href} className={styles["btn-splash"] + " d-flex align-items-center justify-content-evenly p-3 btn " + styles[`splash-${color}`]}>
             {children}
-        </a>
+        </Link>
     );
 }

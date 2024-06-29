@@ -31,16 +31,16 @@ export default function Page() {
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
         <div className="container">
           <div className="d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
-            <BlueSplashButton href={"./2dart"}>
+            <BlueSplashButton href={"/2d-art"}>
               2D Art
             </BlueSplashButton>
-            <PinkSplashButton href={"./2dart"}>
+            <PinkSplashButton href={"/3d-art"}>
               3D Art
             </PinkSplashButton>
-            <OrangeSplashButton href={"./2dart"}>
+            <OrangeSplashButton href={"/graphic-design"}>
               Graphic Design
             </OrangeSplashButton>
-            <YellowSplashButton href={"./2dart"}>
+            <YellowSplashButton href={"/ceramics"}>
               Ceramics
             </YellowSplashButton>
           </div>
