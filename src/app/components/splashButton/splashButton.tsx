@@ -1,8 +1,10 @@
 import styles from "./splashButton.module.css";
 import { StudioColor } from "@/app/types/StudioColor";
+import { Url } from "@/app/types/Url"
 
 interface SplashButtonProps {
-    children: React.ReactNode
+    children: React.ReactNode,
+    href: Url
 }
 
 export function PinkSplashButton({

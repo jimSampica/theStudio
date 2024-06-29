@@ -7,7 +7,7 @@ import { Wavey, WaveyMirror } from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
 import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton } from "./components/splashButton/splashButton";
 
-export default function Home() {
+export default function Page() {
   return (
     <main>
       <div className={styles.homenav + " container d-flex justify-content-evenly gap-1"}>
@@ -31,16 +31,16 @@ export default function Home() {
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
         <div className="container">
           <div className="d-flex justify-content-evenly align-items-center gap-3 flex-column flex-md-row">
-            <BlueSplashButton>
+            <BlueSplashButton href={"./2dart"}>
               2D Art
             </BlueSplashButton>
-            <PinkSplashButton>
+            <PinkSplashButton href={"./2dart"}>
               3D Art
             </PinkSplashButton>
-            <OrangeSplashButton>
+            <OrangeSplashButton href={"./2dart"}>
               Graphic Design
             </OrangeSplashButton>
-            <YellowSplashButton>
+            <YellowSplashButton href={"./2dart"}>
               Ceramics
             </YellowSplashButton>
           </div>
