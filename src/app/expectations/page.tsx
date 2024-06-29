@@ -1,7 +1,8 @@
 export default function Page() {
     return (
       <main className="container">
-        <div>TODO</div>
+        <h2>Lesson One:</h2>
+        <h3>Great Expectations</h3>
       </main>
     );
   }

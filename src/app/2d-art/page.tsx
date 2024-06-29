@@ -1,7 +1,13 @@
+import Link from "next/link"
+
 export default function Page() {
     return (
       <main className="container">
-        <div>TODO</div>
+        <ol>
+          <li>
+            <Link href="./2d-art">Lesson One: Great Expectations</Link>
+          </li>
+        </ol>
       </main>
     );
   }
