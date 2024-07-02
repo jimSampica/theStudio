@@ -1,10 +1,10 @@
 import styles from "./page.module.css";
-import Image from "next/image"
-import slide1Pic from "/public/static/images/1.jpg"
-import slide2Pic from "/public/static/images/2.jpg"
-import slide3Pic from "/public/static/images/3.jpg"
-import slide4Pic from "/public/static/images/4.jpg"
-import slide5Pic from "/public/static/images/5.jpg"
+import Image from "next/image";
+import slide1Pic from "/public/static/images/1.jpg";
+import slide2Pic from "/public/static/images/2.jpg";
+import slide3Pic from "/public/static/images/3.jpg";
+import slide4Pic from "/public/static/images/4.jpg";
+import slide5Pic from "/public/static/images/5.jpg";
 import { Wavey, WaveyMirror } from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
 import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton } from "./components/splashButton/splashButton";
