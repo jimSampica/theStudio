@@ -8,6 +8,9 @@ export default function Page() {
           <li>
             <Link href="./expectations">Lesson One: Great Expectations</Link>
           </li>
+          <li>
+          <Link href="./routines">Lesson Two: Routines</Link>
+          </li>
         </ol>
       </main>
     );
