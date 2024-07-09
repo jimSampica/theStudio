@@ -6,10 +6,10 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-        <h2 className="mt-3 mb-2">Lesson One:</h2>
-        <h3>Great Expectations</h3>
+          <h2 className="mt-3 mb-2">Lesson One: Great Expectations</h2>
           <h4 className="mt-3">Instructions</h4>
-          <p>Please watch <a href="https://app.screencastify.com/v3/watch/XlnDJ9alAvYqs1llN6t4">this video</a> in its entirety and answer the questions that follow in your sketchbook.</p>
+          <p>Please watch <a href="https://app.screencastify.com/v3/watch/Tp4JHMVlAD0IDBcNq9SI" target="_blank">this video</a> 
+           &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
 
           <h4 className="mt-3">Sketchbook (b and c are on the back of page 1)</h4>
           <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
@@ -24,6 +24,11 @@ export default function Page() {
             </li>
           </ul>
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
+          <h4>Additional Resources</h4>
+          <ul>
+            <li>
+              <a href="/static/files/ArtRoomThinkSheet.pdf" target="_blank">Art Room Think Sheet (Art of Ed)</a></li>
+          </ul>
         </div>
         <div className="col-md-5">
           <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid" />
