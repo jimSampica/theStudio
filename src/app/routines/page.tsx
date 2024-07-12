@@ -1,6 +1,6 @@
 import Image from "next/image";
 import WelcomePic from "/public/static/images/welcome_to_art.png";
-import Howto from "How to learn with video lessons.png";
+import Howto from "/public/static/images/learning_video_lessons.png";
 
 export default function Page() {
   return (
