@@ -112,14 +112,14 @@ export default function Page() {
 
     function renderPrompt(){
         if(prompt)
-            return (<p className="d-inline">Your prompt is ... <span className="display-5">{prompt}</span></p>);
+            return (<p className="d-inline">Your prompt is ... <em className="display-5">{prompt}</em></p>);
     }
 
     return (
         <main className="container">
             <h2 className="my-3">Prompt Generator</h2>
             <button className="btn btn-primary my-4" onClick={generatePrompt}>Generate Prompt</button>
-            <div className="my-4">
+            <div>
                 {renderPrompt()}
             </div>
         </main>
