@@ -9,7 +9,10 @@ export default function Page() {
             <Link href="./expectations">Lesson One: Great Expectations</Link>
           </li>
           <li>
-          <Link href="./routines">Lesson Two: Routines</Link>
+            <Link href="./routines">Lesson Two: Routines</Link>
+          </li>
+          <li>
+            <Link href="./prompt-generator">Test: Prompt Generator</Link>
           </li>
         </ol>
       </main>
