@@ -1,6 +1,5 @@
 import Image from "next/image";
-import WelcomePic from "/public/static/images/welcome_to_art.png";
-import Howto from "/public/static/images/learning_video_lessons.png";
+import SplashPic from "/public/static/images/routines.jpg";
 import Link from "next/link"
 
 export default function Page() {
@@ -30,6 +29,7 @@ export default function Page() {
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
         </div>
         <div className="col-md-5">
+          <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
         </div>
       </div>
     </main>
