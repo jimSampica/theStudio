@@ -1,6 +1,7 @@
 import Image from "next/image";
 import WelcomePic from "/public/static/images/welcome_to_art.png";
 import Howto from "/public/static/images/learning_video_lessons.png";
+import Link from "next/link"
 
 export default function Page() {
   return (
@@ -15,7 +16,9 @@ export default function Page() {
           <h4 className="mt-3">Sketchbook </h4>
           <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
             <li>
-              Please click the random prompt generator and draw the assigned prompt in box a.
+              Please use the&nbsp;
+              <Link href="/prompt-generator">random prompt generator</Link>
+              &nbsp;and draw the assigned prompt in box a.
             </li>
             <li>
               Please list the routine order.
@@ -25,15 +28,8 @@ export default function Page() {
             </li>
           </ul>
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
-          <h4>Additional Resources</h4>
-          <ul>
-            <li>
-              <a href="/static/files/ArtRoomThinkSheet.pdf" target="_blank">Art Room Think Sheet (Art of Ed)</a></li>
-              <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" />
-          </ul>
         </div>
         <div className="col-md-5">
-          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid" />
         </div>
       </div>
     </main>
