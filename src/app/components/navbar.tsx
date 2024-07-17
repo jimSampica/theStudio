@@ -29,6 +29,7 @@ export default function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" href="/ceramics">Ceramics</Link>
             </li>
+            <li className="nav-item"><hr className="dropdown-divider" /></li>
             <li className="nav-item">
               <Link className="nav-link" href="/prompt-generator">Prompt Generator</Link>
             </li>
