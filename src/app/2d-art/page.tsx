@@ -11,9 +11,6 @@ export default function Page() {
           <li>
             <Link href="./routines">Lesson Two: Routines</Link>
           </li>
-          <li>
-            <Link href="./prompt-generator">Test: Prompt Generator</Link>
-          </li>
         </ol>
       </main>
     );

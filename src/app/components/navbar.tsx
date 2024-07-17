@@ -18,16 +18,19 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navControls">
           <ul className="navbar-nav me-auto mb-2">
             <li className="nav-item">
-              <a className="nav-link" href="#">2-D Art</a>
+              <Link className="nav-link" href="/2d-art">2-D Art</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">3-D Art</a>
+              <Link className="nav-link" href="/3d-art">3-D Art</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Graphic Design</a>
+              <Link className="nav-link" href="/graphic-design">Graphic Design</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Ceramics</a>
+              <Link className="nav-link" href="/ceramics">Ceramics</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/prompt-generator">Prompt Generator</Link>
             </li>
           </ul>
         </div>
