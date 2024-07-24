@@ -6,10 +6,10 @@ export default function Page() {
         <h2 className="my-3">2D Art</h2>
         <ol>
           <li>
-            <Link href="/expectations">Lesson One: Great Expectations</Link>
+            <Link href="/lesson-one">Lesson One: Great Expectations</Link>
           </li>
           <li>
-            <Link href="/routines">Lesson Two: Routines</Link>
+            <Link href="/lesson-two">Lesson Two: Using your sketchbook/The Studio</Link>
           </li>
         </ol>
       </main>

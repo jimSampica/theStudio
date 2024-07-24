@@ -8,7 +8,7 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-          <h2 className="mt-3 mb-2">Lesson Two: Get in the Routine</h2>
+          <h2 className="mt-3 mb-2">Lesson Two: Using your sketchbook/The Studio</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://app.screencastify.com/v3/watch/piMgN5cFWDlUs55xHTxm" target="_blank">this video</a> 
            &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
