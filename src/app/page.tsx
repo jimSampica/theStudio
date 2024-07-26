@@ -48,9 +48,9 @@ export default function Page() {
           </div>
         </div>
       </Wavey>
-      <WaveyMirror className="d-flex align-items-center" waveColor="#ffdfcc" style={{ ["marginTop" as string]: "-7rem" }}>
-        <div className="container">
-          <h2 className="text-center">Featured Student Work</h2>
+      <WaveyMirror waveColor="#ffdfcc" style={{ ["marginTop" as string]: "-7rem" }}>
+        <h2 className="text-center">Featured Student Work</h2>
+        <div className="container d-flex align-items-center justify-content-center">
           <div id="homeCarousel" className="carousel slide">
             <div className="carousel-indicators">
               <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -61,31 +61,31 @@ export default function Page() {
             </div>
             <div className="carousel-inner text-center">
               <div className="carousel-item active">
-                <Image src={slide1Pic} alt="..." sizes="(max-width: 30px) 100vw, 33vw" className="img-fluid d-block w-100" />
+                <Image src={slide1Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>MJ Tenney</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide2Pic} alt="..." className="img-fluid d-block w-100" />
+                <Image src={slide2Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Lydia Stamp</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide3Pic} alt="..." className="img-fluid d-block w-100" />
+                <Image src={slide3Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Kenzi Wallroff</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide4Pic} alt="..." className="img-fluid d-block w-100" />
-                <div className="carousel-caption d-none d-md-block">
+                <Image src={slide4Pic} alt="..." width={600} />
+                <div className="carousel-caption d-none d-md-block text-primary">
                   <h5>Brooklyn Richmann</h5>
                 </div>
               </div>
               <div className="carousel-item">
-                <Image src={slide5Pic} alt="..." className="img-fluid d-block " />
+                <Image src={slide5Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>McKenna Ricklefs</h5>
                 </div>
