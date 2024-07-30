@@ -1,6 +1,5 @@
 import Image from "next/image";
 import SplashPic from "/public/static/images/you_are_amazing.jpg";
-import Howto from "/public/static/images/learning_video_lessons.png";
 import Link from "next/link";
 
 export default function Page() {
