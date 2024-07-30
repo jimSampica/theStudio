@@ -1,9 +1,16 @@
+"use client";
+
 import Image from "next/image";
 import SplashPic from "/public/static/images/routines.jpg";
 import Howto from "/public/static/images/learning_video_lessons.png";
 import Link from "next/link";
 
 export default function Page() {
+
+    function imageClick() {
+        alert("test");
+    }
+
     return (
         <main className="container">
             <div className="row">
@@ -29,7 +36,7 @@ export default function Page() {
                     </ul>
                     <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
                     <h4>Additional Resources</h4>
-                    <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" />
+                    <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" onClick={imageClick} style={{ "cursor": "pointer" }} />
                 </div>
                 <div className="col-md-5">
                     <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
