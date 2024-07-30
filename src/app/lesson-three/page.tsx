@@ -36,7 +36,7 @@ export default function Page() {
                     </ul>
                     <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
                     <h4>Additional Resources</h4>
-                    <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" onClick={imageClick} style={{ "cursor": "pointer" }} />
+                    <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" onClick={imageClick} style={{ "cursor": "zoom-in" }} />
                 </div>
                 <div className="col-md-5">
                     <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
