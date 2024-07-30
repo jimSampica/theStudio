@@ -9,10 +9,10 @@ export default function Page() {
             <Link href="/lesson-one">Lesson One: Great Expectations</Link>
           </li>
           <li>
-            <Link href="/lesson-two">Lesson Two: Using your sketchbook/The Studio</Link>
+            <Link href="/lesson-two">Lesson Two: Using Your Sketchbook/The Studio</Link>
           </li>
           <li>
-            <Link href="/lesson-three">Lesson Three: Get in the Routine</Link>
+            <Link href="/lesson-three">Lesson Three: Get In The Routine</Link>
           </li>
         </ol>
       </main>
