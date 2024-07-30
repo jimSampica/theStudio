@@ -10,7 +10,7 @@ export default function Page() {
         <div className="col-md-7">
           <h2 className="mt-3 mb-2">Lesson Two: Using Your Sketchbook/The Studio</h2>
           <h4 className="mt-3">Instructions</h4>
-          <p>Please watch <a href="https://app.screencastify.com/v3/watch/0qKSf4gtjc6s7lWGN88E" target="_blank">this video</a> 
+          <p>Please watch <a href="https://app.screencastify.com/v3/watch/JwCESOVBF20TkTgffxbI" target="_blank">this video</a> 
            &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
 
           <h4 className="mt-3">Sketchbook </h4>
@@ -36,8 +36,6 @@ export default function Page() {
             <li>Your name should be <strong>highly visible</strong>.</li>
             <li>Take care of this book, always put it back in the bin. You only get one sketchbook!</li>
           </ol>
-          <h4>Additional Resources</h4>
-          <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" />
         </div>
         <div className="col-md-5">
           <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
