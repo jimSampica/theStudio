@@ -2,6 +2,7 @@ import Image from "next/image";
 import SplashPic from "/public/static/images/routines.jpg";
 import Howto from "/public/static/images/learning_video_lessons.png";
 import Link from "next/link";
+import StudioTime from "../components/studioTime";
 
 export default function Page() {
     return (
@@ -28,6 +29,7 @@ export default function Page() {
                         </li>
                     </ul>
                     <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
+                    <StudioTime></StudioTime>
                     <h4>Additional Resources</h4>
                     <Link href={Howto.src} target="_blank">
                         <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
