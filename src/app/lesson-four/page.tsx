@@ -9,21 +9,21 @@ import { useSearchParams } from 'next/navigation'
 
 export default function Page() {
 
-  let studioTimeText = "";
+  let studioTimeText = (<p></p>);
 
   switch (useSearchParams().get('studio-time')) {
     case "ceramics":
-      studioTimeText = "mini food";
+      studioTimeText = (<p>mini food</p>);
       break;
     case "2d-art":
     case "graphic-design":
-      studioTimeText = "Art stations exploration";
+      studioTimeText = (<p>Art stations exploration</p>);
       break;
     case "3d-art":
-      studioTimeText = "3-D stations challenges";
+      studioTimeText = (<p>3-D stations challenges</p>);
       break;
     case "innovators":
-      studioTimeText = "Tin foil boat challenge";
+      studioTimeText = (<Link href="/static/files/foilBoat.pdf" target="_blank">Tin foil boat challenge</Link>) ;
       break;
   }
 
