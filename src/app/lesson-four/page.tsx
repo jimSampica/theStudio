@@ -30,7 +30,7 @@ export default function Page() {
           </ul>
           <h4>Studio Time</h4>
           <ol>
-            <li>Art stations exploration.</li>
+            <li>Art stations exploration</li>
           </ol>
           <h4>Additional Resources</h4>
           <div>
