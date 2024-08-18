@@ -1,55 +1,13 @@
-@secure()
-param dockerHubUsername string
-
-@secure()
-param dockerHubToken string
-
-param location string = resourceGroup().location
-
-resource aspResource 'Microsoft.Web/serverfarms@2022-03-01' = {
-  name: 'the-studio-asp'
-  location: location
+resource staticSite 'Microsoft.Web/staticSites@2022-09-01' = {
+  name: 'the-studio-stapp'
+  location: 'centralus'
   properties: {
-    reserved: true
+    buildProperties:{
+      skipGithubActionWorkflowGeneration: true
+    }
   }
   sku: {
-    name: 'F1'
-  }
-  kind: 'linux'
-}
-
-resource webApp 'Microsoft.Web/sites@2022-09-01' = {
-  name: 'the-studio-app'
-  location: location
-  kind: 'linux'
-  properties: {
-    httpsOnly: true
-    serverFarmId: aspResource.id
-    siteConfig: {
-      linuxFxVersion: 'DOCKER|index.docker.io/jamessampica/thestudio:latest'
-      alwaysOn: false
-      appSettings: [
-        {
-          name: 'DOCKER_ENABLE_CI'
-          value: 'true'
-        }
-        {
-          name: 'DOCKER_REGISTRY_SERVER_URL'
-          value: 'https://index.docker.io'
-        }
-        {
-          name: 'DOCKER_REGISTRY_SERVER_USERNAME'
-          value: dockerHubUsername
-        }
-        {
-          name: 'DOCKER_REGISTRY_SERVER_PASSWORD'
-          value: dockerHubToken
-        }
-        {
-          name: 'WEBSITES_PORT'
-          value: '3000'
-        }
-      ]
-    }
+    name: 'Free'
+    size: 'Free'
   }
 }
