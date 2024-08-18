@@ -3,6 +3,7 @@ import { Comfortaa } from "next/font/google";
 import "./globals.css";
 import Navbar from './components/navbar';
 import BootstrapClient from "./components/BootstrapClient.js";
+import { Suspense } from 'react'
 
 const comfortaa = Comfortaa({ subsets: ["latin"] });
 
@@ -20,7 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={comfortaa.className}>
         <Navbar />
-        {children}
+        <Suspense>
+          {children}
+        </Suspense>
         <BootstrapClient />
       </body>
     </html>
