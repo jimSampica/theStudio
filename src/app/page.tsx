@@ -15,19 +15,19 @@ export default function Page() {
       <div className={styles.homenav + " container d-flex justify-content-evenly gap-1"}>
         <BluePillar>
           <h2 className="h4">2D Art</h2>
-          <p>Project 1 due October 5th</p>
+          <p>Sketchbook expectations and procedures due September 20th</p>
         </BluePillar>
         <PinkPillar>
           <h2 className="h4">3D Art</h2>
-          <p>Project 2 due December 17th</p>
+          <p>Sketchbook expectations and procedures due September 20th</p>
         </PinkPillar>
         <OrangePillar>
           <h2 className="h4">Graphic Design</h2>
-          <p></p>
+          <p>Sketchbook expectations and procedures due September 20th</p>
         </OrangePillar>
         <YellowPillar>
           <h2 className="h4">Ceramics</h2>
-          <p></p>
+          <p>Sketchbook expectations and procedures due September 20th</p>
         </YellowPillar>
         <PurplePillar>
           <h2 className="h4">Innovators</h2>
