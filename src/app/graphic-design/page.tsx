@@ -15,7 +15,7 @@ export default function Page() {
           <Link href="/lesson-three">Lesson Three: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-four">Lesson Four: Use of Class Time</Link>
+          <Link href="/lesson-four?studio-time=graphic-design">Lesson Four: Use of Class Time</Link>
         </li>
       </ol>
     </main>

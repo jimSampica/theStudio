@@ -2,7 +2,6 @@ import Image from "next/image";
 import SplashPic from "/public/static/images/routines.jpg";
 import Howto from "/public/static/images/learning_video_lessons.png";
 import Link from "next/link";
-import StudioTime from "../components/studioTime";
 
 export default function Page() {
     return (
@@ -29,7 +28,14 @@ export default function Page() {
                         </li>
                     </ul>
                     <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
-                    <StudioTime></StudioTime>
+                    <h4>Studio Time</h4>
+                    <ol>
+                        <li>Design on a half-sheet printer paper and as always keep it appropriate.
+                            This is not a private book, if you wouldn&apos;t want me or a parent to see your picture don&apos;t draw it.</li>
+                        <li>Take your final design and draw it again on your sketchbook, you know, but nicer.</li>
+                        <li>Your name should be <strong>highly visible</strong>.</li>
+                        <li>Take care of this book, always put it back in the bin. You only get one sketchbook!</li>
+                    </ol>
                     <h4>Additional Resources</h4>
                     <Link href={Howto.src} target="_blank">
                         <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />

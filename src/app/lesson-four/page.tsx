@@ -1,10 +1,32 @@
+"use client";
+
 import Image from "next/image";
 import WelcomePic from "/public/static/images/welcome_to_art.png";
 import Howto from "/public/static/images/learning_video_lessons.png";
 import BreaksPic from "/public/static/images/breaks.png";
 import Link from "next/link";
+import { useSearchParams } from 'next/navigation'
 
 export default function Page() {
+
+  let studioTimeText = "";
+
+  switch (useSearchParams().get('studio-time')) {
+    case "ceramics":
+      studioTimeText = "mini food";
+      break;
+    case "2d-art":
+    case "graphic-design":
+      studioTimeText = "Art stations exploration";
+      break;
+    case "3d-art":
+      studioTimeText = "3-D stations challenges";
+      break;
+    case "innovators":
+      studioTimeText = "Tin foil boat challenge";
+      break;
+  }
+
   return (
     <main className="container">
       <div className="row">
@@ -30,7 +52,7 @@ export default function Page() {
           </ul>
           <h4>Studio Time</h4>
           <ol>
-            <li>Art stations exploration</li>
+            <li>{ studioTimeText }</li>
           </ol>
           <h4>Additional Resources</h4>
           <div>
