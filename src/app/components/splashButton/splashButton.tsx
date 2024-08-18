@@ -28,6 +28,11 @@ export function OrangeSplashButton({
     href
 }: Readonly<SplashButtonProps>) { return SplashButton(children, href, "orange") }
 
+export function PurpleSplashButton({
+    children,
+    href
+}: Readonly<SplashButtonProps>) { return SplashButton(children, href, "purple") } 
+
 function SplashButton(children: React.ReactNode, href: Url, color: StudioColor) {
     return (
         <Link href={href} className={styles["btn-splash"] + " d-flex align-items-center justify-content-evenly p-3 btn " + styles[`splash-${color}`]}>

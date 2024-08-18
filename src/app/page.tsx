@@ -6,8 +6,8 @@ import slide3Pic from "/public/static/images/3.jpg";
 import slide4Pic from "/public/static/images/4.jpg";
 import slide5Pic from "/public/static/images/5.jpg";
 import { Wavey, WaveyMirror } from "./components/wavey/wavey";
-import { BluePillar, PinkPillar, OrangePillar, YellowPillar } from "./components/pillar/pillar";
-import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton } from "./components/splashButton/splashButton";
+import { BluePillar, PinkPillar, OrangePillar, YellowPillar, PurplePillar } from "./components/pillar/pillar";
+import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton, PurpleSplashButton } from "./components/splashButton/splashButton";
 
 export default function Page() {
   return (
@@ -29,6 +29,10 @@ export default function Page() {
           <h2 className="h4">Ceramics</h2>
           <p></p>
         </YellowPillar>
+        <PurplePillar>
+          <h2 className="h4">Innovators</h2>
+          <p></p>
+        </PurplePillar>
       </div>
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
         <div className="container">
@@ -45,6 +49,9 @@ export default function Page() {
             <YellowSplashButton href={"/ceramics"}>
               Ceramics
             </YellowSplashButton>
+            <PurpleSplashButton href={"/innovators"}>
+              Innovators
+            </PurpleSplashButton>
           </div>
         </div>
       </Wavey>

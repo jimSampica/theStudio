@@ -21,6 +21,10 @@ export function OrangePillar({
     children
 }: Readonly<PillarProps>) { return ColorPillar(children, "orange") }
 
+export function PurplePillar({
+    children
+}: Readonly<PillarProps>) { return ColorPillar(children, "purple") }
+
 function ColorPillar(children: React.ReactNode, color: StudioColor){
     return (
         <div className={styles.pillar + " pt-4"} style={{ "backgroundColor": `var(--studio-${color})` }}>
