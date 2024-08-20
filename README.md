@@ -1,1 +1,1 @@
-Codebase for Caitlyn Sampica's classroom. Built with Next.js and hosted in Azure.
+Codebase for Caitlyn Sampica's classroom. Hosted at [sampica.art](sampica.art)
