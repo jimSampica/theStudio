@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
       <div className="container">
         <h1 className="visually-hidden">TheStudio - By Caitlyn Sampica</h1>
         <Link href="/" className="navbar-brand">
@@ -28,6 +28,9 @@ export default function Navbar() {
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/ceramics">Ceramics</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" href="/innovators">Innovators</Link>
             </li>
             <li className="nav-item"><hr className="dropdown-divider" /></li>
             <li className="nav-item">
