@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Comfortaa } from "next/font/google";
 import "./globals.css";
-import Navbar from './components/navbar';
+import Navbar from './components/nav/navbar';
 import BootstrapClient from "./components/BootstrapClient.js";
 import { Suspense } from 'react'
 
@@ -17,6 +17,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body className={comfortaa.className}>
