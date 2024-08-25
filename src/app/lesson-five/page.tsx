@@ -19,10 +19,10 @@ export default function Page() {
               &nbsp;and draw the assigned prompt in box a.
             </li>
             <li>
-              List the objects you need for class everyday.
+              Why is it important to put supplies away when you are done?
             </li>
             <li>
-              Tell me the difference between a toy and a fidget device in two complete sentences.
+              Name one place students shouldn’t go in the classroom.
             </li>
           </ul>
           <h4>Activity</h4>
