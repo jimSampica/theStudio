@@ -20,6 +20,9 @@ export default function Page() {
         <li>
           <Link href="/lesson-five">Lesson Five: Navigate the Studio</Link>
         </li>
+        <li>
+          <Link href="/lesson-six">Lesson Six: Safety in the Classroom</Link>
+        </li>
       </ol>
     </main>
   );
