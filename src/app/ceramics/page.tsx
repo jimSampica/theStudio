@@ -17,6 +17,9 @@ export default function Page() {
         <li>
           <Link href="/lesson-four?studio-time=ceramics">Lesson Four: Use of Class Time</Link>
         </li>
+        <li>
+          <Link href="/lesson-five">Lesson Five: Navigate the Studio</Link>
+        </li>
       </ol>
     </main>
   );
