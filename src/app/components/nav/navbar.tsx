@@ -4,14 +4,25 @@ import Image from "next/image";
 import logo from "/public/static/images/logo.png"
 import Link from "next/link";
 import NavControls from "./navControls"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Navbar() {
 
   const [collapsed, setCollapsed] = useState(true);
 
-  function navMenuButtonClicked(){
+  function navToggleButtonClicked(){
     setCollapsed(!collapsed);
+  }
+
+  useEffect(() => {
+    if(!collapsed) document.addEventListener("click", collapseNavControls);
+    return () => {
+      document.removeEventListener('click', collapseNavControls);
+    }
+  }, [collapsed]);
+
+  function collapseNavControls(){
+    setCollapsed(true);
   }
 
   return (
@@ -22,7 +33,7 @@ export default function Navbar() {
           <Image src={logo} alt="TheStudio" width="256" height="47" />
         </Link>
 
-        <button className="navbar-toggler" type="button" onClick={navMenuButtonClicked}>
+        <button className="navbar-toggler" type="button" onClick={navToggleButtonClicked}>
           <span className="navbar-toggler-icon"></span>
         </button>
 
