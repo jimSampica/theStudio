@@ -9,7 +9,7 @@ export default function Page() {
           <Link href="/innovators/lesson-one">Lesson One: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/innovators/lesson-two">Lesson Two: What is "Innovators"?</Link>
+          <Link href="/innovators/lesson-two">Lesson Two: What is &quot;Innovators&quot;?</Link>
         </li>
         <li>
           <Link href="/innovators/lesson-three">Lesson Three: Get In The Routine</Link>
