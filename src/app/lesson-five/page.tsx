@@ -22,7 +22,7 @@ export default function Page() {
               Why is it important to put supplies away when you are done?
             </li>
             <li>
-              Name one place students shouldn’t go in the classroom.
+              Name one place students shouldn&apos;t go in the classroom.
             </li>
           </ul>
           <h4>Activity</h4>
