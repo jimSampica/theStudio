@@ -18,12 +18,14 @@ export default function Page() {
   let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
   function worksheetAreaClicked(evt: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    console.log(evt.target);
-    console.log(allAnswers);
-    selectedAnswers.push("cupboard");
+    console.log(evt);
     console.log(selectedAnswers);
-    setSelectedAnswers(selectedAnswers);
-  }
+
+
+    setSelectedAnswers(selectedAnswers.concat("cupboard"));
+  } 
+  
+  console.log("rendering");
 
   return (
     <main className="container">

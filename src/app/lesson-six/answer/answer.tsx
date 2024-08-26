@@ -10,22 +10,30 @@ interface AnswerProps {
 
 export type Answer = "cupboard" | "faucet";
 
-function AnswerInternal(answer : Answer, hidden : boolean){
+function AnswerInternal(answer : Answer){
   styles["circled-answer"]
 
-  const hiddenClass = hidden ? "visually-hidden" : "";
+  //const hiddenClass = hidden ? "visually-hidden" : "";
 
   return (
     <div className={styles["answer"] + " " +  styles[answer]}>
-      <Image key={answer} src={CirclePic} alt={answer} className={styles["answer-img"] + " " + hiddenClass} />
+      <Image key={answer} src={CirclePic} alt={answer} className={styles["answer-img"] + " visually-hidden"} />
     </div>
   );
 }
 
 export function CircledAnswer({ answer } : AnswerProps) {
-  return AnswerInternal(answer, false);
+  return AnswerInternal(answer);
 }
 
 export function HiddenAnswer({ answer } : AnswerProps) {
-  return AnswerInternal(answer, true);
+  return AnswerInternal(answer);
+}
+
+function CupboardAnswer(){
+
+}
+
+function FaucetAnswer(){
+  
 }
