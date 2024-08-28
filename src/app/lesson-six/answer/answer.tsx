@@ -28,8 +28,8 @@ function AnswerInternal(answer: Answer, selectedAnswerCallback: (answer: Answer)
   }
 
   function answerClicked(evt: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    evt.preventDefault();
     selectedAnswerCallback(answer);
+    evt.stopPropagation();
   }
 
   return (
