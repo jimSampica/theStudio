@@ -18,7 +18,6 @@ export default function Page() {
   let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
   function worksheetAreaClicked(evt: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    console.log("emptying");
     setSelectedAnswers([]);
   }
 
@@ -56,6 +55,7 @@ export default function Page() {
       <ul>
         <li>Open centers</li>
       </ul>
+      {selectedAnswers.length} / {allAnswers.length}
       <div onClick={worksheetAreaClicked} className={styles["safety-worksheet-area"]}>
         {
           allAnswers.map(ans => {
