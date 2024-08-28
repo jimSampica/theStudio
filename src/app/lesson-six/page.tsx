@@ -18,14 +18,14 @@ export default function Page() {
   let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
   function worksheetAreaClicked(evt: React.MouseEvent<HTMLDivElement, MouseEvent>) {
-    console.log(evt);
-    console.log(selectedAnswers);
+    console.log("emptying");
+    setSelectedAnswers([]);
+  }
 
-
-    setSelectedAnswers(selectedAnswers.concat("cupboard"));
-  } 
-  
-  console.log("rendering");
+  function answerSelectedCallback(answer: Answer){
+    if(!selectedAnswers.includes(answer))
+      setSelectedAnswers(selectedAnswers.concat(answer));
+  }
 
   return (
     <main className="container">
@@ -61,11 +61,9 @@ export default function Page() {
           allAnswers.map(ans => {
             if (!selectedAnswers.find(sa => sa == ans))
             {
-
-              console.log("hiding " + ans);
-              return <HiddenAnswer key={ans} answer={ans} />
+              return <HiddenAnswer key={ans} answer={ans} selectedAnswerCallback={answerSelectedCallback} />
             }
-            return <CircledAnswer key={ans} answer={ans} />;
+            return <CircledAnswer key={ans} answer={ans} selectedAnswerCallback={answerSelectedCallback} />;
           })
         }
         <Image src={SafetyWorksheetPic} alt="Safety worksheet" className={styles["safety-worksheet"]} />
