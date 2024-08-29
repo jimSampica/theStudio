@@ -12,7 +12,9 @@ export default function Page() {
   const allAnswers: Answer[] =
     [
       "cupboard",
-      "faucet"
+      "faucet",
+      "gluegun",
+      "kiln"
     ];
 
   let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
@@ -61,7 +63,7 @@ export default function Page() {
           allAnswers.map(ans => {
             if (!selectedAnswers.find(sa => sa == ans))
             {
-              return <HiddenAnswer key={ans} answer={ans} answerClicked={answerClicked} />
+              return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />
             }
             return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
           })

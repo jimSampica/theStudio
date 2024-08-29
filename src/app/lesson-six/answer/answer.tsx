@@ -9,7 +9,7 @@ interface AnswerProps {
   answerClicked: (answer: Answer) => void
 }
 
-export type Answer = "cupboard" | "faucet";
+export type Answer = "cupboard" | "faucet" | "gluegun" | "kiln";
 
 function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) => void, hidden: boolean) {
   const hiddenClass = hidden ? "visually-hidden" : "";
@@ -22,6 +22,15 @@ function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) 
       break;
     case "faucet":
       answerStyles = { width: "90px", height: "90px", top: "355px", left: "65px" };
+      break;
+    case "gluegun":
+      answerStyles = { width: "65px", height: "65px", top: "445px", left: "-5px" };
+      break;
+    case "gluegun":
+      answerStyles = { width: "65px", height: "65px", top: "445px", left: "-5px" };
+      break;
+    case "kiln":
+      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
       break;
     default:
       answer satisfies never;
