@@ -21,7 +21,7 @@ export default function Page() {
     setSelectedAnswers([]);
   }
 
-  function answerSelectedCallback(answer: Answer){
+  function answerClicked(answer: Answer){
     if(!selectedAnswers.includes(answer))
       setSelectedAnswers(selectedAnswers.concat(answer));
   }
@@ -61,9 +61,9 @@ export default function Page() {
           allAnswers.map(ans => {
             if (!selectedAnswers.find(sa => sa == ans))
             {
-              return <HiddenAnswer key={ans} answer={ans} selectedAnswerCallback={answerSelectedCallback} />
+              return <HiddenAnswer key={ans} answer={ans} answerClicked={answerClicked} />
             }
-            return <CircledAnswer key={ans} answer={ans} selectedAnswerCallback={answerSelectedCallback} />;
+            return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
           })
         }
         <Image src={SafetyWorksheetPic} alt="Safety worksheet" className={styles["safety-worksheet"]} />
