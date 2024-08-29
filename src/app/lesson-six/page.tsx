@@ -63,7 +63,7 @@ export default function Page() {
           allAnswers.map(ans => {
             if (!selectedAnswers.find(sa => sa == ans))
             {
-              return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />
+              return <HiddenAnswer key={ans} answer={ans} answerClicked={answerClicked} />
             }
             return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
           })
