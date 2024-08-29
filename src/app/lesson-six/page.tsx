@@ -58,6 +58,7 @@ export default function Page() {
         <li>Open centers</li>
       </ul>
       {selectedAnswers.length} / {allAnswers.length}
+      {selectedAnswers.length == allAnswers.length ? "👍" : ""}
       <div onClick={worksheetAreaClicked} className={styles["safety-worksheet-area"]}>
         {
           allAnswers.map(ans => {
