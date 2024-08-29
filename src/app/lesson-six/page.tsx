@@ -17,7 +17,7 @@ export default function Page() {
 
   let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
-  function worksheetAreaClicked(evt: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+  function worksheetAreaClicked() {
     setSelectedAnswers([]);
   }
 
