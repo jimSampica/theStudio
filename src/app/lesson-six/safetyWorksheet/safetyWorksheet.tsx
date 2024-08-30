@@ -21,8 +21,8 @@ export function SafetyWorksheet() {
 
     return (
         <div>
-            {selectedAnswers.length} / {AllAnswers.length}
-            {selectedAnswers.length == AllAnswers.length ? "👍" : ""}
+            <h4 className="text-success">{selectedAnswers.length} / {AllAnswers.length}
+            {selectedAnswers.length == AllAnswers.length ? "👍" : ""}</h4>
             <div onClick={worksheetAreaClicked} className={styles["safety-worksheet-area"]}>
                 {
                     AllAnswers.map(ans => {
