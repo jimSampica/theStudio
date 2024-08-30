@@ -5,7 +5,18 @@ export const AllAnswers = [
     "kiln",
     "saw",
     "spill",
-    "tableSitting"
+    "tableSitting",
+    "scissors",
+    "cutting",
+    "flipflop",
+    "bookbag",
+    "knife",
+    "drink",
+    "cup",
+    "candybar",
+    "laptop",
+    "bottle",
+    "cord"
 ] as const;
 
 export type Answer = typeof AllAnswers[number];

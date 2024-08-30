@@ -40,6 +40,39 @@ function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) 
     case "spill":
       answerStyles = { width: "90px", height: "90px", top: "450px", left: "320px" };
       break;
+    case "scissors":
+      answerStyles = { width: "90px", height: "90px", top: "580px", left: "460px" };
+      break;
+    case "cutting":
+      answerStyles = { width: "110px", height: "110px", top: "510px", left: "780px" };
+      break;
+    case "flipflop":
+      answerStyles = { width: "230px", height: "230px", top: "1210px", left: "930px" };
+      break;
+    case "bookbag":
+      answerStyles = { width: "180px", height: "180px", top: "1010px", left: "890px" };
+      break;
+    case "knife":
+      answerStyles = { width: "70px", height: "90px", top: "735px", left: "530px" };
+      break;
+    case "drink":
+      answerStyles = { width: "75px", height: "95px", top: "580px", left: "345px" };
+      break;
+    case "cup":
+      answerStyles = { width: "75px", height: "45px", top: "540px", left: "335px" };
+      break;
+    case "candybar":
+      answerStyles = { width: "90px", height: "55px", top: "720px", left: "955px" };
+      break;
+    case "laptop":
+      answerStyles = { width: "175px", height: "150px", top: "850px", left: "175px" };
+      break;
+    case "bottle":
+      answerStyles = { width: "90px", height: "140px", top: "1075px", left: "190px" };
+      break;
+    case "cord":
+      answerStyles = { width: "140px", height: "60px", top: "710px", left: "110px" };
+      break;
     default:
       answer satisfies never;
   }
