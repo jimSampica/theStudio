@@ -1,15 +1,14 @@
 "use client";
 
-import styles from "./answer.module.css";
+import styles from "./selectedAnswer.module.css";
 import Image from "next/image";
 import CirclePic from "/public/static/images/safety_circle.png";
+import { Answer } from "./answer";
 
 interface AnswerProps {
   answer: Answer,
   answerClicked: (answer: Answer) => void
 }
-
-export type Answer = "cupboard" | "faucet" | "gluegun" | "kiln";
 
 function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) => void, hidden: boolean) {
   const hiddenClass = hidden ? "visually-hidden" : "";
@@ -30,6 +29,15 @@ function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) 
       answerStyles = { width: "65px", height: "65px", top: "445px", left: "-5px" };
       break;
     case "kiln":
+      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      break;
+    case "saw":
+      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      break;
+    case "tableSitting":
+      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      break;
+    case "spill":
       answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
       break;
     default:

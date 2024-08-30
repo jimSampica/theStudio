@@ -1,33 +1,9 @@
 "use client";
 
-import styles from "./page.module.css";
-import Image from "next/image";
-import SafetyWorksheetPic from "/public/static/images/safety_quiz.png";
 import Link from "next/link";
-import { useState } from "react";
-import { CircledAnswer, HiddenAnswer, Answer } from "./answer/answer";
+import { SafetyWorksheet } from "./safetyWorksheet/safetyWorksheet";
 
 export default function Page() {
-
-  const allAnswers: Answer[] =
-    [
-      "cupboard",
-      "faucet",
-      "gluegun",
-      "kiln"
-    ];
-
-  let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
-
-  function worksheetAreaClicked() {
-    setSelectedAnswers([]);
-  }
-
-  function answerClicked(answer: Answer){
-    if(!selectedAnswers.includes(answer))
-      setSelectedAnswers(selectedAnswers.concat(answer));
-  }
-
   return (
     <main className="container">
       <h2 className="mt-3 mb-2">Lesson Six: Safety in the Classroom</h2>
@@ -57,20 +33,7 @@ export default function Page() {
       <ul>
         <li>Open centers</li>
       </ul>
-      {selectedAnswers.length} / {allAnswers.length}
-      {selectedAnswers.length == allAnswers.length ? "👍" : ""}
-      <div onClick={worksheetAreaClicked} className={styles["safety-worksheet-area"]}>
-        {
-          allAnswers.map(ans => {
-            if (!selectedAnswers.find(sa => sa == ans))
-            {
-              return <HiddenAnswer key={ans} answer={ans} answerClicked={answerClicked} />
-            }
-            return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
-          })
-        }
-        <Image src={SafetyWorksheetPic} alt="Safety worksheet" className={styles["safety-worksheet"]} />
-      </div>
+      <SafetyWorksheet />
     </main>
   );
 }
