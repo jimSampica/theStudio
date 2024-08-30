@@ -32,13 +32,13 @@ function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) 
       answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
       break;
     case "saw":
-      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      answerStyles = { width: "45px", height: "45px", top: "345px", left: "500px" };
       break;
     case "tableSitting":
-      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      answerStyles = { width: "95px", height: "95px", top: "300px", left: "820px" };
       break;
     case "spill":
-      answerStyles = { width: "65px", height: "65px", top: "260px", left: "400px" };
+      answerStyles = { width: "90px", height: "90px", top: "450px", left: "320px" };
       break;
     default:
       answer satisfies never;

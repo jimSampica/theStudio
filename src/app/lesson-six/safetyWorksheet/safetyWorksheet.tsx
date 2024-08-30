@@ -27,7 +27,7 @@ export function SafetyWorksheet() {
                 {
                     AllAnswers.map(ans => {
                         if (!selectedAnswers.find(sa => sa == ans)) {
-                            return <HiddenAnswer key={ans} answer={ans} answerClicked={answerClicked} />
+                            return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />
                         }
                         return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
                     })
