@@ -23,6 +23,9 @@ export default function Page() {
         <li>
           <Link href="/lesson-six">Lesson Six: Safety in the Classroom</Link>
         </li>
+        <li>
+          <Link href="/innovators/lesson-seven">Lesson Seven: TinkerCAD</Link>
+        </li>
       </ol>
     </main>
   );
