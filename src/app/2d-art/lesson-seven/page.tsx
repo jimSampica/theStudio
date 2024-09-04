@@ -17,10 +17,10 @@ export default function Page() {
                             <Link href="/prompt-generator">random prompt generator</Link>
                         </li>
                         <li>
-                            Where does your work go when you are done with it when it's wet?
+                            Where does your work go when you are done with it when it&apos;s wet?
                         </li>
                         <li>
-                            Where does the paint palette go when it's wet?
+                            Where does the paint palette go when it&apos;s wet?
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
