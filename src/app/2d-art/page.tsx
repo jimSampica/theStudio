@@ -23,6 +23,9 @@ export default function Page() {
         <li>
           <Link href="/lesson-six">Lesson Six: Safety in the Classroom</Link>
         </li>
+        <li>
+          <Link href="/2d-art/lesson-seven">Lesson Seven: Cleaning</Link>
+        </li>
       </ol>
     </main>
   );
