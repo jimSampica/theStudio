@@ -35,7 +35,17 @@ export default function Page() {
         "Colorful",
         "Undercover",
         "Musical",
-        "Obnoxious"];
+        "Obnoxious",
+        "Proud",
+        "Worried",
+        "Groovy",
+        "Heroic",
+        "Futuristic",
+        "Melting",
+        "Average",
+        "Fantasy",
+        "Flying",
+        "Peaceful"];
 
     const nouns = [
         "Dragon",
@@ -97,7 +107,29 @@ export default function Page() {
         "Frog",
         "Kite",
         "Dinosaur",
-        "Superhero"];
+        "Superhero",
+        "Octopus",
+        "Athlete",
+        "Planet",
+        "Group",
+        "Snack",
+        "Cowboy",
+        "Doll",
+        "Emoji",
+        "Castle",
+        "Farm",
+        "Pond",
+        "Llama",
+        "Treasure",
+        "Garden",
+        "Snowman",
+        "Treehouse",
+        "Beverage",
+        "Discovery",
+        "Hat",
+        "Bling",
+        "Spider",
+        "Map"];
 
     const [prompt, setPrompt] = React.useState("");
 
@@ -110,8 +142,8 @@ export default function Page() {
         setPrompt(prompt);
     }
 
-    function renderPrompt(){
-        if(prompt)
+    function renderPrompt() {
+        if (prompt)
             return (<p className="d-inline">Your prompt is ... <em className="display-5">{prompt}</em></p>);
     }
 
