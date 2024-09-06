@@ -21,7 +21,7 @@ export default function Page() {
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
-                    <p>Materials: watercolor and paper <br />Abstract emotions game</p>
+                    <p>Materials: Mixed Media <br />Abstract emotions game</p>
                 </div>
             </div>
         </main>
