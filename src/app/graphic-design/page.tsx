@@ -29,6 +29,9 @@ export default function Page() {
         <li>
           <Link href="/graphic-design/lesson-eight">Lesson Eight: Creativity</Link>
         </li>
+        <li>
+          <Link href="/graphic-design/lesson-nine">Lesson Nine: Copyright</Link>
+        </li>
       </ol>
     </main>
   );
