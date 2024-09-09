@@ -29,6 +29,9 @@ export default function Page() {
         <li>
           <Link href="/ceramics/lesson-eight">Lesson Eight: Cleaning Part 2</Link>
         </li>
+        <li>
+          <Link href="/ceramics/lesson-nine">Lesson Nine: Creativity</Link>
+        </li>
       </ol>
     </main>
   );
