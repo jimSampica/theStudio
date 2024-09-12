@@ -8,7 +8,7 @@ export default function Page() {
       <h2 className="mt-3 mb-2">Lesson Seven: TinkerCAD</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://www.youtube.com/watch?v=gOs6Mdj7y_4" target="_blank">TinkerCAD</a>
-            &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
+            &nbsp;in its entirety.</p>
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
           <h4>Activity</h4>
           <ol> 
