@@ -6,31 +6,31 @@ export default function Page() {
       <h2 className="my-3">3D Art</h2>
       <ol>
         <li>
-          <Link href="/lesson-one">Lesson One: Great Expectations</Link>
+          <Link href="/lesson-1">Lesson One: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/lesson-two">Lesson Two: Using Your Sketchbook/The Studio</Link>
+          <Link href="/lesson-2">Lesson Two: Using Your Sketchbook/The Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-three">Lesson Three: Get In The Routine</Link>
+          <Link href="/lesson-3">Lesson Three: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-four?studio-time=3d-art">Lesson Four: Use of Class Time</Link>
+          <Link href="/lesson-4?studio-time=3d-art">Lesson Four: Use of Class Time</Link>
         </li>
         <li>
-          <Link href="/lesson-five">Lesson Five: Navigate the Studio</Link>
+          <Link href="/lesson-5">Lesson Five: Navigate the Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-six">Lesson Six: Safety in the Classroom</Link>
+          <Link href="/lesson-6">Lesson Six: Safety in the Classroom</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-seven">Lesson Seven: Cleaning</Link>
+          <Link href="/3d-art/lesson-7">Lesson Seven: Cleaning</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-eight">Lesson Eight: Creativity</Link>
+          <Link href="/3d-art/lesson-8">Lesson Eight: Creativity</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-nine">Lesson Nine: Copyright</Link>
+          <Link href="/3d-art/lesson-9">Lesson Nine: Copyright</Link>
         </li>
       </ol>
     </main>

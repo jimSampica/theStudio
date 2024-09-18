@@ -6,31 +6,31 @@ export default function Page() {
       <h2 className="my-3">Ceramics</h2>
       <ol>
         <li>
-          <Link href="/lesson-one">Lesson One: Great Expectations</Link>
+          <Link href="/lesson-1">Lesson One: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/lesson-two">Lesson Two: Using Your Sketchbook/The Studio</Link>
+          <Link href="/lesson-2">Lesson Two: Using Your Sketchbook/The Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-three">Lesson Three: Get In The Routine</Link>
+          <Link href="/lesson-3">Lesson Three: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-four?studio-time=ceramics">Lesson Four: Use of Class Time</Link>
+          <Link href="/lesson-4?studio-time=ceramics">Lesson Four: Use of Class Time</Link>
         </li>
         <li>
-          <Link href="/lesson-five">Lesson Five: Navigate the Studio</Link>
+          <Link href="/lesson-5">Lesson Five: Navigate the Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-six">Lesson Six: Safety in the Classroom</Link>
+          <Link href="/lesson-6">Lesson Six: Safety in the Classroom</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-seven">Lesson Seven: Cleaning Part 1</Link>
+          <Link href="/ceramics/lesson-7">Lesson Seven: Cleaning Part 1</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-eight">Lesson Eight: Cleaning Part 2</Link>
+          <Link href="/ceramics/lesson-8">Lesson Eight: Cleaning Part 2</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-nine">Lesson Nine: Creativity</Link>
+          <Link href="/ceramics/lesson-9">Lesson Nine: Creativity</Link>
         </li>
       </ol>
     </main>
