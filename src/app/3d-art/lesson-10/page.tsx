@@ -7,7 +7,7 @@ export default function Page() {
                 <div className="col-md-7">
                     <h2 className="mt-3 mb-2">Lesson Ten: Hot Glue</h2>
                     <h4 className="mt-3">Instructions</h4>
-                    <p>Please watch <a href="https://app.screencastify.com/v2/watch/nzJUrIrfDKLgHzovtDZM" target="_blank">Glue gun</a>
+                    <p>Please watch <a href="https://app.screencastify.com/v3/watch/nzJUrIrfDKLgHzovtDZM" target="_blank">Glue gun</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
                     <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
