@@ -36,7 +36,7 @@ export default function Page() {
           <Link href="/2d-art/lesson-10">Lesson Ten: Drawing Materials</Link>
         </li>
         <li>
-          <Link href="/2d-art/lesson-11">Lesson Eleven: Observational drawing 1</Link>
+          <Link href="/2d-art/lesson-11">Lesson: Observational drawing 1</Link>
         </li>
       </ol>
     </main>
