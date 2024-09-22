@@ -7,7 +7,7 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-          <h2 className="mt-3 mb-2">Lesson One: Great Expectations</h2>
+          <h2 className="mt-3 mb-2">Lesson: Great Expectations</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://app.screencastify.com/v3/watch/Tp4JHMVlAD0IDBcNq9SI" target="_blank">this video</a>
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

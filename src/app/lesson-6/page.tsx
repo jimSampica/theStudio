@@ -6,7 +6,7 @@ import { SafetyWorksheet } from "./safetyWorksheet/safetyWorksheet";
 export default function Page() {
   return (
     <main className="container">
-      <h2 className="mt-3 mb-2">Lesson Six: Safety in the Classroom</h2>
+      <h2 className="mt-3 mb-2">Lesson: Safety in the Classroom</h2>
       <h4 className="mt-3">Instructions</h4>
       <p>Please watch <a href="https://app.screencastify.com/v3/watch/S2HgFu094N7pxIpHnVU2" target="_blank">this video</a>
         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

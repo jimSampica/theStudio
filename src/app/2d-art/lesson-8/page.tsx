@@ -3,7 +3,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson Eight: Creativity</h2>
+                    <h2 className="mt-3 mb-2">Lesson: Creativity</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/pb7054tKiCOgKcHskYC1" target="_blank">Creativity</a>
                         &nbsp;and&nbsp;<a href="https://app.screencastify.com/v3/watch/fXqmYfjKokH7eoshYD0D" target="_blank">Creativity isn&apos;t...</a>
