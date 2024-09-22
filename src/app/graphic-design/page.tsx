@@ -33,7 +33,10 @@ export default function Page() {
           <Link href="/graphic-design/lesson-9">Lesson: Copyright</Link>
         </li>
         <li>
-          <Link href="/graphic-design/lesson-10">Lesson: What is Design?</Link>
+          <Link href="/graphic-design/lesson-10">Lesson: What is Design? (1)</Link>
+        </li>
+        <li>
+          <Link href="/graphic-design/lesson-11">Lesson: What is Design? (2)</Link>
         </li>
       </ol>
     </main>
