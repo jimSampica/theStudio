@@ -35,6 +35,9 @@ export default function Page() {
         <li>
           <Link href="/ceramics/lesson-10">Lesson: Wedging</Link>
         </li>
+        <li>
+          <Link href="/ceramics/lesson-11">Lesson: Slip/Score/Smooth</Link>
+        </li>
       </ol>
     </main>
   );
