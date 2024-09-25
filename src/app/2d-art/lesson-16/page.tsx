@@ -5,9 +5,9 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson: Painting Techniques 1</h2>
+                    <h2 className="mt-3 mb-2">Lesson: Painting Techniques 2</h2>
                     <h4 className="mt-3">Instructions</h4>
-                    <p>Please watch <a href="http://app.screencastify.com/v3/watch/H8RMzRIYWrhWcP54w554" target="_blank">Painting 1</a>
+                    <p>Please watch <a href="http://app.screencastify.com/v3/watch/H8RMzRIYWrhWcP54w554" target="_blank">Painting 2</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
                     <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
@@ -16,10 +16,10 @@ export default function Page() {
                             <Link href="/prompt-generator">random prompt generator</Link>
                         </li>
                         <li>
-                            What should you paint first in your composition (picture)?
+                            Generally is it best to do the shadows or highlights first? Is it ok to go out of order sometimes?
                         </li>
                         <li>
-                            What direction should our paint strokes go?
+                            When making shadows what colors are better than using black?
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
