@@ -51,6 +51,9 @@ export default function Page() {
         <li>
           <Link href="/2d-art/lesson-14">Lesson: Color mixing 2</Link>
         </li>
+        <li>
+          <Link href="/2d-art/lesson-15">Lesson: Painting 1</Link>
+        </li>
       </ol>
     </main>
   );
