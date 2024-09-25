@@ -16,10 +16,10 @@ export default function Page() {
                             <Link href="/prompt-generator">random prompt generator</Link>
                         </li>
                         <li>
-                            Why is it important to wait to glue your paper sculptures until the end?
+                            Why would you choose charcoal over graphite?
                         </li>
                         <li>
-                            How much do you have to change your artwork so it won&apos;t violate copyright?
+                            List some pros/cons of charcoal.
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
