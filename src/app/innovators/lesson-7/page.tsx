@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="container">
-      <h2 className="mt-3 mb-2">Lesson: TinkerCAD</h2>
+      <h2 className="mt-3 mb-2">Lesson 7: TinkerCAD</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://www.youtube.com/watch?v=gOs6Mdj7y_4" target="_blank">TinkerCAD</a>
             &nbsp;in its entirety.</p>

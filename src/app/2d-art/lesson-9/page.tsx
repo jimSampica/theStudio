@@ -5,7 +5,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson: Copyright</h2>
+                    <h2 className="mt-3 mb-2">Lesson 9: Copyright</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/ZfBDnrfPotsUfTKgra5A" target="_blank">Copyright Infringement</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

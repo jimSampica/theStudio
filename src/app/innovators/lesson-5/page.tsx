@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <main className="container">
-      <h2 className="mt-3 mb-2">Lesson: Navigate the Studio</h2>
+      <h2 className="mt-3 mb-2">Lesson 5: Navigate the Studio</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://app.screencastify.com/v3/watch/EpSt3IPnRpG8Uys6jPyG" target="_blank">this video</a>
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

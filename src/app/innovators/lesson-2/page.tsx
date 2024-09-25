@@ -7,7 +7,7 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-          <h2 className="mt-3 mb-2">Lesson: What is &quot;Innovators&quot;?</h2>
+          <h2 className="mt-3 mb-2">Lesson 2: What is &quot;Innovators&quot;?</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://app.screencastify.com/v3/watch/d86KOhnsD2QISM7Yd2xC" target="_blank">this video</a>
             &nbsp;in its entirety and complete the activity and answer the questions on the project worksheet.</p>
