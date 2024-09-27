@@ -4,6 +4,7 @@ import styles from "./selectedAnswer.module.css";
 import Image from "next/image";
 import CirclePic from "/public/static/images/safety_circle.png";
 import { Answer } from "./answer";
+import { PixelValue } from "@/app/components/PixelValue";
 
 interface AnswerProps {
   answer: Answer,
@@ -90,7 +91,6 @@ function AnswerInternal(answer: Answer, answerClickedCallback: (answer: Answer) 
 }
 
 type AnswerStyle = { width: PixelValue, height: PixelValue, top: PixelValue, left: PixelValue }
-type PixelValue = `${number}px`
 
 export function CircledAnswer({ answer, answerClicked }: AnswerProps) {
   return AnswerInternal(answer, answerClicked, false);
