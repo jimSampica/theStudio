@@ -9,11 +9,9 @@ import { Tool, ToolHitbox } from "./toolHitbox";
 export function CeramicTools() {
 
   let tools: Tool[] = [
-    { id: "test", hitbox: {width: "200px", height: "200px", top: "0px", left: "0px" }}];
-
-  function toolClicked() {
-    alert('test');
-  }
+    { id: "rollingPin", hitbox: {width: "200px", height: "100px", top: "0px", left: "0px" }},
+    { id: "needle", hitbox: {width: "200px", height: "200px", top: "0px", left: "0px" }}
+  ];
 
   return (
     <div className={styles["tool-area"]}>
