@@ -1,7 +1,7 @@
 import { Hitbox } from "./hitbox";
 import styles from "./toolHitbox.module.css";
 
-export type Tool = { id: String, hitbox: Hitbox }
+export type Tool = { id: string, hitbox: Hitbox }
 
 interface ToolProps {
     tool: Tool

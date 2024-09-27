@@ -18,7 +18,7 @@ export function CeramicTools() {
   return (
     <div className={styles["tool-area"]}>
       {
-        tools.map(tool => <ToolHitbox tool={tool} />)
+        tools.map(tool => <ToolHitbox key={tool.id} tool={tool} />)
       }
 
       <Image src={ToolsImg} alt="" />
