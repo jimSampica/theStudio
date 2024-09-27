@@ -1,7 +1,7 @@
 import { Hitbox } from "./hitbox";
 import styles from "./toolHitbox.module.css";
 
-export type Tool = { id: string, hitbox: Hitbox }
+export type Tool = { id: string, description: string, toolTip: string, hitbox: Hitbox }
 
 interface ToolProps {
     tool: Tool
@@ -10,7 +10,7 @@ interface ToolProps {
 export function ToolHitbox({ tool }: ToolProps) {
 
     function toolClicked() {
-        alert('test');
+        alert(tool.id);
     }
 
     return (
