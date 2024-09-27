@@ -8,7 +8,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson: What is Design? (3)</h2>
+                    <h2 className="mt-3 mb-2">Lesson: Careers in Design</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please read about <a href="https://dribbble.com/resources/career/types-of-graphic-design" target="_blank">some common careers in graphic design</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

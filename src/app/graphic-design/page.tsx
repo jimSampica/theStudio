@@ -37,13 +37,13 @@ export default function Page() {
       <h3 className="h5">Skillbuilders</h3>
       <ol start={10}>
         <li>
-          <Link href="/graphic-design/lesson-10">Lesson: What is Design? (1)</Link>
+          <Link href="/graphic-design/lesson-10">Lesson: What is Design?</Link>
         </li>
         <li>
-          <Link href="/graphic-design/lesson-11">Lesson: What is Design? (2)</Link>
+          <Link href="/graphic-design/lesson-11">Lesson: Principles of Design</Link>
         </li>
         <li>
-          <Link href="/graphic-design/lesson-12">Lesson: What is Design? (3)</Link>
+          <Link href="/graphic-design/lesson-12">Lesson: Careers in Design</Link>
         </li>
       </ol>
     </main>

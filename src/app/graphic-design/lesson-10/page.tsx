@@ -3,7 +3,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson: What is Design? (1)</h2>
+                    <h2 className="mt-3 mb-2">Lesson: What is Design?</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://www.youtube.com/watch?v=YqQx75OPRa0" target="_blank">Beginning Graphic Design</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>

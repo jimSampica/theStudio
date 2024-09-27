@@ -8,7 +8,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson: What is Design? (2)</h2>
+                    <h2 className="mt-3 mb-2">Lesson: Principles of Design</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://www.youtube.com/watch?v=JAQbxZAAS6k" target="_blank">Principles of Design (CRAP)</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
