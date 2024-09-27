@@ -2,12 +2,3 @@
     position: relative;
     width: 467px;
 }
-
-.tool {
-    position: absolute;
-}
-
-.tool-img {
-    width: inherit;
-    height: inherit;
-}

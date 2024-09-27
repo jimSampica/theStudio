@@ -3,10 +3,8 @@
 import styles from "./ceramicTools.module.css";
 import Image from "next/image";
 import ToolsImg from "/public/static/images/ceramic_tools.png";
-import { PixelValue } from "@/app/components/PixelValue";
+import { Tool, ToolHitbox } from "./toolHitbox";
 
-type Tool = { id: String, hitbox: Hitbox }
-type Hitbox = { width: PixelValue, height: PixelValue, top: PixelValue, left: PixelValue }
 
 export function CeramicTools() {
 
@@ -20,7 +18,7 @@ export function CeramicTools() {
   return (
     <div className={styles["tool-area"]}>
       {
-        tools.map(tool => <div className="tool" style={tool.hitbox} onClick={toolClicked}></div>)
+        tools.map(tool => <ToolHitbox tool={tool} />)
       }
 
       <Image src={ToolsImg} alt="" />
