@@ -1,4 +1,5 @@
 import Link from "next/link"
+import { CeramicTools } from "./ceramicTools/ceramicTools"
 
 export default function Page() {
     return (
@@ -23,6 +24,7 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>Continue first hand-built project.</p>
+                    <CeramicTools />
                 </div>
             </div>
         </main>
