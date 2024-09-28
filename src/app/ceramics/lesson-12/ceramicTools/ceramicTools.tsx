@@ -20,9 +20,19 @@ export function CeramicTools() {
       hitbox: { width: "130px", height: "35px", top: "105px", left: "65px" }
     },
     {
+      id: "loop", description: "Loop/Ribbon Tools",
+      toolTip: "These are used to carve or hollow out sculptures. They are also commonly used with pottery at the trimming stage.",
+      hitbox: { width: "135px", height: "125px", top: "240px", left: "50px" }
+    },
+    {
+      id: "bucket", description: "Plastic Bucket",
+      toolTip: "Is used to keep hands and sponges wet when working on the potter's wheel.",
+      hitbox: { width: "108px", height: "125px", top: "40px", left: "360px" }
+    },
+    {
       id: "model", description: "Modeling Tool",
       toolTip: "These tools can smooth out transitions and blend after slipping and scoring. Can also be used to create texture.",
-      hitbox: { width: "135px", height: "125px", top: "240px", left: "50px" }
+      hitbox: { width: "85px", height: "50px", top: "168px", left: "108px" }
     }
   ];
 
