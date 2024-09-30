@@ -51,6 +51,9 @@ export default function Page() {
         <li>
           <Link href="/3d-art/lesson-14">Lesson: Paper Mache 2</Link>
         </li>
+        <li>
+          <Link href="/3d-art/lesson-15">Lesson: Jewelry</Link>
+        </li>
       </ol>
     </main>
   );
