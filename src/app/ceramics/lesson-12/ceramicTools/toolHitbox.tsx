@@ -4,16 +4,26 @@ import styles from "./toolHitbox.module.css";
 export type Tool = { id: string, description: string, toolTip: string, hitbox: Hitbox }
 
 interface ToolProps {
-    tool: Tool
+    tool: Tool,
+    toolClickedCallback: (answer: Tool) => void
 }
 
-export function ToolHitbox({ tool }: ToolProps) {
+function ToolHitbox(tool : Tool, toolClickedCallback :  (answer: Tool) => void, isSelected: boolean) {
 
+    var shownClass = isSelected ? styles.shown : "";
     function toolClicked() {
-        alert(tool.id);
+        toolClickedCallback(tool);
     }
 
     return (
-        <div className={styles.tool} style={tool.hitbox} onClick={toolClicked}></div>
+        <div className={styles.tool + " " + shownClass} style={tool.hitbox} onClick={toolClicked}></div>
     );
+}
+
+export function ShownTool({ tool, toolClickedCallback }: ToolProps){
+    return ToolHitbox(tool, toolClickedCallback, true);
+}
+
+export function HiddenTool({ tool, toolClickedCallback }: ToolProps){
+    return ToolHitbox(tool, toolClickedCallback, false);
 }
