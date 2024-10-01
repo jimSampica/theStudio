@@ -46,6 +46,24 @@ export default function Page() {
           <Link href="/graphic-design/lesson-12">Lesson: Careers in Design</Link>
         </li>
       </ol>
+      <h3 className="h5">Project: Making a wooden puzzle</h3>
+      <p>
+        The project will help you practice the duties of a graphic illustrator. Graphic Illustrators make digital drawings and designs that are used in products like puzzles, posters, illustrated books and comics, stickers and much more.
+      </p>
+      <p>
+        Using the following tutorials and references we will learn how to build an .svg and use a glowforge (laser engraver and cutter).
+      </p>
+      <ol start={13}>
+        <li>
+          <Link href="/graphic-design/lesson-13">Lesson: Puzzle part 1</Link>
+        </li>
+        <li>
+          <Link href="/graphic-design/lesson-14">Lesson: Puzzle part 2</Link>
+        </li>
+        <li>
+          <Link href="/graphic-design/lesson-15">Lesson: Puzzle part 3</Link>
+        </li>
+      </ol>
     </main>
   );
 }
