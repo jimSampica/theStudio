@@ -33,13 +33,13 @@ export function CeramicTools() {
       hitbox: { width: "108px", height: "125px", top: "40px", left: "370px" }
     },
     {
-      id: "model1", description: "Modeling Tool",
-      toolTip: "These tools can smooth out transitions and blend after slipping and scoring. Can also be used to create texture.",
+      id: "rib1", description: "Rib Tool",
+      toolTip: "These work well for smoothing or scraping the source of our clay.",
       hitbox: { width: "85px", height: "50px", top: "168px", left: "120px" }
     },
     {
-      id: "model2", description: "Modeling Tool",
-      toolTip: "These tools can smooth out transitions and blend after slipping and scoring. Can also be used to create texture.",
+      id: "rib2", description: "Rib Tool",
+      toolTip: "These work well for smoothing or scraping the source of our clay.",
       hitbox: { width: "100px", height: "55px", top: "150px", left: "260px" }
     },
     {
@@ -53,10 +53,10 @@ export function CeramicTools() {
       hitbox: { width: "125px", height: "125px", top: "240px", left: "322px" }
     },
     {
-      id: "rib", description: "Rib Tools",
-      toolTip: "These work well for smoothing or scraping the source of our clay.",
+      id: "model", description: "Modeling Tools",
+      toolTip: "These tools can smooth out transitions and blend after slipping and scoring. Can also be used to create texture.",
       hitbox: { width: "265px", height: "95px", top: "410px", left: "82px" }
-    }
+    },
   ];
 
   function toolClicked(tool: Tool) {
