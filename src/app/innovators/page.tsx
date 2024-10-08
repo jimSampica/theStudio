@@ -30,6 +30,9 @@ export default function Page() {
       </ol>
       <h3 className="h5">Skillbuilders</h3>
       <ol start={10}>
+        <li>
+          <Link href="/innovators/lesson-8">Lesson: Simple Machines</Link>
+        </li>
       </ol>
     </main>
   );
