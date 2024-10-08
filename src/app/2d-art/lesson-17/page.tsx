@@ -19,7 +19,7 @@ export default function Page() {
                             What direction does the weft go?
                         </li>
                         <li>
-                            Describe what "draw-in" is.
+                            Describe what &quot;draw-in&quot; is.
                         </li>
                     </ul>
                 </div>
