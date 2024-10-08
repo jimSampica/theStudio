@@ -51,6 +51,9 @@ export default function Page() {
         <li>
           <Link href="/ceramics/lesson-14">Lesson: Moisture Management</Link>
         </li>
+        <li>
+          <Link href="/ceramics/lesson-15">Lesson: Trimming/Finishing</Link>
+        </li>
       </ol>
     </main>
   );
