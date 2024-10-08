@@ -5,7 +5,7 @@ export default function Page() {
     <main className="container">
       <h2 className="my-3">Ceramics</h2>
       <h3 className="h5">Procedures and Expectations</h3>
-      <ol>
+      <ol className="list-style-none">
         <li>
           <Link href="/lesson-1">Lesson 1: Great Expectations</Link>
         </li>
@@ -35,7 +35,7 @@ export default function Page() {
         </li>
       </ol>
       <h3 className="h5">Skillbuilders</h3>
-      <ol start={10}>
+      <ol className="list-style-none">
         <li>
           <Link href="/ceramics/lesson-10">Lesson: Wedging</Link>
         </li>
