@@ -25,8 +25,6 @@ export default function Page() {
                             What stitch is best for decorative edges?
                         </li>
                     </ul>
-                    <h4 className="mt-3">Studio time</h4>
-                    <p>work on WOW projects. <br />Materials: open centers</p>
                 </div>
                 <div className="col-md-5">
                     <Image src={StitchedCatImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
