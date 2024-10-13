@@ -45,6 +45,9 @@ export default function Page() {
         <li>
           <Link href="/graphic-design/lesson-12">Lesson: Careers in Design</Link>
         </li>
+        <li>
+          <Link href="/graphic-design/lesson-16">Lesson: Typography</Link>
+        </li>
       </ol>
       <h3 className="h5">Project: Making a wooden puzzle</h3>
       <p>
@@ -62,9 +65,6 @@ export default function Page() {
         </li>
         <li>
           <Link href="/graphic-design/lesson-15">Lesson: Puzzle part 3</Link>
-        </li>
-        <li>
-          <Link href="/graphic-design/lesson-16">Lesson: Typography</Link>
         </li>
       </ol>
     </main>
