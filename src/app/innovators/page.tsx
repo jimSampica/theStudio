@@ -31,7 +31,10 @@ export default function Page() {
       <h3 className="h5">Projects</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/innovators/lesson-8">Lesson: Simple Machines</Link>
+          <Link href="/innovators/lesson-8">Lesson: Simple Machines part 1</Link>
+        </li>        
+        <li>
+          <Link href="/innovators/lesson-9">Lesson: Simple Machines part 2</Link>
         </li>
       </ol>
     </main>
