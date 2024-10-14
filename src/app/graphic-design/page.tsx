@@ -48,6 +48,9 @@ export default function Page() {
         <li>
           <Link href="/graphic-design/lesson-16">Lesson: Typography</Link>
         </li>
+        <li>
+          <Link href="/graphic-design/lesson-17">Lesson: Raster vs Vector</Link>
+        </li>
       </ol>
       <h3 className="h5">Project: Making a wooden puzzle</h3>
       <p>
