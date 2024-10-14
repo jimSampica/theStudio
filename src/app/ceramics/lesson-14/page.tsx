@@ -16,10 +16,10 @@ export default function Page() {
                             <Link href="/prompt-generator">random prompt generator</Link>
                         </li>
                         <li>
-                            What is the water to glue ratio for paper mache glue?
+                            What is one step that you need to do to keep your clay moistened over the weekend?
                         </li>
                         <li>
-                            What should you do if your scissors are not sharp enough?
+                            What is one more step that you need to do to keep your clay moistened over the weekend?
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
