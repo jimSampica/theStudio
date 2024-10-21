@@ -25,6 +25,7 @@ jobs:
     - name: Deploy infra
       uses: azure/CLI@v2
       with:
+        azcliversion: 2.63.0
         inlineScript: |
           az stack group create \
             --action-on-unmanage deleteAll \
