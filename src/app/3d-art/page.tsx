@@ -60,6 +60,9 @@ export default function Page() {
         <li>
           <Link href="/3d-art/lesson-17">Lesson: Crochet</Link>
         </li>
+        <li>
+          <Link href="/3d-art/lesson-18">Lesson: WOW Project</Link>
+        </li>
       </ol>
     </main>
   );
