@@ -70,6 +70,12 @@ export default function Page() {
           <Link href="/graphic-design/lesson-15">Lesson: Puzzle part 3</Link>
         </li>
       </ol>
+      <h3 className="h5">Project: Package Design</h3>
+      <ol className="list-style-none">
+        <li>
+          <Link href="/graphic-design/lesson-18">Lesson: Drawing our logo</Link>
+        </li>
+      </ol>
     </main>
   );
 }
