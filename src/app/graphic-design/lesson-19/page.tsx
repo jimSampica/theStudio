@@ -21,6 +21,10 @@ export default function Page() {
                         <li>
                             Why do the flaps on our lid design contain assets (pictures/text) going outward instead of right side up?
                         </li>
+                        <li>
+                            Here's the <Link href="https://docs.google.com/drawings/d/1waAkCk9fu6NqLwB7KKeYEDurd2jT4CiXHdoVUr4F_Rs/copy" target="_blank">link to the template</Link>. 
+                            Be sure to save to your graphic design folder.
+                        </li>
                     </ul>
                 </div>
             </div>
