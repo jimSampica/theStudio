@@ -61,10 +61,13 @@ export default function Page() {
           <Link href="/3d-art/lesson-17">Lesson: Crochet</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-18">Lesson: WOW Project</Link>
-        </li>
-        <li>
           <Link href="/3d-art/lesson-19">Lesson: Interactive Art</Link>
+        </li>
+      </ol>
+      <h3 className="h5">Projects</h3>
+      <ol className="list-style-none">
+        <li>
+          <Link href="/3d-art/lesson-18">Lesson: WOW Project</Link>
         </li>
       </ol>
     </main>
