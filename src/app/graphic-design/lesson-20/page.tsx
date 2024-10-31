@@ -10,7 +10,7 @@ export default function Page() {
                     <h4 className="mt-3">Sketchbook</h4>
                     <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
                         <li>
-                            Design a  homepage for a website.
+                            Design a homepage for a website.
                         </li>
                         <li>
                             What lines do we cut on?
