@@ -27,17 +27,17 @@ export default function Page() {
         <li>
           <Link href="/innovators/lesson-7">Lesson 7: TinkerCAD</Link>
         </li>
-        <li>
-          <Link href="/innovators/lesson-10">Lesson: Automata</Link>
-        </li>
       </ol>
       <h3 className="h5">Projects</h3>
       <ol className="list-style-none">
         <li>
           <Link href="/innovators/lesson-8">Lesson: Simple Machines part 1</Link>
-        </li>        
+        </li>
         <li>
           <Link href="/innovators/lesson-9">Lesson: Simple Machines part 2</Link>
+        </li>
+        <li>
+          <Link href="/innovators/lesson-10">Lesson: Automata</Link>
         </li>
       </ol>
     </main>
