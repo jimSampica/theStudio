@@ -74,9 +74,12 @@ export default function Page() {
       <ol className="list-style-none">
         <li>
           <Link href="/graphic-design/lesson-18">Lesson: Drawing our logo</Link>
-        </li>        
+        </li>  
         <li>
           <Link href="/graphic-design/lesson-19">Lesson: Package Design Lid</Link>
+        </li>        
+        <li>
+          <Link href="/graphic-design/lesson-20">Lesson: Package Assembly</Link>
         </li>
       </ol>
     </main>
