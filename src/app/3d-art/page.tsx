@@ -67,10 +67,13 @@ export default function Page() {
           <Link href="/3d-art/lesson-20">Lesson: Quilling</Link>
         </li>
         <li>
-          <Link href="/2d-art/lesson-21">Lesson: Installation Art</Link>
+          <Link href="/3d-art/lesson-21">Lesson: Installation Art</Link>
         </li>
         <li>
-          <Link href="/2d-art/lesson-22">Lesson: Community Art</Link>
+          <Link href="/3d-art/lesson-22">Lesson: Community Art</Link>
+        </li>
+        <li>
+          <Link href="/3d-art/lesson-23">Lesson: Found Objects</Link>
         </li>
       </ol>
       <h3 className="h5">Finishing</h3>
