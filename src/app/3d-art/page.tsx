@@ -66,6 +66,9 @@ export default function Page() {
         <li>
           <Link href="/3d-art/lesson-20">Lesson: Quilling</Link>
         </li>
+        <li>
+          <Link href="/2d-art/lesson-21">Lesson: Installation Art</Link>
+        </li>
       </ol>
       <h3 className="h5">Finishing</h3>
       <ol className="list-style-none">
