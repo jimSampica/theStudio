@@ -7,7 +7,7 @@ export default function Page() {
                 <div className="col-md-7">
                     <h2 className="mt-3 mb-2">Lesson: Brochure 2</h2>
                     <h4 className="mt-3">Instructions</h4>
-                    <p>Please watch <a href="https://app.screencastify.com/v3/watch/oDyhe9mjb5fXjMoPvsF8" target="_blank">Brochure 2</a>
+                    <p>Please watch <a href="https://app.screencastify.com/v3/watch/FSXzc55bkaWDsErz9V8a" target="_blank">Brochure 2</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
                     <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
