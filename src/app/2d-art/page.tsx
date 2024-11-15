@@ -70,7 +70,7 @@ export default function Page() {
           <Link href="/2d-art/lesson-21">Lesson: Gelli Printing</Link>
         </li>
         <li>
-          <Link href="/2d-art/lesson-21">Lesson: Grid Drawing</Link>
+          <Link href="/2d-art/lesson-22">Lesson: Grid Drawing</Link>
         </li>
       </ol>
       <h3 className="h5">Finishing</h3>
