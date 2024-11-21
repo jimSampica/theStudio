@@ -78,6 +78,9 @@ export default function Page() {
         <li>
           <Link href="/2d-art/lesson-18">Lesson: WOW Project</Link>
         </li>
+        <li>
+          <Link href="/2d-art/lesson-23">Lesson: Artist Statement</Link>
+        </li>
       </ol>
     </main>
   );

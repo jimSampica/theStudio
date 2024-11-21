@@ -75,6 +75,9 @@ export default function Page() {
         <li>
           <Link href="/ceramics/lesson-17">Lesson: WOW Project</Link>
         </li>
+        <li>
+          <Link href="/ceramics/lesson-22">Lesson: Artist Statement</Link>
+        </li>
       </ol>
     </main>
   );
