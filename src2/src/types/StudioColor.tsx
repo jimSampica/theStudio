@@ -1,0 +1,1 @@
+export type StudioColor = "blue" | "pink" | "orange" | "yellow" | "purple";

@@ -1,0 +1,47 @@
+.btn-splash {
+    border-radius: 10em;
+    width: 10em;
+    height: 10em;
+
+    font-size: 1.25em;
+
+    --bs-btn-color: var(--studio-navy);
+    --bs-btn-border-color: var(--studio-navy);
+    --bs-btn-hover-color: var(--studio-navy);
+    --bs-btn-hover-border-color: var(--studio-navy);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: var(--studio-navy);
+    --bs-btn-active-border-color: var(--studio-navy);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+
+
+    &.splash-blue {
+        --bs-btn-bg: var(--studio-blue);
+        --bs-btn-hover-bg: #6ddcff;
+        --bs-btn-active-bg: var(--studio-blue);
+    }
+
+    &.splash-pink {
+        --bs-btn-bg: var(--studio-pink);
+        --bs-btn-hover-bg: #ff59ec;
+        --bs-btn-active-bg: var(--studio-pink);
+    }
+
+    &.splash-orange {
+        --bs-btn-bg: var(--studio-orange);
+        --bs-btn-hover-bg: #ff9456;
+        --bs-btn-active-bg: var(--studio-orange);
+    }
+
+    &.splash-yellow {
+        --bs-btn-bg: var(--studio-yellow);
+        --bs-btn-hover-bg: #dcf900;
+        --bs-btn-active-bg: var(--studio-yellow);
+    }
+
+    &.splash-purple {
+        --bs-btn-bg: var(--studio-purple);
+        --bs-btn-hover-bg: #b492ff;
+        --bs-btn-active-bg: var(--studio-purple);
+    }
+}
