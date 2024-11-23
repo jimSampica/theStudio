@@ -1,5 +1,5 @@
 import styles from "./splashButton.module.css";
-import { StudioColor } from "@/app/types/StudioColor";
+import type { StudioColor } from "../../types/StudioColor";
 import { Url } from "@/app/types/Url"
 import Link from "next/link";
 

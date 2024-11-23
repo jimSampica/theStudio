@@ -1,5 +1,5 @@
 import styles from "./pillar.module.css";
-import { StudioColor } from "@/app/types/StudioColor";
+import type { StudioColor } from "../../types/StudioColor";
 
 interface PillarProps {
     children: React.ReactNode
