@@ -14,7 +14,7 @@ export default function Page() {
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.
                     </p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Draw and label what blanket, back stitch and running stitch should look like.
                         </li>

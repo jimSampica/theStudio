@@ -8,7 +8,7 @@ export default function Page() {
                     <p>Please watch <a href="https://www.youtube.com/watch?v=YqQx75OPRa0" target="_blank">Beginning Graphic Design</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Design a logo for a shoe company.
                         </li>

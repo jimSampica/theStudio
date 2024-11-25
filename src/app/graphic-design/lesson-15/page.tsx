@@ -10,7 +10,7 @@ export default function Page() {
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/OX7ucCXftQbKoq3K1pji" target="_blank">Puzzel part 3</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Please use the&nbsp;
                             <Link href="/prompt-generator">random prompt generator</Link>

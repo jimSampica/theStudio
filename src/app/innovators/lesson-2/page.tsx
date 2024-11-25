@@ -13,7 +13,7 @@ export default function Page() {
             &nbsp;in its entirety and complete the activity and answer the questions on the project worksheet.</p>
 
           <h4 className="mt-3">Activity </h4>
-          <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+          <ul className="list-style-alpha">
             <li>
               <Link target="_blank" href="https://www.youtube.com/watch?v=6fLh8eswOn0">Airplane drag video</Link>
             </li>

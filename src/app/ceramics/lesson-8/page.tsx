@@ -8,7 +8,7 @@ export default function Page() {
                     <p>Please watch <a href="https://watch.screencastify.com/v/mzaGk22vcLJdBGGhhWVJ" target="_blank">Cleaning ceramics 2</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Create a drawing out of three circles
                         </li>

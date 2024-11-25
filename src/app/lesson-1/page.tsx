@@ -12,7 +12,7 @@ export default function Page() {
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
 
           <h4 className="mt-3">Sketchbook (b and c are on the back of page 1)</h4>
-          <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+          <ul className="list-style-alpha">
             <li>
               In the box please follow the drawing template.
             </li>

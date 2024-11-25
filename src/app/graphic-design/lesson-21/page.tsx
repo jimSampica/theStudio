@@ -32,7 +32,7 @@ export default function Page() {
                         </a>
                     </p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Create a mockup of a brochure here.
                         </li>

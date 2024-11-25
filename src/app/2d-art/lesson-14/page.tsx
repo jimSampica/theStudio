@@ -8,7 +8,7 @@ export default function Page() {
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/Cz9kDfDvUd50P2EFNT1v" target="_blank">Color Mixing 2</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Try to make a color to the palette sample from Mrs. Sam and attach to your sketchbook on the “a” section.
                         </li>

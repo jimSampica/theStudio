@@ -12,7 +12,7 @@ export default function Page() {
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
           <h4 className="mt-3">Sketchbook </h4>
-          <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+          <ul className="list-style-alpha">
             <li>
               Please use the&nbsp;
               <Link href="/prompt-generator">random prompt generator</Link>

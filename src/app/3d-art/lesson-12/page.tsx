@@ -14,7 +14,7 @@ export default function Page() {
                         <a href="https://www.youtube.com/watch?v=8SG6e7blVS8&t=33s" target="_blank">Lucky Paper Stars</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Please use the&nbsp;
                             <Link href="/prompt-generator">random prompt generator</Link>

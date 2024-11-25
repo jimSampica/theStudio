@@ -8,7 +8,7 @@ export default function Page() {
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/QWgdTR5Ql9wSLsKCbJlR" target="_blank">Color Mixing 1</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Practice drawing a sphere with highlights, midtones and shadows.
                         </li>

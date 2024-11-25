@@ -17,7 +17,7 @@ export default function Page() {
         </li>
       </ul>
       <h4 className="mt-3">Sketchbook</h4>
-      <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+      <ul className="list-style-alpha">
         <li>
           <Link target="_blank" href="/prompt-generator">Prompt generator</Link>
         </li>

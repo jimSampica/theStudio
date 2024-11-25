@@ -8,7 +8,7 @@ export default function Page() {
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/Gv4DcqrkZsb1J35SJE0t" target="_blank">Quilling</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Draw me a picture of your current mood.
                         </li>

@@ -13,7 +13,7 @@ export default function Page() {
                     <p>Please read about <a href="https://dribbble.com/resources/career/types-of-graphic-design" target="_blank">some common careers in graphic design</a>
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Design a logo for a shoe company.
                         </li>

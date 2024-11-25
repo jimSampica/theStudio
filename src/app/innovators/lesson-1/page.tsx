@@ -13,7 +13,7 @@ export default function Page() {
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
 
           <h4 className="mt-3">Activity</h4>
-          <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+          <ul className="list-style-alpha">
             <li>
               <Link target="_blank" href="https://docs.google.com/presentation/d/1P5xU32IHnMYgtuNrUzUFq3Hi0HZt7JaFXAuIpyypIVk/edit?usp=sharing">Teamwork</Link>
             </li>

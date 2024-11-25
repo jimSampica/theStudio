@@ -53,3 +53,7 @@ main {
 .list-style-none {
     list-style: none;
 }
+
+.list-style-alpha {
+    list-style: lower-alpha;
+}

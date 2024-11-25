@@ -10,7 +10,7 @@ export default function Page() {
                     <h4 className="mt-3">Instructions</h4>
                     <p>Scroll over picture to get to know more about each ceramic tool:</p>
                     <h4 className="mt-3">Sketchbook</h4>
-                    <ul style={{ ["listStyleType" as string]: "lower-alpha" }}>
+                    <ul className="list-style-alpha">
                         <li>
                             Please use the&nbsp;
                             <Link href="/prompt-generator">random prompt generator</Link>
