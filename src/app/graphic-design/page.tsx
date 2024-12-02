@@ -94,6 +94,12 @@ export default function Page() {
           <Link href="/graphic-design/lesson-23">Lesson: Brochure 2</Link>
         </li>
       </ol>
+      <h3 className="h5">Project: Mini Zine</h3>
+      <ol className="list-style-none">
+        <li>
+          <Link href="/graphic-design/lesson-24">Lesson: Mini Zine</Link>
+        </li>
+      </ol>
     </main>
   );
 }
