@@ -3,8 +3,8 @@
 import styles from "./selectedAnswer.module.css";
 import Image from "next/image";
 import CirclePic from "/public/static/images/safety_circle.png";
-import { Answer } from "./answer";
-import { PixelValue } from "@/app/components/PixelValue";
+import type { Answer } from "./answer";
+import type { PixelValue } from "@/app/components/PixelValue";
 
 interface AnswerProps {
   answer: Answer,

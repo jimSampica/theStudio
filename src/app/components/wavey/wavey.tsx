@@ -1,5 +1,5 @@
 import styles from "./wavey.module.css";
-import { CSSProperties } from "react";
+import type { CSSProperties } from "react";
 
 interface WaveyProps {
     children: React.ReactNode,

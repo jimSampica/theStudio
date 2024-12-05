@@ -1,6 +1,6 @@
 import styles from "./splashButton.module.css";
-import { StudioColor } from "@/app/types/StudioColor";
-import { Url } from "@/app/types/Url"
+import type { StudioColor } from "@/app/types/StudioColor";
+import type { Url } from "@/app/types/Url"
 import Link from "next/link";
 
 interface SplashButtonProps {

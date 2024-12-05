@@ -3,7 +3,8 @@
 import styles from "./ceramicTools.module.css";
 import Image from "next/image";
 import ToolsImg from "/public/static/images/ceramic_tools.png";
-import { Tool, HiddenTool, ShownTool } from "./toolHitbox";
+import type { Tool } from "./toolHitbox";
+import { HiddenTool, ShownTool } from "./toolHitbox";
 import { useState } from "react";
 
 

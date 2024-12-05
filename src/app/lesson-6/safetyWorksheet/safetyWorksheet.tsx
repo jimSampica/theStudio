@@ -4,7 +4,8 @@ import styles from "./safetyWorksheet.module.css";
 import Image from "next/image";
 import SafetyWorksheetPic from "/public/static/images/safety_quiz.png";
 import { useState } from "react";
-import { Answer, AllAnswers } from "./answer";
+import type { Answer } from "./answer";
+import { AllAnswers } from "./answer";
 import { HiddenAnswer, CircledAnswer } from "./selectedAnswer";
 
 export function SafetyWorksheet() {
