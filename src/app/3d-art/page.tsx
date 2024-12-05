@@ -84,6 +84,9 @@ export default function Page() {
         <li>
           <Link href="/3d-art/lesson-24">Lesson: Artist Statement</Link>
         </li>
+        <li> 
+          <Link href="/3d-art/lesson-25">Lesson: Art Portfolio Creation</Link>
+        </li>
       </ol>
     </main>
   );
