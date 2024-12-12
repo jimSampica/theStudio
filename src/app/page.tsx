@@ -1,10 +1,12 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import slide1Pic from "/public/static/images/1.jpg";
-import slide2Pic from "/public/static/images/2.jpg";
-import slide3Pic from "/public/static/images/3.jpg";
-import slide4Pic from "/public/static/images/4.jpg";
-import slide5Pic from "/public/static/images/5.jpg";
+import slide1Pic from "/public/static/images/featured/1.jpeg";
+import slide2Pic from "/public/static/images/featured/2.jpeg";
+import slide3Pic from "/public/static/images/featured/3.jpeg";
+import slide4Pic from "/public/static/images/featured/4.jpeg";
+import slide5Pic from "/public/static/images/featured/5.jpeg";
+import slide6Pic from "/public/static/images/featured/6.jpeg";
+import slide7Pic from "/public/static/images/featured/7.jpeg";
 import { Wavey, WaveyMirror } from "./components/wavey/wavey";
 import { BluePillar, PinkPillar, OrangePillar, YellowPillar, PurplePillar } from "./components/pillar/pillar";
 import { BlueSplashButton, PinkSplashButton, OrangeSplashButton, YellowSplashButton, PurpleSplashButton } from "./components/splashButton/splashButton";
@@ -83,36 +85,50 @@ export default function Page() {
               <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
               <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
               <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
             </div>
             <div className="carousel-inner text-center">
               <div className="carousel-item active">
-                <Image src={slide1Pic} alt="..." width={600} />
+                <Image src={slide1Pic} alt="..." width={600} />                
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>MJ Tenney</h5>
+                  <h5></h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <Image src={slide2Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Lydia Stamp</h5>
+                  <h5></h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <Image src={slide3Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Kenzi Wallroff</h5>
+                  <h5></h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <Image src={slide4Pic} alt="..." width={600} />
-                <div className="carousel-caption d-none d-md-block text-primary">
-                  <h5>Brooklyn Richmann</h5>
+                <div className="carousel-caption d-none d-md-block">
+                  <h5></h5>
                 </div>
               </div>
               <div className="carousel-item">
                 <Image src={slide5Pic} alt="..." width={600} />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>McKenna Ricklefs</h5>
+                  <h5></h5>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <Image src={slide6Pic} alt="..." width={600} />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                </div>
+              </div>
+              <div className="carousel-item">
+                <Image src={slide7Pic} alt="..." width={600} />
+                <div className="carousel-caption d-none d-md-block">
+                  <h5></h5>
                 </div>
               </div>
             </div>
