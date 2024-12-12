@@ -1,11 +1,11 @@
 import Image from "next/image";
-import slide1Pic from "/public/static/images/featured/1.jpeg";
-import slide2Pic from "/public/static/images/featured/2.jpeg";
-import slide3Pic from "/public/static/images/featured/3.jpeg";
-import slide4Pic from "/public/static/images/featured/4.jpeg";
-import slide5Pic from "/public/static/images/featured/5.jpeg";
-import slide6Pic from "/public/static/images/featured/6.jpeg";
-import slide7Pic from "/public/static/images/featured/7.jpeg";
+import slide1Pic from "/public/static/images/carousel/1.jpeg";
+import slide2Pic from "/public/static/images/carousel/2.jpeg";
+import slide3Pic from "/public/static/images/carousel/3.jpeg";
+import slide4Pic from "/public/static/images/carousel/4.jpeg";
+import slide5Pic from "/public/static/images/carousel/5.jpeg";
+import slide6Pic from "/public/static/images/carousel/6.jpeg";
+import slide7Pic from "/public/static/images/carousel/7.jpeg";
 
 export default function Carousel() {
     return (
