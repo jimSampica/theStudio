@@ -10,7 +10,7 @@ export default function Page() {
           <Link href="/lesson-1">Lesson 1: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/lesson-2">Lesson 2: Using Your Sketchbook/The Studio</Link>
+          <Link href="/3d-art/lesson-2">Lesson 2: Using Your Sketchbook/The Studio</Link>
         </li>
         <li>
           <Link href="/lesson-3">Lesson 3: Get In The Routine</Link>
