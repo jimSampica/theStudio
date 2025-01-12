@@ -44,9 +44,11 @@ export default function Page() {
         <div className="row">
           <div className="col-md-7">
             <h4>Design a Cube</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TFO6-4uhMsg?si=gPFhTpFj3iShJA1f" title="Folding a Cube Template"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            <div className="ratio ratio-16x9">
+              <iframe src="https://www.youtube.com/embed/TFO6-4uhMsg?si=gPFhTpFj3iShJA1f" title="Folding a Cube Template"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
           </div>
           <div className="col-md-5">
             <Link href={CubeTemplatePic.src} target="_blank">
