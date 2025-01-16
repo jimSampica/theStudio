@@ -35,8 +35,12 @@ export default function Page() {
             <li>Take your final design and draw it again on your sketchbook, you know, but nicer.</li>
             <li>Your name should be <strong>highly visible</strong>.</li>
             <li>Take care of this book, always put it back in the bin. You only get one sketchbook!</li>
+            
           </ol>
-
+          <h4>Activity</h4>
+          <ul>
+            <li><a target="_blank" href="https://workshopsessayer.com/flextangle-a-diy/">Flextangle: A DIY</a></li>
+          </ul>
         </div>
         <div className="col-md-5">
           <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
