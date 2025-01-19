@@ -24,10 +24,15 @@ export default function Page() {
         <li>
           <Link href="/innovators/tinkercad-basics">Lesson: TinkerCAD Basics</Link>
         </li>
+        <li>
+          <Link href="/innovators/create-your-project">Lesson: Create your Project</Link>
+        </li>
+        <li>
+          <Link href="/innovators/project-submission">Lesson: Project submission</Link>
+        </li>
       </ol>
-      <h3 className="h5">Projects</h3>
+      <h3 className="h5">Other Projects</h3>
       <ol className="list-style-none">
-
         <li>
           <Link href="/innovators/simple-machines-1">Lesson: Simple Machines part 1</Link>
         </li>
