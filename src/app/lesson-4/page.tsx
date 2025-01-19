@@ -22,9 +22,6 @@ export default function Page() {
     case "3d-art":
       studioTimeText = (<p>3-D stations challenges</p>);
       break;
-    case "innovators":
-      studioTimeText = (<Link href="/static/files/foilBoat.pdf" target="_blank">Tin foil boat challenge</Link>) ;
-      break;
   }
 
   return (

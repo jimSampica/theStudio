@@ -16,20 +16,18 @@ export default function Page() {
           <Link href="/innovators/lesson-3">Lesson 3: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-4?studio-time=innovators">Lesson 4: Use of Class Time</Link>
+          <Link href="/lesson-6">Lesson 4: Safety in the Classroom</Link>
         </li>
+      </ol>
+      <h3 className="h5">Project: TinkerCAD</h3>
+      <ol className="list-style-none">
         <li>
-          <Link href="/innovators/lesson-5">Lesson 5: Navigate the Studio</Link>
-        </li>
-        <li>
-          <Link href="/lesson-6">Lesson 6: Safety in the Classroom</Link>
-        </li>
-        <li>
-          <Link href="/innovators/lesson-7">Lesson 7: TinkerCAD</Link>
+          <Link href="/innovators/lesson-7">Lesson: TinkerCAD Basics</Link>
         </li>
       </ol>
       <h3 className="h5">Projects</h3>
       <ol className="list-style-none">
+
         <li>
           <Link href="/innovators/lesson-8">Lesson: Simple Machines part 1</Link>
         </li>
