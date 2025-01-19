@@ -7,35 +7,35 @@ export default function Page() {
       <h3 className="h5">Procedures and Expectations</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/innovators/lesson-1">Lesson 1: Great Expectations</Link>
+          <Link href="/innovators/great-expectations">Lesson: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/innovators/lesson-2">Lesson 2: What is &quot;Innovators&quot;?</Link>
+          <Link href="/innovators/what-is-innovators">Lesson: What is &quot;Innovators&quot;?</Link>
         </li>
         <li>
-          <Link href="/innovators/lesson-3">Lesson 3: Get In The Routine</Link>
+          <Link href="/innovators/get-in-the-routine">Lesson: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-6">Lesson 4: Safety in the Classroom</Link>
+          <Link href="/lesson-6">Lesson: Safety in the Classroom</Link>
         </li>
       </ol>
       <h3 className="h5">Project: TinkerCAD</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/innovators/lesson-7">Lesson: TinkerCAD Basics</Link>
+          <Link href="/innovators/tinkercad-basics">Lesson: TinkerCAD Basics</Link>
         </li>
       </ol>
       <h3 className="h5">Projects</h3>
       <ol className="list-style-none">
 
         <li>
-          <Link href="/innovators/lesson-8">Lesson: Simple Machines part 1</Link>
+          <Link href="/innovators/simple-machines-1">Lesson: Simple Machines part 1</Link>
         </li>
         <li>
-          <Link href="/innovators/lesson-9">Lesson: Simple Machines part 2</Link>
+          <Link href="/innovators/simple-machines-2">Lesson: Simple Machines part 2</Link>
         </li>
         <li>
-          <Link href="/innovators/lesson-10">Lesson: Automata</Link>
+          <Link href="/innovators/automata">Lesson: Automata</Link>
         </li>
       </ol>
     </main>

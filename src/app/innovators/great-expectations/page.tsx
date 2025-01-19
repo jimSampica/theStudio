@@ -6,12 +6,12 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-          <h2 className="mt-3 mb-2">Lesson 1: Great Expectations</h2>
+          <h2 className="mt-3 mb-2">Lesson: Great Expectations</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>Please watch <a href="https://app.screencastify.com/v3/watch/RTVNqNuQLPO8fmM7MHNG" target="_blank">Great Expectations</a>
             &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
-
-          <ul>
+          <h4 className="mt-3">Workbook</h4>
+          <ul className="list-style-alpha">
             <li>Design a car that has no wheels.</li>
             <li>What are the rules in Innovators class?</li>
             <li>Why is teamwork important?</li>
