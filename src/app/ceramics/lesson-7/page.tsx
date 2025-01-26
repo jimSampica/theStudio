@@ -5,7 +5,7 @@ export default function Page() {
         <main className="container">
             <div className="row">
                 <div className="col-md-7">
-                    <h2 className="mt-3 mb-2">Lesson 7: Cleaning Part 1</h2>
+                    <h2 className="mt-3 mb-2">Lesson: Cleaning Part 1</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/lkGA37Uf3LSEfS5vvODe" target="_blank">Cleaning Ceramics</a>
                         &nbsp;and&nbsp;<a href="https://www.youtube.com/watch?v=pwQU63kHcJg" target="_blank">Essential Tips for Preventing Clay Dust and Silicosis</a>

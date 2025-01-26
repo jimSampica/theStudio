@@ -7,31 +7,31 @@ export default function Page() {
       <h3 className="h5">Procedures and Expectations</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/lesson-1">Lesson 1: Great Expectations</Link>
+          <Link href="/lesson-1">Lesson: Great Expectations</Link>
         </li>
         <li>
-          <Link href="/lesson-2">Lesson 2: Using Your Sketchbook/The Studio</Link>
+          <Link href="/lesson-2">Lesson: Using Your Sketchbook/The Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-3">Lesson 3: Get In The Routine</Link>
+          <Link href="/lesson-3">Lesson: Get In The Routine</Link>
         </li>
         <li>
-          <Link href="/lesson-4?studio-time=ceramics">Lesson 4: Use of Class Time</Link>
+          <Link href="/lesson-4?studio-time=ceramics">Lesson: Use of Class Time</Link>
         </li>
         <li>
-          <Link href="/lesson-5">Lesson 5: Navigate the Studio</Link>
+          <Link href="/lesson-5">Lesson: Navigate the Studio</Link>
         </li>
         <li>
-          <Link href="/lesson-6">Lesson 6: Safety in the Classroom</Link>
+          <Link href="/lesson-6">Lesson: Safety in the Classroom</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-7">Lesson 7: Cleaning Part 1</Link>
+          <Link href="/ceramics/lesson-7">Lesson: Cleaning Part 1</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-8">Lesson 8: Cleaning Part 2</Link>
+          <Link href="/ceramics/lesson-8">Lesson: Cleaning Part 2</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-9">Lesson 9: Creativity</Link>
+          <Link href="/ceramics/lesson-9">Lesson: Creativity</Link>
         </li>
       </ol>
       <h3 className="h5">Skillbuilders</h3>
