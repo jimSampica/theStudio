@@ -11,40 +11,25 @@ export default function Page() {
         <BluePillar>
           <h2 className="h4">2D Art</h2>
           <p>
-            WOW project due December 13th
-            <br />
-            WOW packet p2 due December 13th
-            <br />
-            Artist statement due December 13th
           </p>
         </BluePillar>
         <PinkPillar>
           <h2 className="h4">3D Art</h2>
           <p>
-            WOW project due December 13th
-            <br />
-            WOW packet p2 due December 13th
-            <br />
-            Artist statement due December 13th
           </p>
         </PinkPillar>
         <OrangePillar>
           <h2 className="h4">Graphic Design</h2>
-          <p>Brochure due November 26th</p>
+          <p></p>
         </OrangePillar>
         <YellowPillar>
           <h2 className="h4">Ceramics</h2>
           <p>
-            WOW project due December 13th
-            <br />
-            WOW packet p2 due December 13th
-            <br />
-            Artist statement due December 13th
           </p>
         </YellowPillar>
         <PurplePillar>
           <h2 className="h4">Innovators</h2>
-          <p>Automata due November 25th</p>
+          <p></p>
         </PurplePillar>
       </div>
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
