@@ -34,7 +34,9 @@ export default function Page() {
         </YellowPillar>
         <PurplePillar>
           <h2 className="h4">Innovators</h2>
-          <p></p>
+          <p>
+            
+          </p>
         </PurplePillar>
       </div>
       <Wavey className="d-flex align-items-center" waveColor="#d7d0ff">
