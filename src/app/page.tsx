@@ -11,13 +11,13 @@ export default function Page() {
         <BluePillar>
           <h2 className="h4">2D Art</h2>
           <p>
-            Procedures and expectations due February 5th
+            Procedures and expectations due February 5th.
           </p>
         </BluePillar>
         <PinkPillar>
           <h2 className="h4">3D Art</h2>
           <p>
-            Procedures and expectations due February 5th
+            Procedures and expectations due February 5th.
           </p>
         </PinkPillar>
         <OrangePillar>
@@ -29,7 +29,7 @@ export default function Page() {
         <YellowPillar>
           <h2 className="h4">Ceramics</h2>
           <p>
-            Procedures and expectations due February 5th
+            Procedures and expectations due February 5th.
           </p>
         </YellowPillar>
         <PurplePillar>
