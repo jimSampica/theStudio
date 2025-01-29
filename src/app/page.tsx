@@ -22,7 +22,9 @@ export default function Page() {
         </PinkPillar>
         <OrangePillar>
           <h2 className="h4">Graphic Design</h2>
-          <p></p>
+          <p>
+            
+          </p>
         </OrangePillar>
         <YellowPillar>
           <h2 className="h4">Ceramics</h2>
