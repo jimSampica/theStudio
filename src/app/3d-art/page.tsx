@@ -7,7 +7,7 @@ export default function Page() {
       <h3 className="h5">Procedures and Expectations</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/lesson-1">Lesson: Great Expectations</Link>
+          <Link href="/great-expectations">Lesson: Great Expectations</Link>
         </li>
         <li>
           <Link href="/3d-art/lesson-2">Lesson: Using Your Sketchbook/The Studio</Link>
