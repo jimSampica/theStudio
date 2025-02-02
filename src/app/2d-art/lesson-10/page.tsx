@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image";
+import TwoDVocabNotesPic from "/public/static/images/2d_vocabulary_notes.png"
 
 export default function Page() {
     return (
@@ -24,6 +26,11 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>Work on art show. <br />Materials: open centers</p>
+                </div>
+                <div className="col-md-5">
+                    <Link href={TwoDVocabNotesPic.src} target="_blank">
+                        <Image src={TwoDVocabNotesPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
