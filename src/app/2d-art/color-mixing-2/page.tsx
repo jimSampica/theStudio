@@ -1,3 +1,7 @@
+import Link from "next/link"
+import Image from "next/image";
+import LessonPic from "/public/static/images/2d_color_mixing_2.png"
+
 export default function Page() {
     return (
         <main className="container">
@@ -21,6 +25,11 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>Work on WOW projects. <br />Materials: open centers</p>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
