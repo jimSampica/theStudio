@@ -37,7 +37,7 @@ export default function Page() {
       <h3 className="h5">Skillbuilders</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/2d-art/lesson-10">Lesson: Drawing Materials</Link>
+          <Link href="/2d-art/drawing-materials">Lesson: Drawing Materials</Link>
         </li>
         <li>
           <Link href="/2d-art/lesson-11">Lesson: Observational drawing 1</Link>
