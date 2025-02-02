@@ -2,7 +2,6 @@ import Link from "next/link"
 import Image from "next/image";
 import LessonPic from "/public/static/images/2d_weaving.png"
 
-
 export default function Page() {
     return (
         <main className="container">
