@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image";
-import SpaceImg from "/public/static/images/space.jpg";
+import LessonPic from "/public/static/images/2d_observational_drawing_1.png";
 
 export default function Page() {
     return (
@@ -26,12 +26,11 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>Work on art show. <br />Materials: open centers</p>
-                    <h4>Additional Resources</h4>
-                    <div>
-                        <Link href={SpaceImg.src} target="_blank">
-                            <Image src={SpaceImg} alt="" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
-                        </Link>
-                    </div>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
