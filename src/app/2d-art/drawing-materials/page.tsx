@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image";
-import TwoDVocabNotesPic from "/public/static/images/2d_vocabulary_notes.png"
+import TwoDVocabNotesPic from "/public/static/images/2d_drawing_materials.png"
 
 export default function Page() {
     return (
