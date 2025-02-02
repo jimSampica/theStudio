@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image";
 import ReflectionImg from "/public/static/images/reflection.jpg";
+import LessonPic from "/public/static/images/2d_observational_drawing_2.png"
 
 export default function Page() {
     return (
@@ -32,6 +33,11 @@ export default function Page() {
                             <Image src={ReflectionImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
                         </Link>
                     </div>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
