@@ -1,4 +1,6 @@
-import Link from "next/link";
+import Link from "next/link"
+import Image from "next/image";
+import LessonPic from "/public/static/images/2d_printmaking_foam.png"
 
 export default function Page() {
     return (
@@ -22,6 +24,11 @@ export default function Page() {
                             What is the tool that looks like a paint roller called?
                         </li>
                     </ul>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
