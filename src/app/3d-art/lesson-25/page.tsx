@@ -30,7 +30,7 @@ export default function Page() {
                 </div>
                 <div className="col-12">
                     <Link href={GoogleDrivePic.src} target="_blank">
-                        <Image src={GoogleDrivePic} alt="google drive" width={600} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={GoogleDrivePic} alt="google drive" width={600} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

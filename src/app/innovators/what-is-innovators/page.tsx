@@ -27,15 +27,15 @@ export default function Page() {
           <h4 className="mt-3">Activity</h4>
           <div className="row">
             <div className="col-md-6">
-              <Image src={SoloCupPic1} alt="" className="img-fluid" />
+              <Image src={SoloCupPic1} alt="" className="img-fluid rounded" />
             </div>
             <div className="col-md-6">
-              <Image src={SoloCupPic2} alt="" className="img-fluid" />
+              <Image src={SoloCupPic2} alt="" className="img-fluid rounded" />
             </div>
           </div>
         </div>
         <div className="col-md-5">
-          <Image src={InnovatorQuotePic} alt="" width={375} className="img-fluid" />
+          <Image src={InnovatorQuotePic} alt="" width={375} className="img-fluid rounded" />
         </div>
       </div>
     </main>

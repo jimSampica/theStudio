@@ -37,7 +37,7 @@ export default function Page() {
             </ol>
         </div>
         <div className="col-md-5">
-          <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
+          <Image src={SplashPic} alt="Routines" width={375} className="img-fluid rounded" />
         </div>
       </div>
     </main>

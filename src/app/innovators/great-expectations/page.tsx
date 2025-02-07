@@ -18,7 +18,7 @@ export default function Page() {
           </ul>
         </div>
         <div className="col-md-5">
-          <Image src={StemPic} alt="" width={400} className="img-fluid" />
+          <Image src={StemPic} alt="" width={400} className="img-fluid rounded" />
         </div>
       </div>
     </main>

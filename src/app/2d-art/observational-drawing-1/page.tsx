@@ -29,7 +29,7 @@ export default function Page() {
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
-                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

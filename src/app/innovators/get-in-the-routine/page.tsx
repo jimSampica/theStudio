@@ -12,7 +12,7 @@ export default function Page() {
       <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
       <h4>Additional Resources</h4>
       <Link href={Howto.src} target="_blank">
-        <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+        <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
       </Link>
     </main>
   );

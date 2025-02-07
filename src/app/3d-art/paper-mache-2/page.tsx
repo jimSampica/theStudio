@@ -27,11 +27,11 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>work on WOW projects. <br />Materials: open centers</p>
-                    <Image src={PaperMacheImg} alt="" width={500} className="img-fluid rounded" />
+                    <Image src={PaperMacheImg} alt="" width={500} className="img-fluid rounded rounded" />
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
-                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

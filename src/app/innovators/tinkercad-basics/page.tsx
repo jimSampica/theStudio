@@ -23,7 +23,7 @@ export default function Page() {
       <h4>Additional Resources</h4>
       <div className="mt-2">
         <Link href={TinkerCadPic.src} target="_blank">
-          <Image src={TinkerCadPic} alt="what does a break look like" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+          <Image src={TinkerCadPic} alt="what does a break look like" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
         </Link>
       </div>
     </main>

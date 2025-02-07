@@ -38,11 +38,11 @@ export default function Page() {
                     </ol>
                     <h4>Additional Resources</h4>
                     <Link href={Howto.src} target="_blank">
-                        <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={Howto} alt="how to learn with video lessons.png" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
                 <div className="col-md-5">
-                    <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
+                    <Image src={SplashPic} alt="Routines" width={375} className="img-fluid rounded" />
                 </div>
             </div>
         </main>

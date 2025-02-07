@@ -54,17 +54,17 @@ export default function Page() {
           <h4>Additional Resources</h4>
           <div>
             <Link href={Howto.src} target="_blank">
-              <Image src={Howto} alt="how to learn with video lessons" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+              <Image src={Howto} alt="how to learn with video lessons" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
             </Link>
           </div>
           <div className="mt-2">
             <Link href={BreaksPic.src} target="_blank">
-              <Image src={BreaksPic} alt="what does a break look like" width={300} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+              <Image src={BreaksPic} alt="what does a break look like" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
             </Link>
           </div>
         </div>
         <div className="col-md-5">
-          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid" />
+          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid rounded" />
         </div>
       </div>
     </main>

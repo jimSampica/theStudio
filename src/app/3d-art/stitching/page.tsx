@@ -27,11 +27,11 @@ export default function Page() {
                             What stitch is best for decorative edges?
                         </li>
                     </ul>
-                    <Image src={StitchedCatImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    <Image src={StitchedCatImg} alt="" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
-                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

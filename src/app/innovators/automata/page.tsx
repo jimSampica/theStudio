@@ -18,7 +18,7 @@ export default function Page() {
                 </div>
             </div>
             <Link href={AutomataPic.src} target="_blank">
-                <Image src={AutomataPic} alt="automata" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                <Image src={AutomataPic} alt="automata" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
             </Link>
         </main>
     );

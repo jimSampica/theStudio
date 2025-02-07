@@ -15,7 +15,7 @@ export default function Page() {
                 </div>                
                 <div className="col-12">
                     <Link href={Sketchbook2dPic.src} target="_blank">
-                        <Image src={Sketchbook2dPic} alt="sketchbook 2d" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={Sketchbook2dPic} alt="sketchbook 2d" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

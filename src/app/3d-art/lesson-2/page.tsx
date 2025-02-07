@@ -43,7 +43,7 @@ export default function Page() {
           </ul>
         </div>
         <div className="col-md-5">
-          <Image src={SplashPic} alt="Routines" width={375} className="img-fluid" />
+          <Image src={SplashPic} alt="Routines" width={375} className="img-fluid rounded" />
         </div>
         <div className="row">
           <div className="col-md-7">
@@ -56,7 +56,7 @@ export default function Page() {
           </div>
           <div className="col-md-5">
             <Link href={CubeTemplatePic.src} target="_blank">
-              <Image src={CubeTemplatePic} alt="" width={375} className="img-fluid mt-4" style={{ "cursor": "zoom-in" }} />
+              <Image src={CubeTemplatePic} alt="" width={375} className="img-fluid rounded mt-4" style={{ "cursor": "zoom-in" }} />
             </Link>
           </div>
         </div>

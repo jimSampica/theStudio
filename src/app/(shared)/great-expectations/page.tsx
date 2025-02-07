@@ -40,7 +40,7 @@ export default function Page() {
           </ul>
         </div>
         <div className="col-md-5">
-          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid" />
+          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid rounded" />
         </div>
       </div>
     </main>

@@ -19,7 +19,7 @@ export default function Page() {
                         </li>
                         <li>
                             This image is an example of what design principle?
-                            <Image src={BullseyeImg} alt="" width={300} className="img-fluid" />
+                            <Image src={BullseyeImg} alt="" width={300} className="img-fluid rounded" />
                         </li>
                         <li>
                             The difference between dark colors and light colors is one example of what principle?
@@ -30,7 +30,7 @@ export default function Page() {
                         Materials:  paper, pencil, markers and <a href="https://www.photopea.com/" target="_blank">Photopea</a>
                     </p>
                     <h4 className="mt-3">Additional Resources</h4>
-                    <Image src={CrapImg} alt="" width={600} className="img-fluid" />
+                    <Image src={CrapImg} alt="" width={600} className="img-fluid rounded" />
                 </div>
             </div>
         </main>

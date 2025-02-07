@@ -31,7 +31,7 @@ export default function Page() {
                     <h4 className="mt-3">Additional Resources</h4>
                     <div>
                         <Link href={InfographicImg.src} target="_blank">
-                            <Image src={InfographicImg} alt="" width={400} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                            <Image src={InfographicImg} alt="" width={400} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                         </Link>
                     </div>
                 </div>

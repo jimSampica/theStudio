@@ -12,7 +12,7 @@ export default function Page() {
                 I attached an example below. Once you have planned out your machine please let me know and I will stamp you paper if it looks all set. This means you can start gathering supplies and building.
             </p>
             <Link href={SimpleMachineImg.src} target="_blank">
-                <Image src={SimpleMachineImg} alt="simple machines" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                <Image src={SimpleMachineImg} alt="simple machines" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
             </Link>
         </main>
     );

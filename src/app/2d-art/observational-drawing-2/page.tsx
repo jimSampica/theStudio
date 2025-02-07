@@ -30,13 +30,13 @@ export default function Page() {
                     <h4>Additional Resources</h4>
                     <div>
                         <Link href={ReflectionImg.src} target="_blank">
-                            <Image src={ReflectionImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                            <Image src={ReflectionImg} alt="" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                         </Link>
                     </div>
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
-                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>

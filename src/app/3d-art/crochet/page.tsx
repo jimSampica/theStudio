@@ -28,11 +28,11 @@ export default function Page() {
                             For this one I would like you to try to make a chain. Once you have a long chain please let me know and I will stamp your sketchbook.
                         </li>
                     </ul>
-                    <Image src={CrochetImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    <Image src={CrochetImg} alt="" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
-                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>
