@@ -37,43 +37,43 @@ export default function Page() {
       <h3 className="h5">Skillbuilders</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/3d-art/lesson-10">Lesson: Hot Glue</Link>
+          <Link href="/3d-art/hot-glue">Lesson: Hot Glue</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-11">Lesson: Paper Sculpture</Link>
+          <Link href="/3d-art/paper-sculpture">Lesson: Paper Sculpture</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-12">Lesson: Origami</Link>
+          <Link href="/3d-art/origami">Lesson: Origami</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-13">Lesson: Paper Mache 1</Link>
+          <Link href="/3d-art/paper-mache-1">Lesson: Paper Mache 1</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-14">Lesson: Paper Mache 2</Link>
+          <Link href="/3d-art/paper-mache-2">Lesson: Paper Mache 2</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-15">Lesson: Jewelry</Link>
+          <Link href="/3d-art/jewelry">Lesson: Jewelry</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-16">Lesson: Sewing 1</Link>
+          <Link href="/3d-art/sewing-1">Lesson: Sewing 1</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-17">Lesson: Crochet</Link>
+          <Link href="/3d-art/crochet">Lesson: Crochet</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-19">Lesson: Interactive Art</Link>
+          <Link href="/3d-art/interactive-art">Lesson: Interactive Art</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-20">Lesson: Quilling</Link>
+          <Link href="/3d-art/quilling">Lesson: Quilling</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-21">Lesson: Installation Art</Link>
+          <Link href="/3d-art/installation-art">Lesson: Installation Art</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-22">Lesson: Community Art</Link>
+          <Link href="/3d-art/community-art">Lesson: Community Art</Link>
         </li>
         <li>
-          <Link href="/3d-art/lesson-23">Lesson: Found Objects</Link>
+          <Link href="/3d-art/found-objects">Lesson: Found Objects</Link>
         </li>
       </ol>
       <h3 className="h5">Finishing</h3>
