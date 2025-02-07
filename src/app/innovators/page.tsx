@@ -34,6 +34,12 @@ export default function Page() {
           <Link href="/innovators/project-submission">Lesson: Project submission</Link>
         </li>
       </ol>
+      <h3 className="h5">Project: Glowforge</h3>
+      <ol className="list-style-none">
+        <li>
+          <Link href="/innovators/glowforge-basics">Lesson: Glowforge Basics</Link>
+        </li>
+      </ol>
       <h3 className="h5">Other Projects</h3>
       <ol className="list-style-none">
         <li>
