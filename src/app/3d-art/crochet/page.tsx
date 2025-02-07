@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CrochetImg from "/public/static/images/crochet.jpg";
 import Link from "next/link";
+import LessonPic from "/public/static/images/3d-art/3d_crochet.png";
 
 export default function Page() {
     return (
@@ -27,9 +28,12 @@ export default function Page() {
                             For this one I would like you to try to make a chain. Once you have a long chain please let me know and I will stamp your sketchbook.
                         </li>
                     </ul>
+                    <Image src={CrochetImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
                 </div>
                 <div className="col-md-5">
-                    <Image src={CrochetImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

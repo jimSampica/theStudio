@@ -1,5 +1,6 @@
 import Link from "next/link"
 import OrigamiImg from "/public/static/images/about_origami.png";
+import LessonPic from "/public/static/images/3d-art/3d_origami.png"
 import Image from "next/image";
 
 export default function Page() {
@@ -37,6 +38,11 @@ export default function Page() {
                             <Image src={OrigamiImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
                         </Link>
                     </div>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

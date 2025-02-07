@@ -1,3 +1,7 @@
+import Link from "next/link";
+import Image from "next/image";
+import LessonPic from "/public/static/images/3d-art/3d_quilling.png";
+
 export default function Page() {
     return (
         <main className="container">
@@ -19,6 +23,11 @@ export default function Page() {
                             How wide (in inches) should we cut the paper strips?
                         </li>
                     </ul>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

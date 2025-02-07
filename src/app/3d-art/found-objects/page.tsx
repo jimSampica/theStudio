@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import LessonPic from "/public/static/images/3d-art/3d_found_objects.png";
 
 export default function Page() {
     return (
@@ -22,6 +24,11 @@ export default function Page() {
                             What was an example of a found object sculpture you can make at school?
                         </li>
                     </ul>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

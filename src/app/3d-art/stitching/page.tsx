@@ -1,5 +1,7 @@
+import Link from "next/link";
 import Image from "next/image";
 import StitchedCatImg from "/public/static/images/stitched_cat.jpg";
+import LessonPic from "/public/static/images/3d-art/3d_stitching.png";
 
 export default function Page() {
     return (
@@ -25,9 +27,12 @@ export default function Page() {
                             What stitch is best for decorative edges?
                         </li>
                     </ul>
+                    <Image src={StitchedCatImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
                 </div>
                 <div className="col-md-5">
-                    <Image src={StitchedCatImg} alt="" width={500} className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

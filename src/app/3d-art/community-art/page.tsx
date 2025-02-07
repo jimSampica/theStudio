@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import LessonPic from "/public/static/images/3d-art/3d_community_art.png";
 
 export default function Page() {
     return (
@@ -22,6 +24,11 @@ export default function Page() {
                             What is one way you can get involved in community art?
                         </li>
                     </ul>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

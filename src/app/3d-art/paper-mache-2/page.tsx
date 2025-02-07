@@ -1,5 +1,6 @@
 import Link from "next/link"
-import PaperMacheImg from "/public/static/images/paper_mache.png";
+import PaperMacheImg from "/public/static/images/3d-art/paper_mache_unicorn.png";
+import LessonPic from "/public/static/images/3d-art/3d_paper_mache_1.png";
 import Image from "next/image";
 
 export default function Page() {
@@ -26,9 +27,12 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>work on WOW projects. <br />Materials: open centers</p>
+                    <Image src={PaperMacheImg} alt="" width={500} className="img-fluid rounded" />
                 </div>
                 <div className="col-md-5">
-                    <Image src={PaperMacheImg} alt="" width={500} className="img-fluid rounded" />
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>

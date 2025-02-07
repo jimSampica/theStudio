@@ -1,4 +1,6 @@
 import Link from "next/link"
+import Image from "next/image";
+import LessonPic from "/public/static/images/3d-art/3d_paper_sculpture.png"
 
 export default function Page() {
     return (
@@ -24,6 +26,11 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>work on mini project ideas. <br />Materials: open centers</p>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
