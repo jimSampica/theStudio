@@ -38,6 +38,9 @@ export default function Page() {
       <ol className="list-style-none">
         <li>
           <Link href="/innovators/glowforge-basics">Lesson: Glowforge Basics</Link>
+        </li>        
+        <li>
+          <Link href="/innovators/glowforge-derby-car">Lesson: Glowforge Derby Car</Link>
         </li>
       </ol>
       <h3 className="h5">Other Projects</h3>
