@@ -6,7 +6,7 @@ export default function Page() {
         <main className="container">
             <h2 className="mt-3 mb-2">Lesson: Glowforge Derby Car</h2>
             <h4 className="mt-3">Instructions</h4>
-            <p>Please watch <a href="https://app.screencastify.com/v3/watch/ubbdUN2ABBttzYEcqs4s" target="_blank">Glowforge Derby Car</a>
+            <p>Please watch <a href="https://app.screencastify.com/v3/watch/Xixbjn5GitJqn3kVriFi" target="_blank">Glowforge Derby Car</a>
                 &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
             <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
             <h4>Workbook</h4>
