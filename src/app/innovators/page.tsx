@@ -41,6 +41,9 @@ export default function Page() {
         </li>        
         <li>
           <Link href="/innovators/glowforge-derby-car">Lesson: Glowforge Derby Car</Link>
+        </li>       
+        <li>
+          <Link href="/innovators/derby-car-assembly">Lesson: Derby Car Assembly</Link>
         </li>
       </ol>
       <h3 className="h5">Other Projects</h3>
