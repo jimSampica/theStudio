@@ -1,6 +1,6 @@
 import Link from "next/link"
 import PaperMacheImg from "/public/static/images/3d-art/paper_mache_unicorn.png";
-import LessonPic from "/public/static/images/3d-art/3d_paper_mache_1.png";
+import LessonPic from "/public/static/images/3d-art/3d_paper_mache_2.png";
 import Image from "next/image";
 
 export default function Page() {
