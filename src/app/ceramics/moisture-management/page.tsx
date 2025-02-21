@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from "next/image";
+import LessonPic from "/public/static/images/ceramics/moisture_management.png";
 
 export default function Page() {
     return (
@@ -26,6 +28,11 @@ export default function Page() {
                     <p>work on WOW projects. <br />
                         Materials: Open centers
                     </p>
+                </div>
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+                    </Link>
                 </div>
             </div>
         </main>
