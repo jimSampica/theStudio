@@ -37,37 +37,37 @@ export default function Page() {
       <h3 className="h5">Skillbuilders</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/ceramics/lesson-10">Lesson: Wedging</Link>
+          <Link href="/ceramics/wedging">Lesson: Wedging</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-11">Lesson: Slip/Score/Smooth</Link>
+          <Link href="/ceramics/slip-score-smooth">Lesson: Slip/Score/Smooth</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-12">Lesson: Ceramic Tools</Link>
+          <Link href="/ceramics/ceramic-tools">Lesson: Ceramic Tools</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-13">Lesson: Throwing a cup</Link>
+          <Link href="/ceramics/throwing-a-cup">Lesson: Throwing a cup</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-14">Lesson: Moisture Management</Link>
+          <Link href="/ceramics/moisture-management">Lesson: Moisture Management</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-15">Lesson: Trimming/Finishing</Link>
+          <Link href="/ceramics/trimming">Lesson: Trimming/Finishing</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-16">Lesson: Sculpture</Link>
+          <Link href="/ceramics/sculpture">Lesson: Sculpture</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-18">Lesson: Throwing a bowl</Link>
+          <Link href="/ceramics/throwing-a-bowl">Lesson: Throwing a bowl</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-19">Lesson: Glazing Basics</Link>
+          <Link href="/ceramics/glazing-basics">Lesson: Glazing Basics</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-20">Lesson: Masking</Link>
+          <Link href="/ceramics/masking">Lesson: Masking</Link>
         </li>
         <li>
-          <Link href="/ceramics/lesson-21">Lesson: Kiln</Link>
+          <Link href="/ceramics/kiln">Lesson: Kiln</Link>
         </li>
       </ol>
       <h3 className="h5">Finishing</h3>
