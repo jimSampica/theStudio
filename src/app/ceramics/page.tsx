@@ -40,7 +40,7 @@ export default function Page() {
           <Link href="/ceramics/wedging">Lesson: Wedging</Link>
         </li>
         <li>
-          <Link href="/ceramics/slip-score-smooth">Lesson: Slip/Score/Smooth</Link>
+          <Link href="/ceramics/score-slip-smooth">Lesson: Score/Slip/Smooth</Link>
         </li>
         <li>
           <Link href="/ceramics/ceramic-tools">Lesson: Ceramic Tools</Link>

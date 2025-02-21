@@ -89,7 +89,7 @@ export function CeramicTools() {
         }
         <Image src={ToolsImg} alt="" className="rounded" />
       </div>
-      <div className="col-md-3 mx-3">
+      <div className="pt-2">
         {
           SelectedToolDisplay()
         }

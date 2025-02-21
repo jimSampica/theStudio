@@ -1,5 +1,7 @@
 import Link from "next/link"
 import { CeramicTools } from "./ceramicTools/ceramicTools"
+import Image from "next/image";
+import LessonPic from "/public/static/images/ceramics/ceramic_tools.png";
 
 export default function Page() {
     return (
@@ -24,8 +26,13 @@ export default function Page() {
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
                     <p>Continue first hand-built project.</p>
+                    <CeramicTools />
                 </div>
-                <CeramicTools />
+                <div className="col-md-5">
+                    <Link href={LessonPic.src} target="_blank">
+                        <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+                    </Link>
+                </div>
             </div>
         </main>
     );
