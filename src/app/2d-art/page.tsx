@@ -72,6 +72,9 @@ export default function Page() {
         <li>
           <Link href="/2d-art/grid-drawing">Lesson: Grid Drawing</Link>
         </li>
+        <li>
+          <Link href="/2d-art/1-point-perspective">Lesson: 1-Point Perspective</Link>
+        </li>
       </ol>
       <h3 className="h5">Finishing</h3>
       <ol className="list-style-none">
