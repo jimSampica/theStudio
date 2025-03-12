@@ -46,16 +46,16 @@ export default function Page() {
           <Link href="/innovators/derby-car-assembly">Lesson: Derby Car Assembly</Link>
         </li>
       </ol>
-      <h3 className="h5">Other Projects</h3>
+      <h3 className="h5">Simple Machines</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/innovators/simple-machines-1">Lesson: Simple Machines (automata)</Link>
+          <Link href="/innovators/simple-machines-1">Lesson: Simple Machines Part 1</Link>
         </li>
         <li>
-          <Link href="/innovators/simple-machines-2">Lesson: Simple Machines part 2</Link>
+          <Link href="/innovators/simple-machines-2">Lesson: Simple Machines Part 2</Link>
         </li>
         <li>
-          <Link href="/innovators/automata">Lesson: Automata</Link>
+          <Link href="/innovators/simple-machines-3">Lesson: Automata</Link>
         </li>
       </ol>
     </main>
