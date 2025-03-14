@@ -6,7 +6,7 @@ export default function Page() {
         <main className="container">
             <h2 className="mt-3 mb-2">Lesson: Simple Machines Part 2</h2>
             <h4 className="mt-3">Instructions</h4>
-            <p>Please watch <a href="#" target="_blank">TBD</a>
+            <p>Please watch <a href="https://app.screencastify.com/v3/watch/a4to9HtzRGPRAvlf1ORl" target="_blank">Simple machines part 2</a>
                 &nbsp;in its entirety. Please complete the worksheet independently after watching the video and looking over the poster:</p>
             <h4>Workbook</h4>
             <ul className="list-style-alpha">
