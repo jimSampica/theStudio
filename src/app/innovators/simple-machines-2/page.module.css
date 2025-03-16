@@ -1,0 +1,9 @@
+.drop-targets{
+    height:100px;
+}
+
+.drop-target{
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--bs-dark-rgb);
+}
