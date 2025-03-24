@@ -1,5 +1,6 @@
 import Image from "next/image";
-import AutomataPic from "/public/static/images/automata.png";
+import AutomataWksPic from "/public/static/images/innovators/automata_worksheet.png";
+import AutomataTemplatePic from "/public/static/images/innovators/automata_template.png";
 import Link from "next/link";
 
 export default function Page() {
@@ -28,9 +29,18 @@ export default function Page() {
                 <li>What method(s) will you use to build your automatron?</li>
                 <li>What are some challenges you anticipate for this project?</li>
             </ul>
-            <Link href={AutomataPic.src} target="_blank">
-                <Image src={AutomataPic} alt="automata" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
-            </Link>
+            <div className="row">
+                <div className="col-md-6">
+                    <Link href={AutomataWksPic.src} target="_blank">
+                        <Image src={AutomataWksPic} alt="automata worksheet" className="img-fluid rounded" style={{ "cursor": "zoom-in", "width": "500px" }} />
+                    </Link>
+                </div>
+                <div className="col-md-6">
+                    <Link href={AutomataTemplatePic.src} target="_blank">
+                        <Image src={AutomataTemplatePic} alt="automata template" className="img-fluid rounded" style={{ "cursor": "zoom-in", "width": "500px" }} />
+                    </Link>
+                </div>
+            </div>
         </main >
     );
 }
