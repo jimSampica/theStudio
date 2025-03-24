@@ -2,16 +2,26 @@
 
 import styles from "./page.module.css";
 import { useState } from "react";
-import Image from "next/image";
-import img from "/public/static/images/simple_machines.png";
+import Image, { type StaticImageData } from "next/image";
+import AxeImg from "/public/static/images/innovators/axe.png";
+import FlagImg from "/public/static/images/innovators/flag.png";
+import GearImg from "/public/static/images/innovators/gear.png";
+import HammerImg from "/public/static/images/innovators/hammer.png";
+import NailImg from "/public/static/images/innovators/nail.png";
+import ScrewImg from "/public/static/images/innovators/screw.png";
+import ShovelImg from "/public/static/images/innovators/shovel.png";
+import SlideImg from "/public/static/images/innovators/slide.png";
+import SpinnerImg from "/public/static/images/innovators/spinner.png";
+import WellImg from "/public/static/images/innovators/well.png";
+import { SP } from "next/dist/shared/lib/utils";
 
 export default function Page() {
     let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
     function allowDrop(ev: any) {
-        console.log(ev);
+        //console.log(ev);
         ev.preventDefault();
-        return false
+        return true;
     }
 
     function drag(ev: any) {
@@ -22,6 +32,12 @@ export default function Page() {
         ev.preventDefault();
         var data = ev.dataTransfer.getData("text");
         ev.target.appendChild(document.getElementById(data));
+    }
+
+    function getImageTag(name: string, image: StaticImageData) {
+        return <div id={name} draggable="true" onDragStart={drag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
+            <Image key={name} src={image.src} alt={name} width={50} height={50} className="img-fluid rounded" />
+        </div>
     }
 
     return (
@@ -36,33 +52,48 @@ export default function Page() {
                 <li>Tell me the difference between a wedge and an inclined plane. How are they similar?</li>
                 <li>What simple machine uses a fulcrum and what is a fulcrum?</li>
             </ul>
-            <div className={styles["drop-targets"] + " d-flex flex-column d-none"}>
-                <div onDrop={drop} onDragOver={allowDrop} className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Wedge</h5>
+
+            <div className="d-none">
+                <div className="my-4">
+                    {getImageTag("axe", AxeImg)}
+                    {getImageTag("flag", FlagImg)}
+                    {getImageTag("gear", GearImg)}
+                    {getImageTag("hammer", HammerImg)}
+                    {getImageTag("nail", NailImg)}
+                    {getImageTag("screw", ScrewImg)}
+                    {getImageTag("shovel", ShovelImg)}
+                    {getImageTag("slide", SlideImg)}
+                    {getImageTag("spinner", SpinnerImg)}
+                    {getImageTag("well", WellImg)}
                 </div>
-                <div className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Pulley</h5>
-                </div>
-                <div className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Lever</h5>
-                </div>
-                <div className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Inclined Plane</h5>
-                </div>
-                <div className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Wheel and Axel</h5>
-                </div>
-                <div className={styles["drop-target"] + " col-md-2"}>
-                    <h5 className="m-3">Screw</h5>
+
+                <div className="d-flex">
+                    <div className={styles["drop-container"] + " col-md-2"} onDrop={drop} onDragOver={allowDrop}>
+                        <h5 className="m-3 text-center" onDragOver={(ev: any) => { ev.preventDefault(); }}>Wedge</h5>
+                    </div>
+                    <div className={styles["drop-container"] + " col-md-2"}>
+                        <h5 className="m-3 text-center">Pulley</h5>
+                    </div>
+                    <div className={styles["drop-container"] + " col-md-2"}>
+                        <h5 className="m-3 text-center">Lever</h5>
+                    </div>
+                    <div className={styles["drop-container"] + " col-md-2"}>
+                        <h5 className="m-3 text-center">Inclined Plane</h5>
+                    </div>
+                    <div className={styles["drop-container"] + " col-md-2"}>
+                        <h5 className="m-3 text-center">Wheel and Axel</h5>
+                    </div>
+                    <div className={styles["drop-container"] + " col-md-2"}>
+                        <h5 className="m-3 text-center">Screw</h5>
+                    </div>
                 </div>
             </div>
 
-            <img id="drag1" src={img.src} className="d-none" draggable="true" onDragStart={drag} style={{"width": "100px"}}></img>
         </main>
     );
 }
 
-const AllAnswers = [
+const AllTargets = [
     "wedge",
     "pulley",
     "lever",
@@ -71,4 +102,4 @@ const AllAnswers = [
     "screw"
 ] as const;
 
-type Answer = typeof AllAnswers[number];
+type Answer = typeof AllTargets[number];
