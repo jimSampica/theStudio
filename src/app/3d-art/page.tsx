@@ -75,6 +75,9 @@ export default function Page() {
         <li>
           <Link href="/3d-art/found-objects">Lesson: Found Objects</Link>
         </li>
+        <li>
+          <Link href="/3d-art/relief-sculpture">Lesson: Relief Sculpture</Link>
+        </li>
       </ol>
       <h3 className="h5">Finishing</h3>
       <ol className="list-style-none">
