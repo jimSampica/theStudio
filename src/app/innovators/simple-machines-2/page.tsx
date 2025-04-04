@@ -36,12 +36,6 @@ export default function Page() {
         //ev.target.appendChild(document.getElementById(data));
     }
 
-    function getImageTag(name: string, image: StaticImageData) {
-        return <div key={name} id={name} draggable="true" onDragStart={machineDrag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
-            <Image src={image.src} alt={name} width={50} height={50} className="img-fluid rounded" />
-        </div>
-    }
-
     return (
         <main className="container">
             <h2 className="mt-3 mb-2">Lesson: Simple Machines Part 2</h2>
@@ -59,7 +53,9 @@ export default function Page() {
                 <div className="my-4">
                     {
                         AllMachines.map(m => {
-                            return getImageTag(m.name, m.image)
+                            return <div key={m.name} id={m.name} draggable="true" onDragStart={machineDrag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
+                            <Image src={m.image.src} alt={m.name} width={50} height={50} className="img-fluid rounded" />
+                        </div>
                         })
                     }
                 </div>
