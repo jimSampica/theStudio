@@ -13,9 +13,9 @@ import ShovelImg from "/public/static/images/innovators/shovel.png";
 import SlideImg from "/public/static/images/innovators/slide.png";
 import SpinnerImg from "/public/static/images/innovators/spinner.png";
 import WellImg from "/public/static/images/innovators/well.png";
-import { SP } from "next/dist/shared/lib/utils";
 
 export default function Page() {
+    let test = null;
     let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
     function allowDrop(ev: any) {
@@ -24,19 +24,21 @@ export default function Page() {
         return true;
     }
 
-    function drag(ev: any) {
-        ev.dataTransfer.setData("text", ev.target.id);
+    function machineDrag(ev: React.DragEvent<HTMLDivElement>) {
+        test = ev.target;
+        //ev.dataTransfer.setData("id", ev.target);
     }
 
-    function drop(ev: any) {
+    function machineDrop(ev: React.DragEvent<HTMLDivElement>) {
         ev.preventDefault();
-        var data = ev.dataTransfer.getData("text");
-        ev.target.appendChild(document.getElementById(data));
+        var data = ev.dataTransfer.getData("id");
+        console.log(data);
+        //ev.target.appendChild(document.getElementById(data));
     }
 
     function getImageTag(name: string, image: StaticImageData) {
-        return <div id={name} draggable="true" onDragStart={drag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
-            <Image key={name} src={image.src} alt={name} width={50} height={50} className="img-fluid rounded" />
+        return <div key={name} id={name} draggable="true" onDragStart={machineDrag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
+            <Image src={image.src} alt={name} width={50} height={50} className="img-fluid rounded" />
         </div>
     }
 
@@ -55,20 +57,15 @@ export default function Page() {
 
             <div className="d-none">
                 <div className="my-4">
-                    {getImageTag("axe", AxeImg)}
-                    {getImageTag("flag", FlagImg)}
-                    {getImageTag("gear", GearImg)}
-                    {getImageTag("hammer", HammerImg)}
-                    {getImageTag("nail", NailImg)}
-                    {getImageTag("screw", ScrewImg)}
-                    {getImageTag("shovel", ShovelImg)}
-                    {getImageTag("slide", SlideImg)}
-                    {getImageTag("spinner", SpinnerImg)}
-                    {getImageTag("well", WellImg)}
+                    {
+                        AllMachines.map(m => {
+                            return getImageTag(m.name, m.image)
+                        })
+                    }
                 </div>
 
                 <div className="d-flex">
-                    <div className={styles["drop-container"] + " col-md-2"} onDrop={drop} onDragOver={allowDrop}>
+                    <div className={styles["drop-container"] + " col-md-2"} onDrop={machineDrop} onDragOver={allowDrop}>
                         <h5 className="m-3 text-center" onDragOver={(ev: any) => { ev.preventDefault(); }}>Wedge</h5>
                     </div>
                     <div className={styles["drop-container"] + " col-md-2"}>
@@ -92,6 +89,24 @@ export default function Page() {
         </main>
     );
 }
+
+type Machine = { name: string, image: StaticImageData }
+
+const AllMachines : Machine[] = [
+    { name: "axe", image: AxeImg },
+    { name: "flag", image: FlagImg },
+    { name: "gear", image: GearImg },
+    { name: "hammer", image: HammerImg },
+    { name: "nail", image: NailImg },
+    { name: "screw", image: ScrewImg },
+    { name: "shovel", image: ShovelImg },
+    { name: "slide", image: SlideImg },
+    { name: "spinner", image: SpinnerImg },
+    { name: "well", image: WellImg },
+
+] as const
+
+type MachineAnswer = typeof AllMachines[number];
 
 const AllTargets = [
     "wedge",
