@@ -15,17 +15,19 @@ import SpinnerImg from "/public/static/images/innovators/spinner.png";
 import WellImg from "/public/static/images/innovators/well.png";
 
 export default function Page() {
-    let test = null;
+    let [draggingMachine, setDraggingMachine] = useState<Machine[]>([]);
     let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
     function allowDrop(ev: any) {
+        //setDraggingMachine(AllMachines[ev.target.id]);
         //console.log(ev);
         ev.preventDefault();
         return true;
     }
 
-    function machineDrag(ev: React.DragEvent<HTMLDivElement>) {
-        test = ev.target;
+    function machineDrag(evt: React.DragEvent<HTMLDivElement>) {
+        //console.log(evt.)
+        //test = ev.target;
         //ev.dataTransfer.setData("id", ev.target);
     }
 
@@ -54,8 +56,8 @@ export default function Page() {
                     {
                         AllMachines.map(m => {
                             return <div key={m.name} id={m.name} draggable="true" onDragStart={machineDrag} className="border m-1 p-1 rounded d-inline-block" style={{ "cursor": "grab" }}>
-                            <Image src={m.image.src} alt={m.name} width={50} height={50} className="img-fluid rounded" />
-                        </div>
+                                <Image src={m.image.src} alt={m.name} width={50} height={50} className="img-fluid rounded" />
+                            </div>
                         })
                     }
                 </div>
@@ -88,7 +90,7 @@ export default function Page() {
 
 type Machine = { name: string, image: StaticImageData }
 
-const AllMachines : Machine[] = [
+const AllMachines: Machine[] = [
     { name: "axe", image: AxeImg },
     { name: "flag", image: FlagImg },
     { name: "gear", image: GearImg },
