@@ -46,6 +46,12 @@ export default function Page() {
           <Link href="/innovators/derby-car-assembly">Lesson: Derby Car Assembly</Link>
         </li>
       </ol>
+      <h3 className="h5">Project: Circuits</h3>
+      <ol>
+        <li>
+          <Link href="/innovators/intro-to-circuits">Lesson: Intro to Circuits</Link>
+        </li>
+      </ol>
       <h3 className="h5">Simple Machines</h3>
       <ol className="list-style-none">
         <li>
