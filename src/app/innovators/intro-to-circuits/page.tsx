@@ -12,7 +12,10 @@ export default function Page() {
             <h4>Workbook</h4>
             <ol className="list-style-alpha">
                 <li>Label the diagram in your workbook using the various resources.</li>
-                <li>Build a simple circuit in tinkercad during your studio time, show me when you complete it to master this page's content.</li>
+                <li>
+                    With a partner or two utilize the snap circuits and build out a few of the designs. Make sure to avoid a <strong>Short Circuit</strong>! (add photo of short circuit in additional resources)
+                    <br /><strong>Limit of 2 snap circuit groups at a time.</strong>
+                </li>
             </ol>
             <h4>Additional Resources</h4>
             <ol className="list-style-alpha">
