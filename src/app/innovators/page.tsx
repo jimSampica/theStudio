@@ -66,6 +66,9 @@ export default function Page() {
         <li>
           <Link href="/innovators/tinkercad-circuits">Lesson: Tinkercad Circuits</Link>
         </li>
+        <li>
+          <Link href="/innovators/luminary">Lesson: Luminary</Link>
+        </li>
       </ol>
     </main>
   );
