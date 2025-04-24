@@ -46,13 +46,7 @@ export default function Page() {
           <Link href="/innovators/derby-car-assembly">Lesson: Derby Car Assembly</Link>
         </li>
       </ol>
-      <h3 className="h5">Project: Circuits</h3>
-      <ol>
-        <li>
-          <Link href="/innovators/intro-to-circuits">Lesson: Intro to Circuits</Link>
-        </li>
-      </ol>
-      <h3 className="h5">Simple Machines</h3>
+      <h3 className="h5">Project: Simple Machines</h3>
       <ol className="list-style-none">
         <li>
           <Link href="/innovators/simple-machines-1">Lesson: Simple Machines Part 1</Link>
@@ -62,6 +56,12 @@ export default function Page() {
         </li>
         <li>
           <Link href="/innovators/simple-machines-3">Lesson: Automata</Link>
+        </li>
+      </ol>
+      <h3 className="h5">Project: Circuits</h3>
+      <ol>
+        <li>
+          <Link href="/innovators/intro-to-circuits">Lesson: Intro to Circuits</Link>
         </li>
       </ol>
     </main>
