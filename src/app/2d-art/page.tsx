@@ -1,4 +1,5 @@
 import Link from "next/link"
+import EarlyFinishers from "../components/early-finishers/early-finishers";
 
 export default function Page() {
   return (
@@ -88,6 +89,7 @@ export default function Page() {
           <Link href="/2d-art/art-portfolio-creation">Lesson: Art Portfolio Creation</Link>
         </li>
       </ol>
+      <EarlyFinishers />
     </main>
   );
 }
