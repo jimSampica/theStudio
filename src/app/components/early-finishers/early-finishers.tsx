@@ -14,9 +14,6 @@ export default function EarlyFinishers() {
                     <Link href="/shrinky-dinks">Shrinky Dinks</Link> (must fill out and sign form)
                 </li>
                 <li>
-                    <Link href="/3d-art/jewelry">Bracelets</Link>
-                </li>
-                <li>
                     <Link target="_blank" href="https://www.youtube.com/watch?app=desktop&v=-NNb-TD9Utw">Pinwheels</Link>
                 </li>
                 <li>
