@@ -1,4 +1,4 @@
-App that enables TAB based learning at Maquoketa Middle Schools. Currently implementd in Mrs. Sampica's Art and STEM classroom
+App that enables TAB based learning in Mrs. Sampica's Art and STEM classroom at the Maquoketa Iowa Middle School.
 
 Provides guided learning, tutorials, and interactive tools for Art and STEM classes.
 
