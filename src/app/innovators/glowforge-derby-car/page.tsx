@@ -12,8 +12,8 @@ export default function Page() {
             <h4>Workbook</h4>
             <ol className="list-style-alpha">
                 <li>Design a Challenging Maze. Have a friend solve it.</li>
-                <li>What should you name your Derby car file?</li>
-                <li>In a complete sentence tell me what surface numbers from the Derby Car drawings file are designable.</li>
+                <li>Explain why you need 10 copies of the silhouette of your vehicle in your document. (Use RAPP)</li>
+                <li>What should the name of your file be in Google drawings. (Use RAPP)</li>
             </ol>
             <a href="https://docs.google.com/drawings/d/1PUlMYligggCtPloV9-djwZQhVRwZ1SnZBeAwH8bphNI/copy" target="_blank">Derby Car Template</a>
             <br />
