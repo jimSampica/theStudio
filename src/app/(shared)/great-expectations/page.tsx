@@ -1,5 +1,9 @@
 import Image from "next/image";
-import WelcomePic from "/public/static/images/welcome_to_art.png";
+import ActivityImg from "/public/static/images/expectations_activity.png";
+import DosDontsImg from "/public/static/images/expectations_dos_donts.png";
+import TakeCareImg from "/public/static/images/expectations_take_care.png";
+import NotesImg from "/public/static/images/expectations_notes.png";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -24,23 +28,23 @@ export default function Page() {
             </li>
           </ul>
           <p>Let Mrs. Sam know when you complete this and she will discuss your next steps.</p>
-          <h4>Studio Time</h4>
-          <ul>
-            <li><a href="https://lsc-pagepro.mydigitalpublication.com/publication/?m=60985&i=754939&p=22&ver=html5" target="_blank">Exquisite artist article</a></li>
-            <li><a href="https://www.youtube.com/watch?v=FUKwnewqQms" target="_blank">Exquisite artist video</a></li>
-          </ul>
-          <h4>Additional Resources</h4>
-          <ul>
-            <li>
-              <a href="/static/files/ArtRoomThinkSheet.pdf" target="_blank">Art Room Think Sheet (Art of Ed)</a>
-            </li>
-            <li>
-              <a href="/static/files/ArtRoomThinkSheet.pdf" target="_blank">Art Room Praise Sheet</a>
-            </li>
-          </ul>
+          <h4>Activity</h4>
+
+          <Link href={ActivityImg.src} target="_blank">
+            <Image src={ActivityImg} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} width={375} />
+          </Link>
+          <h4 className="mt-3">Additional Resources</h4>
+          <div className="d-flex">
+            <Link href={TakeCareImg.src} target="_blank">
+              <Image src={TakeCareImg} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} width={375} />
+            </Link>
+            <Link href={DosDontsImg.src} target="_blank">
+              <Image src={DosDontsImg} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} width={375} />
+            </Link>
+          </div>
         </div>
         <div className="col-md-5">
-          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid rounded" />
+          <Image src={NotesImg} alt="" width={375} className="img-fluid rounded" />
         </div>
       </div>
     </main>
