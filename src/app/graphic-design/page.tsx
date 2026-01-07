@@ -9,12 +9,12 @@ export default function Page() {
         <li>
           <Link href="/great-expectations">Lesson: Great Expectations</Link>
         </li>
-        <li>
+        {/*<li>
           <Link href="/lesson-2">Lesson: Using Your Sketchbook/The Studio</Link>
         </li>
         <li>
           <Link href="/lesson-3">Lesson: Get In The Routine</Link>
-        </li>
+        </li>*/}
         <li>
           <Link href="/lesson-4?studio-time=graphic-design">Lesson: Use of Class Time</Link>
         </li>

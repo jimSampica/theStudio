@@ -12,9 +12,9 @@ export default function Page() {
         <li>
           <Link href="/innovators/what-is-innovators">Lesson: What is &quot;Innovators&quot;?</Link>
         </li>
-        <li>
+        {/*<li>
           <Link href="/innovators/get-in-the-routine">Lesson: Get In The Routine</Link>
-        </li>
+        </li>*/}
         <li>
           <Link href="/lesson-6">Lesson: Safety in the Classroom</Link>
         </li>

@@ -2,27 +2,11 @@
 
 import Image from "next/image";
 import WelcomePic from "/public/static/images/welcome_to_art.png";
-import Howto from "/public/static/images/learning_video_lessons.png";
+import UseOfClassTimeImg from "/public/static/images/use_of_class_time_routine.png";
 import BreaksPic from "/public/static/images/breaks.png";
 import Link from "next/link";
-import { useSearchParams } from 'next/navigation'
 
 export default function Page() {
-
-  let studioTimeText = (<p></p>);
-
-  switch (useSearchParams().get('studio-time')) {
-    case "ceramics":
-      studioTimeText = (<p>mini food</p>);
-      break;
-    case "2d-art":
-    case "graphic-design":
-      studioTimeText = (<p>Art stations exploration</p>);
-      break;
-    case "3d-art":
-      studioTimeText = (<p>3-D stations challenges</p>);
-      break;
-  }
 
   return (
     <main className="container">
@@ -48,23 +32,42 @@ export default function Page() {
             </li>
           </ul>
           <h4>Studio Time</h4>
-          <ol>
-            <li>{ studioTimeText }</li>
-          </ol>
+          <p>
+            Design your sketchbook. It must be school appropriate. Please add color to make it your own! Take your time and take ownership, your sketchbook should be something you are proud of.
+            Expectations: feel free to listen to music and look at references on your computer. Please remain seated and use the materials provided at your table.
+          </p>
+          <dl>
+            <dt>2D Art:</dt>
+            <dd>If you finish early, start your 'about you' collage.</dd>
+
+            <dt>Ceramics:</dt>
+            <dd>If you finish early, get a feel for plasticine clay.</dd>
+
+            <dt>Innovators:</dt>
+            <dd>If you finish early, test out of building skills with Lego challenges.</dd>
+
+            <dt>3D Art:</dt>
+            <dd>If you finish early, test out of building skills with Lego challenges.</dd>
+          </dl>
+          <ul>
+            <li><Link target="_blank" href="https://www.firstpalette.com/pdf/cube.pdf">Printable Cube Template</Link></li>
+            <li>
+              <Link target="_blank" href="https://static1.squarespace.com/static/605487f0babcaa49971a302a/t/6441d806abe3bb013ceabe25/1682036773534/ASF03+Flexagon+slides.pdf">
+                Flexagon: Designing and Making a Geometric Toy
+              </Link>
+            </li>
+          </ul>
           <h4>Additional Resources</h4>
-          <div>
-            <Link href={Howto.src} target="_blank">
-              <Image src={Howto} alt="how to learn with video lessons" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
-            </Link>
-          </div>
           <div className="mt-2">
             <Link href={BreaksPic.src} target="_blank">
-              <Image src={BreaksPic} alt="what does a break look like" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+              <Image src={BreaksPic} alt="what does a break look like" width={500} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
             </Link>
           </div>
         </div>
         <div className="col-md-5">
-          <Image src={WelcomePic} alt="Welcome to Art!" width={375} className="img-fluid rounded" />
+          <Link href={UseOfClassTimeImg.src} target="_blank">
+            <Image src={UseOfClassTimeImg} alt="" width={375} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+          </Link>
         </div>
       </div>
     </main>

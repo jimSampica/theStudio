@@ -44,7 +44,9 @@ export default function Page() {
           </div>
         </div>
         <div className="col-md-5">
-          <Image src={NotesImg} alt="" width={375} className="img-fluid rounded" />
+          <Link href={NotesImg.src} target="_blank">
+            <Image src={NotesImg} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} width={375} />
+          </Link>
         </div>
       </div>
     </main>
