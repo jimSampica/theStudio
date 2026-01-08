@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import WelcomePic from "/public/static/images/welcome_to_art.png";
 import UseOfClassTimeImg from "/public/static/images/use_of_class_time_routine.png";
 import BreaksPic from "/public/static/images/breaks.png";
 import Link from "next/link";
