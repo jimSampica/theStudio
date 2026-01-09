@@ -11,31 +11,32 @@ export default function Page() {
         <BluePillar>
           <h2 className="h4">2D Art</h2>
           <p>
-            
+            We will explore art ideas on flat surfaces like painting, drawing, and printmaking.
           </p>
         </BluePillar>
         <PinkPillar>
           <h2 className="h4">3D Art</h2>
           <p>
-            
+            Where we investigate non-clay sculpture projects. We will use mixed media, cardboard, yarn, and paper mache.
           </p>
         </PinkPillar>
         <OrangePillar>
           <h2 className="h4">Graphic Design</h2>
           <p>
+            There are no Graphic design courses held this semester.
             
           </p>
         </OrangePillar>
         <YellowPillar>
           <h2 className="h4">Ceramics</h2>
           <p>
-            
+            We delve into the world of clay! Making pottery and clay sculptures and learning the science and history behind it.
           </p>
         </YellowPillar>
         <PurplePillar>
           <h2 className="h4">Innovators</h2>
           <p>
-            
+             In this class we explore STEM concepts and merge art and science together.
           </p>
         </PurplePillar>
       </div>
