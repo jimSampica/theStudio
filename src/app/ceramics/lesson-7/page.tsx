@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image";
-import Cleaning3dImg from "/public/static/images/cleaning_3d.png";
 import CLeaningClayImg from "/public/static/images/cleaning_clay.png";
 
 export default function Page() {
@@ -31,11 +30,6 @@ export default function Page() {
                 </div>
             </div>
             <div className="d-flex">
-                <div className="m-1">
-                    <Link href={Cleaning3dImg.src} target="_blank">
-                        <Image src={Cleaning3dImg} alt="" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
-                    </Link>
-                </div>
                 <div className="m-1">
                     <Link href={CLeaningClayImg.src} target="_blank">
                         <Image src={CLeaningClayImg} alt="" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />

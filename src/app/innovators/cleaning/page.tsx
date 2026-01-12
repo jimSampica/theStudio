@@ -35,11 +35,6 @@ export default function Page() {
                         <Image src={Cleaning3dImg} alt="" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
-                <div className="m-1">
-                    <Link href={CLeaningClayImg.src} target="_blank">
-                        <Image src={CLeaningClayImg} alt="" width={300} className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
-                    </Link>
-                </div>
             </div>
         </main>
     );
