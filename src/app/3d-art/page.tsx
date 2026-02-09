@@ -91,6 +91,9 @@ export default function Page() {
         <li> 
           <Link href="/3d-art/lesson-25">Lesson: Art Portfolio Creation</Link>
         </li>
+        <li> 
+          <Link href="/critique">Lesson: Critique</Link>
+        </li>
       </ol>
       <EarlyFinishers />
     </main>

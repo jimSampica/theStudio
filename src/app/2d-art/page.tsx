@@ -88,6 +88,9 @@ export default function Page() {
         <li> 
           <Link href="/2d-art/art-portfolio-creation">Lesson: Art Portfolio Creation</Link>
         </li>
+        <li> 
+          <Link href="/critique">Lesson: Critique</Link>
+        </li>
       </ol>
       <EarlyFinishers />
     </main>
