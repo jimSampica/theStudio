@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import LessonPic from "/public/static/images/ceramics/throwing_a_cup.png";
+// TODO: import the wheel diagram image once available, e.g.:
+// import WheelDiagram from "/public/static/images/ceramics/wheel_diagram.png";
 
 export default function Page() {
     return (
@@ -33,6 +35,17 @@ export default function Page() {
                     <Link href={LessonPic.src} target="_blank">
                         <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <h4 className="mt-3">Additional Resources</h4>
+                </div>
+                <div className="col-md-5">
+                    {/* TODO: Replace WheelDiagram with the imported image (e.g. wheel_diagram.png) once the file is added to /public/static/images/ceramics/ */}
+                    {/* <Link href={WheelDiagram.src} target="_blank">
+                        <Image src={WheelDiagram} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+                    </Link> */}
                 </div>
             </div>
         </main>
