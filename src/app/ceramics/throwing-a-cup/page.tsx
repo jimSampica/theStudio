@@ -10,7 +10,7 @@ export default function Page() {
                     <h2 className="mt-3 mb-2">Lesson: Throwing a cup</h2>
                     <h4 className="mt-3">Instructions</h4>
                     <p>Please watch <a href="https://app.screencastify.com/v3/watch/hGEBOU4pTOOyglCCLt1s" target="_blank">Throwing a cup</a>
-                        &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
+                        &nbsp;in its entirety and answer the questions that follow in your sketchbook. Now, if you would like to begin throwing, try this <a href="https://app.screencastify.com/watch/l3yl86gna8xpzg8hormb?checkOrg=031ae36a-5c97-41a4-85a5-2e44995bef08" target="_blank">challenge</a>.</p>
                     <h4 className="mt-3">Sketchbook</h4>
                     <ul className="list-style-alpha">
                         <li>
