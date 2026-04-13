@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import LessonPic from "/public/static/images/ceramics/throwing_a_cup.png";
+import WheelDiagram from "/public/static/images/ceramics/wheel_diagram.png";
 
 export default function Page() {
     return (
@@ -25,13 +26,21 @@ export default function Page() {
                         </li>
                     </ul>
                     <h4 className="mt-3">Studio time</h4>
-                    <p>work on WOW projects. <br/>
-                    Materials: Open centers
+                    <p>work on WOW projects. <br />
+                        Materials: Open centers
                     </p>
                 </div>
                 <div className="col-md-5">
                     <Link href={LessonPic.src} target="_blank">
                         <Image src={LessonPic} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
+                    </Link>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <h4 className="mt-3">Additional Resources</h4>
+                    <Link href={WheelDiagram.src} target="_blank">
+                        <Image src={WheelDiagram} alt="" className="img-fluid rounded" style={{ "cursor": "zoom-in" }} />
                     </Link>
                 </div>
             </div>
