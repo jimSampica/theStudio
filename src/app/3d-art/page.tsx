@@ -38,10 +38,10 @@ export default function Page() {
       <h3 className="h5">Skillbuilders</h3>
       <ol className="list-style-none">
         <li>
-          <Link href="/3d-art/hot-glue">Lesson: Hot Glue</Link>
+          <Link href="/3d-art/paper-sculpture">Lesson: Paper Sculpture</Link>
         </li>
         <li>
-          <Link href="/3d-art/paper-sculpture">Lesson: Paper Sculpture</Link>
+          <Link href="/3d-art/hot-glue">Lesson: Hot Glue</Link>
         </li>
         <li>
           <Link href="/3d-art/origami">Lesson: Origami</Link>
