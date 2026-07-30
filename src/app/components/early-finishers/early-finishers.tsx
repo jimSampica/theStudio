@@ -33,7 +33,7 @@ export default function EarlyFinishers() {
                     <Link href="/2d-art/weaving">Weaving</Link>
                 </li>
                 <li>
-                    <Link href="/graphic-design/lesson-24">Zine</Link>
+                    <Link href="/studio-art/lesson-24">Zine</Link>
                 </li>
                 <li>
                     Free Draw

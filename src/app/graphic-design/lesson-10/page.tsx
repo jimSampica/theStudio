@@ -13,7 +13,7 @@ export default function Page() {
                             Design a logo for a shoe company.
                         </li>
                         <li>
-                            What 5 basic elements can graphic design be broken down into?
+                            What 5 basic elements can design be broken down into?
                         </li>
                         <li>
                             What is the rule of 3rds?

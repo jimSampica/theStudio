@@ -20,7 +20,7 @@ export default function NavControls({ collapsed }: NavControlProps) {
                     <Link className="nav-link" href="/3d-art">3-D Art</Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" href="/graphic-design">Graphic Design</Link>
+                    <Link className="nav-link" href="/studio-art">Studio Art</Link>
                 </li>
                 <li className="nav-item">
                     <Link className="nav-link" href="/ceramics">Ceramics</Link>

@@ -21,9 +21,12 @@ export default function Page() {
           </p>
         </PinkPillar>
         <OrangePillar>
-          <h2 className="h4">Graphic Design</h2>
+          <h2 className={"h4 " + styles.studioArtTop}>
+            <small className={"lh-1 fs-6 " + styles.studioArtPrefix}>5th/6th grade</small><br />
+            <span className="lh-1">Studio Art</span>
+          </h2>
           <p className="p-2">
-            There are no Graphic design courses held this semester.
+            <em>coming soon...</em>
           </p>
         </OrangePillar>
         <YellowPillar>
@@ -48,8 +51,8 @@ export default function Page() {
             <PinkSplashButton href={"/3d-art"}>
               3D Art
             </PinkSplashButton>
-            <OrangeSplashButton href={"/graphic-design"}>
-              Graphic Design
+            <OrangeSplashButton href={"/studio-art"}>
+              Studio Art
             </OrangeSplashButton>
             <YellowSplashButton href={"/ceramics"}>
               Ceramics
