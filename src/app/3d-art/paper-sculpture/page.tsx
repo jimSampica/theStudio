@@ -11,21 +11,21 @@ export default function Page() {
             <h4 className="mt-3">Instructions</h4>
             <p>Please watch <a href="https://app.screencastify.com/v3/watch/Cm8FuOUrHSepREPdk6N9" target="_blank">Paper Sculpture 1</a>
                 &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
-            <h4 className="mt-3">Sketchbook</h4>
+            <h4 className="mt-3">Questions</h4>
             <ul className="list-style-alpha">
                 <li>
-                    Please use the&nbsp;
-                    <Link href="/prompt-generator">random prompt generator</Link>
+                    Why is precision so important in sculpture? (RAPP complete sentence)
+                    <br />
+                    <em>Precision is important in sculpture because...</em>
                 </li>
                 <li>
-                    How do you make fringe with paper?
-                </li>
-                <li>
-                    Why is it important to wait until you have everything laid out before gluing?
+                    In what ways do you think working with paper is similar to cardboard (2 RAPP sentences)?
+                    <br />
+                    <em>Cardboard is like paper because...</em>
                 </li>
             </ul>
             <h4 className="mt-3">Studio time</h4>
-            <p>work on mini project ideas. <br />Materials: open centers</p>
+            <p>Paper sculpture templates attached named same as the file.</p>
             <div className="d-flex gap-3">
                 <Link href={VocabPic1.src} target="_blank">
                     <Image
