@@ -47,6 +47,9 @@ export default function Page() {
           <Link href="/ceramics/ceramic-tools">Lesson: Ceramic Tools</Link>
         </li>
         <li>
+          <Link href="/ceramics/why-hollow-shrinkage">Lesson: Why Hollow?/Shrinkage</Link>
+        </li>
+        <li>
           <Link href="/ceramics/throwing-a-cup">Lesson: Throwing a cup</Link>
         </li>
         <li>
