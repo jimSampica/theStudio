@@ -11,6 +11,7 @@ export default function Page() {
                 <li>Design a bridge that  you think can hold a lot of weight.</li>
                 <li>How do you know your objects are centered using google drawing? (1 sentence. I know my object is centered....)</li>
                 <li>What are two different ways you can save your file as (these are file extensions) (1 sentence. Two ways I can save glowforge files are...)</li>
+                <li><a href="https://docs.google.com/drawings/" target="_blank">Practice using google drawings</a></li>
             </ol>
         </main>
     );
