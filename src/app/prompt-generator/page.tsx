@@ -45,7 +45,13 @@ export default function Page() {
         "Average",
         "Fantasy",
         "Flying",
-        "Peaceful"];
+        "Peaceful",
+        "Ferocious",
+        "Bold",
+        "Sleepy",
+        "Rambunctious",
+        "Dull",
+        "Elaborate"];
 
     const nouns = [
         "Dragon",
@@ -53,6 +59,7 @@ export default function Page() {
         "Sandwich",
         "Cake",
         "Balloon",
+        "Baby",
         "Shirt",
         "Flower",
         "Room",
@@ -126,6 +133,7 @@ export default function Page() {
         "Treehouse",
         "Beverage",
         "Discovery",
+        "Beach",
         "Hat",
         "Bling",
         "Spider",
