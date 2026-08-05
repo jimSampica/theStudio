@@ -141,6 +141,37 @@ export default function Page() {
         "Spider",
         "Map"];
 
+    const themedPrompts = [
+        "Pirate ship",
+        "Underwater scene",
+        "Design your own candy bar",
+        "Treehouse",
+        "Design a shoe",
+        "A map",
+        "Mythical Animal",
+        "Design a Video Game Character",
+        "Favorite Meal",
+        "Favorite sweet treat",
+        "Amusement park",
+        "Best Bedroom",
+        "Funny pair of socks",
+        "Fancy drink",
+        "Tropical Escape",
+        "Eerie Woods",
+        "Camping Setup",
+        "Best Summer Day",
+        "Snow Day!",
+        "Fall",
+        "Where would you rather be?",
+        "Historical Scene",
+        "Study Setup",
+        "Outer Space",
+        "Ancient civilization",
+        "Patriotic",
+        "Phobia",
+        "Design a Vehicle",
+        "County Fair"];
+
     const [prompt, setPrompt] = React.useState("");
     const [timeLeft, setTimeLeft] = React.useState<number | null>(null);
     const [gameOver, setGameOver] = React.useState(false);
@@ -168,6 +199,10 @@ export default function Page() {
         return Math.floor(Math.random() * max);
     }
 
+    function getRandomItem(items: string[]) {
+        return items[getRandomInt(items.length)] ?? "";
+    }
+
     function formatTime(totalSeconds: number) {
         const minutes = Math.floor(totalSeconds / 60);
         const seconds = totalSeconds % 60;
@@ -175,7 +210,11 @@ export default function Page() {
     }
 
     function generatePrompt() {
-        var prompt = `${adjectives[getRandomInt(adjectives.length - 1)]} ${nouns[getRandomInt(nouns.length - 1)]}`;
+        const shouldUseThemedPrompt = getRandomInt(2) === 0;
+        const prompt = shouldUseThemedPrompt
+            ? getRandomItem(themedPrompts)
+            : `${getRandomItem(adjectives)} ${getRandomItem(nouns)}`;
+
         setPrompt(prompt);
         setGameOver(false);
         setTimeLeft(START_SECONDS);
