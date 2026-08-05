@@ -4,6 +4,8 @@ import React from "react";
 
 export default function Page() {
 
+    const START_SECONDS = 180;
+
     const adjectives = [
         "Silly",
         "Antique",
@@ -140,14 +142,43 @@ export default function Page() {
         "Map"];
 
     const [prompt, setPrompt] = React.useState("");
+    const [timeLeft, setTimeLeft] = React.useState<number | null>(null);
+    const [gameOver, setGameOver] = React.useState(false);
+
+    React.useEffect(() => {
+        if (timeLeft === null || timeLeft <= 0) return;
+
+        const timerId = window.setInterval(() => {
+            setTimeLeft((current) => {
+                if (current === null) return null;
+                return current - 1;
+            });
+        }, 1000);
+
+        return () => window.clearInterval(timerId);
+    }, [timeLeft]);
+
+    React.useEffect(() => {
+        if (timeLeft === 0) {
+            setGameOver(true);
+        }
+    }, [timeLeft]);
 
     function getRandomInt(max: number) {
         return Math.floor(Math.random() * max);
     }
 
+    function formatTime(totalSeconds: number) {
+        const minutes = Math.floor(totalSeconds / 60);
+        const seconds = totalSeconds % 60;
+        return `${minutes}:${seconds.toString().padStart(2, "0")}`;
+    }
+
     function generatePrompt() {
         var prompt = `${adjectives[getRandomInt(adjectives.length - 1)]} ${nouns[getRandomInt(nouns.length - 1)]}`;
         setPrompt(prompt);
+        setGameOver(false);
+        setTimeLeft(START_SECONDS);
     }
 
     function renderPrompt() {
@@ -162,6 +193,12 @@ export default function Page() {
             <div>
                 {renderPrompt()}
             </div>
+            {timeLeft !== null && !gameOver && (
+                <div className="mt-3 fs-2">Time left: {formatTime(timeLeft)}</div>
+            )}
+            {gameOver && (
+                <div className="mt-3 text-danger fw-bold fs-2">GAME OVER</div>
+            )}
         </main>
     );
 }
