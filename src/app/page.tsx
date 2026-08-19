@@ -65,7 +65,8 @@ export default function Page() {
       </Wavey>
       <WaveyMirror waveColor="#ffdfcc" style={{ ["marginTop" as string]: "-7rem" }}>
         <h2 className="text-center">Featured Student Work</h2>
-        <Carousel></Carousel>
+        {/* <Carousel></Carousel> */}
+        <h5 className="text-center"><i>Coming soon...</i></h5>
       </WaveyMirror>
     </main>
   );
