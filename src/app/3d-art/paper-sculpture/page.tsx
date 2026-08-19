@@ -20,6 +20,7 @@ export default function Page() {
                         &nbsp;in its entirety and answer the questions that follow in your sketchbook.</p>
                     <h4 className="mt-3">Questions</h4>
                     <ul className="list-style-alpha">
+                        <li><Link href="/prompt-generator">Prompt Generator</Link></li>
                         <li>
                             Why is precision so important in sculpture? (RAPP complete sentence)
                             <br />
@@ -88,24 +89,6 @@ export default function Page() {
                                 width={600}
                                 src={VocabPic1}
                                 alt="Paper sculpture vocabulary 1"
-                                className="img-fluid rounded"
-                                style={{ "cursor": "zoom-in" }}
-                            />
-                        </Link>
-                        <Link href={VocabPic2.src} target="_blank">
-                            <Image
-                                width={600}
-                                src={VocabPic2}
-                                alt="Paper sculpture vocabulary 2"
-                                className="img-fluid rounded"
-                                style={{ "cursor": "zoom-in" }}
-                            />
-                        </Link>
-                        <Link href={VocabPic3.src} target="_blank">
-                            <Image
-                                width={600}
-                                src={VocabPic3}
-                                alt="Paper sculpture vocabulary 3"
                                 className="img-fluid rounded"
                                 style={{ "cursor": "zoom-in" }}
                             />
