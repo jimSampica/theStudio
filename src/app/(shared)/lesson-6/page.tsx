@@ -53,7 +53,7 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <SafetyWorksheet />
+      <SafetyWorksheet quizNumber={2} />
     </main>
   );
 }

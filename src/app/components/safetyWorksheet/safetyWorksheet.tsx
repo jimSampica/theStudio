@@ -2,13 +2,20 @@
 
 import styles from "./safetyWorksheet.module.css";
 import Image from "next/image";
-import SafetyWorksheetPic from "/public/static/images/safety_quiz.png";
+import SafetyQuizPic1 from "/public/static/images/safety_quiz_1.png";
+import SafetyQuizPic2 from "/public/static/images/safety_quiz_2.png";
 import { useState } from "react";
 import type { Answer } from "./answer";
 import { AllAnswers } from "./answer";
 import { HiddenAnswer, CircledAnswer } from "./selectedAnswer";
 
-export function SafetyWorksheet() {
+export type QuizNumber = 1 | 2;
+
+interface SafetyWorksheetProps {
+    quizNumber: QuizNumber;
+}
+
+export function SafetyWorksheet({ quizNumber }: SafetyWorksheetProps) {
     let [selectedAnswers, setSelectedAnswers] = useState<Answer[]>([]);
 
     function worksheetAreaClicked() {
@@ -19,6 +26,8 @@ export function SafetyWorksheet() {
         if (!selectedAnswers.includes(answer))
             setSelectedAnswers(selectedAnswers.concat(answer));
     }
+
+    const worksheetImage = quizNumber === 2 ? SafetyQuizPic2 : SafetyQuizPic1;
 
     return (
         <div>
@@ -33,7 +42,7 @@ export function SafetyWorksheet() {
                         return <CircledAnswer key={ans} answer={ans} answerClicked={answerClicked} />;
                     })
                 }
-                <Image src={SafetyWorksheetPic} alt="Safety worksheet" className={styles["safety-worksheet"]} />
+                <Image src={worksheetImage} alt="Safety worksheet" className={styles["safety-worksheet"]} />
             </div>
         </div>);
 }

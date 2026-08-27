@@ -2,6 +2,7 @@ import Link from "next/link";
 import SafetyNotes1Img from "/public/static/images/safety_notes_1.png";
 import SafetyNotes2Img from "/public/static/images/safety_notes_2.png";
 import Image from "next/image";
+import { SafetyWorksheet } from "@/app/components/safetyWorksheet/safetyWorksheet";
 
 export default function Page() {
   return (
@@ -35,6 +36,7 @@ export default function Page() {
           </Link>
         </div>
       </div>
+      <SafetyWorksheet quizNumber={1} />
     </main>
   );
 }
