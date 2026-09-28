@@ -29,6 +29,9 @@ export default function Page() {
         <li>
           <Link href="/studio-art/drawing-tools-4">Lesson: Drawing Tools 4</Link>
         </li>
+        <li>
+          <Link href="/studio-art/elements-of-art">Lesson: Elements of Art</Link>
+        </li>
       </ol>
     </main>
   );
