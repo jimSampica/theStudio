@@ -16,7 +16,7 @@ export default function Page() {
     <main className="container">
       <div className="row">
         <div className="col-md-7">
-          <h2 className="mt-3 mb-2">Lesson: Elements of Art</h2>
+          <h2 className="mt-3 mb-2">Lesson: Elements of Art 1</h2>
           <h4 className="mt-3">Instructions</h4>
           <p>
             The elements of art are the building blocks of art. Think of them like

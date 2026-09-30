@@ -30,7 +30,13 @@ export default function Page() {
           <Link href="/studio-art/drawing-tools-4">Lesson: Drawing Tools 4</Link>
         </li>
         <li>
-          <Link href="/studio-art/elements-of-art">Lesson: Elements of Art</Link>
+          <Link href="/studio-art/elements-of-art">Lesson: Elements of Art 1</Link>
+        </li>
+        <li>
+          <Link href="/studio-art/elements-of-art-2">Lesson: Elements of Art 2</Link>
+        </li>
+        <li>
+          <Link href="/studio-art/elements-of-art-3">Lesson: Elements of Art 3</Link>
         </li>
       </ol>
     </main>
