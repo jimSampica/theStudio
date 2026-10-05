@@ -4,6 +4,7 @@ import Link from "next/link";
 import Color from "/public/static/images/studio-art/elements-of-art/color.png";
 import ColorValueDefinitions from "/public/static/images/studio-art/elements-of-art/color-value-definitions.png";
 import Value from "/public/static/images/studio-art/elements-of-art/value.png";
+import RedValueScale from "/public/static/images/studio-art/elements-of-art/red-value-scale.png";
 
 export default function Page() {
   return (
@@ -73,6 +74,14 @@ export default function Page() {
               </Link>
             </div>
           </div>
+          <Link className="d-block mb-3" href={RedValueScale.src} target="_blank">
+            <Image
+              src={RedValueScale}
+              alt="Seven-step value scale from white through progressively darker red tints to red"
+              className="img-fluid rounded"
+              style={{ cursor: "zoom-in" }}
+            />
+          </Link>
         </div>
         <aside className="col-md-5 mb-3">
           <Link href={ColorValueDefinitions.src} target="_blank">
