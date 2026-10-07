@@ -38,6 +38,9 @@ export default function Page() {
         <li>
           <Link href="/studio-art/elements-of-art-3">Lesson: Elements of Art 3</Link>
         </li>
+        <li>
+          <Link href="/studio-art/elements-of-art-4">Lesson: Elements of Art 4</Link>
+        </li>
       </ol>
     </main>
   );
