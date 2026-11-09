@@ -53,6 +53,12 @@ export default function Page() {
         <li>
           <Link href="/studio-art/abstract-art-1">Lesson: Abstract Art 1</Link>
         </li>
+        <li>
+          <Link href="/studio-art/abstract-art-2">Lesson: Abstract Art 2</Link>
+        </li>
+        <li>
+          <Link href="/studio-art/abstract-art-3">Lesson: Abstract Art 3</Link>
+        </li>
       </ol>
     </main>
   );
