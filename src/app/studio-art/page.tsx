@@ -65,6 +65,9 @@ export default function Page() {
         <li>
           <Link href="/studio-art/color-theory-2">Lesson: Color Theory 2</Link>
         </li>
+        <li>
+          <Link href="/studio-art/color-theory-3">Lesson: Color Theory 3</Link>
+        </li>
       </ol>
     </main>
   );
